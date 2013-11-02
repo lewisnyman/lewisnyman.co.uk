@@ -1,0 +1,134 @@
+@import "breakpoint";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/print";
+@import "partials/layout";
+@import "partials/breakpoints";
+@import "partials/animations";
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.element-invisible { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.element-invisible.focusable:active, .element-invisible.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+body,
+button,
+input,
+select,
+textarea {
+	font-size: normal;
+	font-style: normal;
+	font-weight: 300;
+	line-height: $base-line-height;
+	font-family: "brandon-grotesque", Helvectica, sans-serif;
+	@include breakpoint($breakpoint-medium-width) {
+	  font-size: large;
+	}
+}
+
+.title {
+  font-size: pxtoem(123px);
+  line-height: pxtoem(115px, 123px);
+  font-weight: 100;
+  letter-spacing: pxtoem(3px, 123px);
+  text-align: left;
+  margin-top: pxtoem(29px, 123px);
+  margin-bottom: 0;
+  @include breakpoint($breakpoint-medium-height) {
+      margin-bottom: pxtoem(87px, 123px);
+  }
+}
+
+h2 {
+	font-size: pxtoem(42px);
+	line-height: pxtoem(58px, 42px);
+	letter-spacing: pxtoem(1px, 42px);
+	margin-bottom: pxtoem(29px, 42px);
+	margin-top: pxtoem(29px, 42px);
+	font-weight: 100;
+	font-style: normal;
+}
+
+h3 {
+	font-size: $base-line-height;
+	font-style: normal;
+	font-weight: 300;
+	line-height: $base-line-height;
+	margin-bottom: 0;
+	margin-top: $base-line-height;
+}
+
+p,
+pre {
+	margin-bottom: $base-line-height;
+	margin-top: $base-line-height;
+}
+
+p.intro {
+	font-size: pxtoem(47px);
+	line-height: pxtoem(58px,47px);
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 0;
+	margin-bottom: $base-line-height;
+	margin-top: $base-line-height;
+}
+
+.node-teaser p.submitted {
+  margin: -$base-line-height 0 0 0;
+}
+
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover,
+a:focus,
+h2 a:link,
+h2 a:visited {
+  border: 0;
+}
+
+h2 a:link,
+h2 a:visited {
+  display: block;
+}
+
+blockquote {
+  position: relative;
+}
+blockquote:before,
+blockquote:after {
+  color: #e7e7e7;
+  content: "“";
+  font-size: 100px;
+  position: absolute;
+  left: -40px;
+  top: 0.2em;
+}
+blockquote:after {
+  content: "”";
+  left: auto;
+  right: -20px;
+  top: auto;
+  bottom: -32px;
+}
+
+.deemphasis {
+  color: $light-grey;
+}
