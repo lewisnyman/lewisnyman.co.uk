@@ -1,0 +1,22 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.site-nav li a {
+  border-bottom: 1px dotted transparent;
+}
+.site-nav li a:hover {
+  border-bottom-color: #000;
+}
+
+.to-home {
+  border: 0;
+  color: #fff;
+  font-weight: 300;
+}

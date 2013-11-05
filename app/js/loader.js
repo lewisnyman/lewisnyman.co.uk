@@ -5,12 +5,8 @@ Modernizr.load([
     complete: function() {
       try { Typekit.load(); } catch(e) {
         sessionStorage.setItem("typekitDown", 1);
-        if (document.addEventListener) {
-          document.addEventListener('DOMContentLoaded', function() {
-            document.documentElement.className+=' wf-inactive';
-          });
+          document.documentElement.className+=' wf-inactive';
         }
-      };
     }
   },
   {
@@ -24,9 +20,9 @@ Modernizr.load([
 
 function isTypeKitDown() {
   if (sessionStorage.getItem("typekitDown")) {
-    return false;
+    return true;
   }
   else {
-    return true;
+    return false;
   }
 }
