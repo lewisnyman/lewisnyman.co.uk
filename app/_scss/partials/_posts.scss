@@ -1,4 +1,15 @@
+.posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .post {
   border-bottom: 1px solid #CCC;
   padding-bottom: 29px;
+}
+.post__header {
+  margin-bottom: 0;
+}
+.post__submitted {
+  margin-top: 0;
 }

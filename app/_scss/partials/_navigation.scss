@@ -3,11 +3,14 @@ nav ul {
   padding: 0;
   margin: 0;
 }
-
-.site-nav li {
+nav li {
   display: inline-block;
   margin: 0 0.5em;
 }
+nav li:first-child {
+  margin-left: 0;
+}
+
 .site-nav li a {
   border-bottom: 1px dotted transparent;
 }
@@ -16,7 +19,9 @@ nav ul {
 }
 
 .to-home {
+  background: #000;
   border: 0;
   color: #fff;
   font-weight: 300;
+  padding: 0 0.5em;
 }
