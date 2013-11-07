@@ -1,11 +1,11 @@
 @include keyframes(fadeIn)  {
-  from {opacity: 0;}	
+  from {opacity: 0;}
 	to {opacity: 1;}
 }
 
 h1,
 h1 [class*=char],
-#content {
+.main-content {
   opacity: 0;
 }
 
@@ -13,7 +13,7 @@ h1 [class*=char],
 .no-cssanimations {
   h1,
   h1 [class*=char],
-  #content {
+  .main-content {
     opacity: 1;
   }
 }
@@ -21,14 +21,14 @@ h1 [class*=char],
 .cssanimations.wf-inactive,
 .cssanimations.wf-active {
   h1 [class*=char],
-  #content {
+  .main-content {
     	opacity: 0;
     	@include animation-name(fadeIn);
     	@include animation-duration(.4s);
     	@include animation-delay(.6s);
     	@include animation-fill-mode(forwards);
     }
-  #content {
+  .main-content {
     @include animation-delay(1.1s);
     @include animation-duration(1.1s);
   }

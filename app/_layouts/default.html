@@ -32,9 +32,20 @@
     </header>
 
       <h1 class="title"><a href="/">{{ page.title }}</a></h1>
-        {{ content }}
+        {% if page.date %}
+          <p class="post__submitted">Posted on
+          {% assign d = page.date | date: "%-d" %}
+          {{ page.date | date: "%B" }}
+          {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+          {{ page.date | date: "%Y" }}
+        {% endif %}
+        </p>
 
-    <footer>
+        <div class="main-content">
+          {{ content }}
+      </div>
+
+<!--     <footer>
       <nav>
         <ul>
           <li>
@@ -48,7 +59,7 @@
           </li>
         </ul>
     </footer>
-
+ -->
   </div> <!-- /container -->
 
   <!-- build:js(app) /js/bottom.js -->
