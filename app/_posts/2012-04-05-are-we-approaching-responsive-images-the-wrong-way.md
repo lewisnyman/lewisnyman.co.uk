@@ -7,7 +7,7 @@ created: 1333632783
 
 <p>Our brightest hope for the future seems to be resting on the shoulders of the (currently fictional) <a href="http://www.w3.org/community/respimg/2012/03/07/14/">&lt;picture&gt; element.</a> Here's the html set-up:</p>
 
-<pre><code>    
+<pre><code>
    &lt;picture alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"&gt;
         &lt;source src="small.jpg"&gt;
         &lt;source src="medium.jpg" media="(min-width: 400px)"&gt;
@@ -23,7 +23,7 @@ created: 1333632783
 
 <p>Doesn't this feel lot like our proposed solution for the &lt;picture&gt; element? Any browser width that falls in between each specified breakpoint would still load unused and wasted pixels. What if my device width was 401 pixels? Using the example code above it would load the full 800 pixel image. Let's not forget that is <em>per image</em> so it could be adding up to a lot of wasted bandwidth.</p>
 
-<p>Adaptive Layouts eventually receded, with the philosophy of Responsive Design advocating a design with layouts accessible to all kinds of devices, not just optimised for the devices you choose at the time of building.</p> 
+<p>Adaptive Layouts eventually receded, with the philosophy of Responsive Design advocating a design with layouts accessible to all kinds of devices, not just optimised for the devices you choose at the time of building.</p>
 
 <p>Rigid pre-defined breakpoints based on current devices... how much does this solution feel like that Adaptive Layouts again?</p>
 
@@ -34,18 +34,18 @@ created: 1333632783
 <p>Let's imagine the same code with just these two factors thrown in:</p>
 
 
-<pre><code>    
+<pre><code>
    &lt;picture alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"&gt;
         &lt;source src="small_bw.jpg"&gt;
-        &lt;source src="small_color.jpg" media="(color")&gt;
+        &lt;source src="small_color.jpg" media="(color)"&gt;
         &lt;source src="medium_bw.jpg" media="(min-width: 400px)"&gt;
-        &lt;source src="medium_bw_slow.jpg" media="(min-width: 400px and network: <= 3g)"&gt;
+        &lt;source src="medium_bw_slow.jpg" media="(min-width: 400px and network: &lt;= 3g)"&gt;
         &lt;source src="medium.jpg" media="(min-width: 400px and color)"&gt;
-        &lt;source src="medium_slow.jpg" media="(min-width: 400px and color and network: <= 3g)"&gt;
+        &lt;source src="medium_slow.jpg" media="(min-width: 400px and color and network: &lt;= 3g)"&gt;
         &lt;source src="large_bw.jpg" media="(min-width: 800px)"&gt;
-        &lt;source src="large_bw_slow.jpg" media="(min-width: 800px and network: <= 3g)"&gt;
+        &lt;source src="large_bw_slow.jpg" media="(min-width: 800px and network: &lt;= 3g)"&gt;
         &lt;source src="large.jpg" media="(min-width: 800px and color)"&gt;
-        &lt;source src="large_slow.jpg" media="(min-width: 800px and color and network: <= 3g)"&gt;
+        &lt;source src="large_slow.jpg" media="(min-width: 800px and color and network: &lt;= 3g)"&gt;
     &lt;/picture&gt;
 </code></pre>
 
@@ -55,7 +55,7 @@ created: 1333632783
 
 <p>All I've done is point out two major problems with the current, proposed concept. I want this conversation to continue, not die. Here's my proposal:</p>
 
-<p>You know what's really good at handling complex logic and serving different types of content? Server side code. Programming code is very adept at handling complex logic with many variables. There are some very mature and robust image generators written in server side code that do all kinds of magic like dynamically resize, reformat, and modify. It's no surprise that the most <a href="http://www.sencha.com/learn/how-to-use-src-sencha-io/">robust solution so far</a> takes advantage of dynamic image generation on the server. 
+<p>You know what's really good at handling complex logic and serving different types of content? Server side code. Programming code is very adept at handling complex logic with many variables. There are some very mature and robust image generators written in server side code that do all kinds of magic like dynamically resize, reformat, and modify. It's no surprise that the most <a href="http://www.sencha.com/learn/how-to-use-src-sencha-io/">robust solution so far</a> takes advantage of dynamic image generation on the server.
 
 <p>An algorithm could dynamically resize to the exact size required by the device visiting the site without any extra work from developers or clients. Just upload the largest size you have and let the server scale it down. We could also conditionally convert the image to greyscale and increase compression if we need to. Again with no extra work from us. It scales like a dream.</p>
 

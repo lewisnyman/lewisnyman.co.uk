@@ -339,8 +339,30 @@ module.exports = function (grunt) {
         'compass:dist',
         'copy:dist'
       ]
-    }
+    },
+    buildcontrol: {
+        options: {
+          dir: 'dist',
+          commit: true,
+          push: true,
+          message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+        },
+        heroku: {
+          options: {
+            remote: 'git@heroku.com:example-heroku-webapp-1988.git',
+            branch: 'master'
+          }
+        },
+        local: {
+          options: {
+            remote: '../',
+            branch: 'app'
+          }
+        }
+      }
   });
+
+  grunt.loadNpmTasks('grunt-build-control');
 
   // Define Tasks
   grunt.registerTask('serve', function (target) {
