@@ -349,7 +349,7 @@ module.exports = function (grunt) {
         },
         heroku: {
           options: {
-            remote: 'git@heroku.com:example-heroku-webapp-1988.git',
+            remote: 'git@heroku.com:fierce-harbor-8626.git',
             branch: 'master'
           }
         },
