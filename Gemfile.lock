@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     animation (0.1.alpha.0)
       compass (>= 0.12.alpha.0)
       sass (>= 3.2.0.alpha.35)
@@ -22,7 +23,9 @@ GEM
     csscss (1.3.2)
       colorize
       parslet (~> 1.5)
+    daemons (1.1.9)
     directory_watcher (1.4.1)
+    eventmachine (1.0.3)
     fast-stemmer (1.0.2)
     fastercsv (1.5.5)
     fssm (0.2.10)
@@ -54,16 +57,25 @@ GEM
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rack (1.5.2)
+    rack-jekyll (0.4.1)
+      jekyll (>= 0.12.0, < 2.0)
+      rack (~> 1.5.0)
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
     sass (3.2.12)
     sequel (4.4.0)
+    thin (1.6.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   animation (~> 0.1.alpha.0)
   breakpoint (~> 2.0.7)
   compass (>= 0.12)
@@ -71,5 +83,7 @@ DEPENDENCIES
   jekyll (~> 1.2.1)
   jekyll-import (~> 0.1.0.beta1)
   mysql (~> 2.9.1)
+  rack-jekyll
   redcarpet
   sequel (~> 4.4.0)
+  thin
