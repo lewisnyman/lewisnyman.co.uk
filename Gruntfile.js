@@ -347,6 +347,12 @@ module.exports = function (grunt) {
           push: true,
           message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
         },
+        pages: {
+          options: {
+            remote: 'https://github.com/lewisnyman/lewisnyman.co.uk.git',
+            branch: 'gh-pages'
+          }
+        },
         heroku: {
           options: {
             remote: 'git@heroku.com:fierce-harbor-8626.git',
