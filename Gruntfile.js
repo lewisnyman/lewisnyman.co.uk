@@ -349,8 +349,8 @@ module.exports = function (grunt) {
         },
         pages: {
           options: {
-            remote: 'https://github.com/lewisnyman/lewisnyman.co.uk.git',
-            branch: 'gh-pages'
+            remote: 'https://github.com/lewisnyman/lewisnyman.github.io.git',
+            branch: 'master'
           }
         },
         heroku: {
