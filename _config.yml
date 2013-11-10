@@ -6,7 +6,8 @@
 # Use _config.build.yml to override these settings on `grunt build`.
 
 name: Lewis Nyman
-description: Lewis Nyman's personal thinking hole
+description: Lewis Nyman's personal thinking spot.
+url: http://.lewisnyman.co.uk
 
 author:
   name: Lewis Nyman
