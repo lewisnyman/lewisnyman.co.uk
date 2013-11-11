@@ -314,8 +314,7 @@ module.exports = function (grunt) {
         verbose: true
       },
       check: {
-       src: ['<%= yeoman.app %>/css/**/*.css',
-             '<%= yeoman.app %>/_scss/**/*.scss']
+       src: ['<%= yeoman.app %>/_scss/type.scss']
       }
     },
     csslint: {
