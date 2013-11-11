@@ -20,7 +20,7 @@ Modernizr.load([
   },
   {
     test: Modernizr.touch,
-    yep : 'js/fastclick.js',
+    yep : 'js/vendor/fastclick.js',
     callback: function() {
       new FastClick(document.body);
     }
