@@ -14,5 +14,14 @@
   "undef": true,
   "strict": false,
   "trailing": true,
-  "smarttabs": true
+  "smarttabs": true,
+  "globals": {
+    "jQuery": true,
+    "Drupal": true,
+    "window": true,
+    "document": true,
+    "Modernizr": true,
+    "FastClick": true,
+    "Typekit": true
+  }
 }
