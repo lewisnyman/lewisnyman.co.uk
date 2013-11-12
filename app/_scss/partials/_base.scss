@@ -70,11 +70,6 @@ pre {
 .intro {
   font-size: pxtoem(47px);
   line-height: pxtoem(58px,47px);
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0;
-  margin-bottom: $base-line-height;
-  margin-top: $base-line-height;
 }
 
 a:link,
@@ -97,8 +92,8 @@ h2 a:visited {
 }
 
 ul {
-  padding: 0;
   list-style: none;
+  padding: 0;
   margin: 0 0 $base-line-height;
 }
 
