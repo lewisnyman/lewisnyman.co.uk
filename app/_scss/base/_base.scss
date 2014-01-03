@@ -70,6 +70,7 @@ pre {
 .intro {
   font-size: pxtoem(47px);
   line-height: pxtoem(58px,47px);
+  margin-top: 0;
 }
 
 a:link,
@@ -93,6 +94,10 @@ h2 a:visited {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0 0 $base-line-height;
+}
+ol {
   padding: 0;
   margin: 0 0 $base-line-height;
 }
