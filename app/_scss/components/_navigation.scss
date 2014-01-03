@@ -1,3 +1,6 @@
+nav ul {
+  margin: 0;
+}
 nav li {
   display: inline-block;
   margin: 0 0.5em;
@@ -6,10 +9,10 @@ nav li:first-child {
   margin-left: 0;
 }
 
-.site-nav li a {
+.site-nav a {
   border-bottom: 1px dotted transparent;
 }
-.site-nav li a:hover {
+.site-nav a:hover {
   border-bottom-color: #000;
 }
 
@@ -19,4 +22,7 @@ nav li:first-child {
   color: #fff;
   font-weight: 300;
   padding: 0 0.5em;
+}
+.site-nav .to-home a:hover {
+  border-bottom-color: transparent;
 }

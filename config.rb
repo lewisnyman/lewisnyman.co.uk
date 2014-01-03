@@ -25,3 +25,4 @@ line_comments = false
 
 require 'breakpoint'
 require 'animation'
+require 'sass-globbing'

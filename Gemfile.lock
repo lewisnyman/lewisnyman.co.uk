@@ -64,6 +64,8 @@ GEM
     redcarpet (2.3.0)
     safe_yaml (0.7.1)
     sass (3.2.12)
+    sass-globbing (1.1.0)
+      sass (>= 3.1)
     sequel (4.4.0)
     thin (1.6.1)
       daemons (>= 1.0.9)
@@ -85,5 +87,7 @@ DEPENDENCIES
   mysql (~> 2.9.1)
   rack-jekyll
   redcarpet
+  sass
+  sass-globbing
   sequel (~> 4.4.0)
   thin

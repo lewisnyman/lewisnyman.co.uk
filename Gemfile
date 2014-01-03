@@ -12,3 +12,5 @@ gem "animation", "~> 0.1.alpha.0"
 gem 'rack-jekyll'
 gem 'RedCloth'
 gem 'thin'
+gem 'sass'
+gem 'sass-globbing'
