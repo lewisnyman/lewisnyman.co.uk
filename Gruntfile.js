@@ -352,12 +352,6 @@ module.exports = function (grunt) {
             branch: 'master'
           }
         },
-        heroku: {
-          options: {
-            remote: 'git@heroku.com:fierce-harbor-8626.git',
-            branch: 'master'
-          }
-        },
         local: {
           options: {
             remote: '../',
