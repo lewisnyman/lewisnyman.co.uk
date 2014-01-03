@@ -390,6 +390,11 @@ module.exports = function (grunt) {
   //   'connect:test'
   ]);
 
+  // A nice alias for build control.
+  grunt.registerTask('launch', [
+    'buildcontrol:pages',
+  ]);
+
   grunt.registerTask('check', [
     'clean:server',
     'jekyll:check',
