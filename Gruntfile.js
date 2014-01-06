@@ -340,28 +340,53 @@ module.exports = function (grunt) {
       ]
     },
     buildcontrol: {
+      options: {
+        dir: 'dist',
+        commit: true,
+        push: true,
+        message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+      },
+      pages: {
         options: {
-          dir: 'dist',
-          commit: true,
-          push: true,
-          message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
-        },
-        pages: {
-          options: {
-            remote: 'https://github.com/lewisnyman/lewisnyman.github.io.git',
-            branch: 'master'
-          }
-        },
-        local: {
-          options: {
-            remote: '../',
-            branch: 'app'
-          }
+          remote: 'https://github.com/lewisnyman/lewisnyman.github.io.git',
+          branch: 'master'
+        }
+      },
+      local: {
+        options: {
+          remote: '../',
+          branch: 'app'
         }
       }
+    },
+    deadlink: {
+      options: {
+        logToFile: true,
+        filter: function(content) { // `function` or `regular expressions` to take a link. default is markdown.
+          var expressions = [
+            /\[[^\]]*\]\((http[s]?:\/\/[^\) ]+)/g,  //[...](<url>)
+            /\[[^\]]*\]\s*:\s*(http[s]?:\/\/.*)/g,  //[...]: <url>
+          ];
+          var result = [];
+          for (var i = expressions.length - 1; i >= 0; i--) {
+            var expression = expressions[i];
+            var match = expression.exec(content);
+            while(match != null) {
+              result.push(match[1]);
+              match = expression.exec(content);
+            }
+          }
+          return result; // Return array of link.
+        },
+      },
+      posts: {
+        src: [ 'app/_posts/*.md' ], // glob pattern. files path that include links to checking.
+      },
+    },
   });
 
   grunt.loadNpmTasks('grunt-build-control');
+  grunt.loadNpmTasks('grunt-deadlink');
 
   // Define Tasks
   grunt.registerTask('serve', function (target) {
@@ -401,7 +426,8 @@ module.exports = function (grunt) {
     'compass:server',
     'jshint:all',
     'csscss:check',
-    'csslint:check'
+    'csslint:check',
+    'deadlink'
   ]);
 
   grunt.registerTask('build', [
