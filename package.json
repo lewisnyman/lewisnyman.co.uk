@@ -1,7 +1,7 @@
 {
-  "name": "jekyll-test",
+  "name": "leiwsnyman.co.yk",
   "version": "0.0.0",
-  "description": "Yeoman / Grunt workflow for jekyll-test",
+  "description": "Lewis' personal thinking spot'",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
