@@ -385,9 +385,6 @@ module.exports = function (grunt) {
     },
   });
 
-  grunt.loadNpmTasks('grunt-build-control');
-  grunt.loadNpmTasks('grunt-deadlink');
-
   // Define Tasks
   grunt.registerTask('serve', function (target) {
     if (target === 'dist') {
