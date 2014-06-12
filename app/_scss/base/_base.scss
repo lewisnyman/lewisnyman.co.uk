@@ -23,10 +23,16 @@ body {
   font-family: "brandon-grotesque", Helvectica, sans-serif;
   padding: 0;
   margin: 0;
-  border-top: 2px solid #000;
+  border-top: 2px solid $black;
   @include breakpoint($breakpoint-medium-width) {
     font-size: large;
   }
+  @include breakpoint($is-color) {
+    background-color: $becca;
+    color: $white;
+    border-color: $white;
+  }
+
 }
 
 h1 {
