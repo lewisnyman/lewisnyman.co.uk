@@ -55,7 +55,8 @@ module.exports = function (grunt) {
     'jshint:all',
     'csscss:check',
     'csslint:check',
-    'deadlink'
+    'deadlink',
+    'pagespeed'
   ]);
 
   grunt.registerTask('build', [
