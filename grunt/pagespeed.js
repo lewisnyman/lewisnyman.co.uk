@@ -8,7 +8,7 @@ module.exports = {
       url: 'http://lewisnyman.co.uk',
       locale: 'en_GB',
       strategy: 'desktop',
-      threshold: 85
+      threshold: 90
     }
   },
   mobile: {
@@ -16,7 +16,7 @@ module.exports = {
       url: 'http://lewisnyman.co.uk',
       locale: 'en_GB',
       strategy: 'mobile',
-      threshold: 85
+      threshold: 75
     }
   }
 }
