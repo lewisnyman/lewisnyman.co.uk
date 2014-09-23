@@ -14,6 +14,9 @@ nav li:first-child {
 }
 .site-nav a:hover {
   border-bottom-color: #000;
+  @include breakpoint($is-color) {
+    border-bottom-color: $white;
+  }
 }
 
 .to-home {
