@@ -55,7 +55,7 @@ module.exports = function (grunt) {
     'jshint:all',
     'csscss:check',
     'csslint:check',
-    'deadlink',
+    // 'deadlink',
     'pagespeed'
   ]);
 
@@ -71,7 +71,7 @@ module.exports = function (grunt) {
     'uglify',
     'imagemin',
     'svgmin',
-    'rev',
+    // 'rev',
     'usemin',
     'htmlmin'
     ]);

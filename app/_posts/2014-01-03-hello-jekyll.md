@@ -12,7 +12,7 @@ Before I started at [WunderRoot](http://wunderroot.com) I had a nice chat over a
 
 He mentioned to me “We wouldn't use a project management tool built in Drupal, we'd use the best project management tool available, like Jira. We wouldn't use Drupal to build an internal network, we'd use the product for the job.”
 
-“I guess your blog is built in Wordpress then?” I joked. Surprisingly I learnt that this was a serious consideration at the time. I was also unaware that Steve has moved his [personal site to Wordpress](http://steveparks.co.uk/2011/09/11/my-new-blog/) two years before for similar reasons.
+“I guess your blog is built in Wordpress then?” I joked. Surprisingly I learnt that this was a serious consideration at the time. I was also unaware that Steve has moved his personal site to <del>Wordpress</del> [Jekyll](http://www.steveparks.co.uk/) for similar reasons.
 
 Well informed, objective decisions impress me.
 
