@@ -16,3 +16,7 @@ You're hired to do a job, get on with it, and move on. I  struggled with the ins
 I've put faith in high standards and enthuiasism that have got me this far in my career, so keeping my head down feels very unnatural.
 
 Even though I enjoyed the financial freedom, I had a desire to find a team of people that I could trust and who trusted me. People with completementary skills sets to mine, that can fill in the areas I am weak, and respectfully challenge me.
+
+So when I met with [Steve P](http://www.steveparks.co.uk/) for a chat, I really wasn't sure what I wanted. To be honest I knew very little about WunderKraut before then. As it happened, everything he was aiming for aligned with mine.
+
+It took a leap of faith to jump into my own business, and it was a leap of faith to jump back out. I don't regret either decision. Objectives change over time with experiences and perspective.
