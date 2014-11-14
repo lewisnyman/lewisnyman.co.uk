@@ -48,6 +48,11 @@ module.exports = function (grunt) {
     'buildcontrol:pages',
   ]);
 
+  // A nice alias for build control.
+  grunt.registerTask('deploy', [
+    'buildcontrol:pages',
+  ]);
+
   grunt.registerTask('check', [
     'clean:server',
     'jekyll:check',
