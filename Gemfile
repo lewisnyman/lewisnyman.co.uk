@@ -10,3 +10,4 @@ gem "animation", "~> 0.1.alpha.0"
 gem 'RedCloth'
 gem 'thin'
 gem 'sass-globbing'
+gem 'jekyll-compose'
