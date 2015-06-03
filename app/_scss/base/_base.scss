@@ -36,8 +36,10 @@ body {
 }
 
 h1 {
-  font-size: pxtoem(123px);
-  line-height: pxtoem(115px, 123px);
+  @include breakpoint($breakpoint-medium-width) {
+    font-size: pxtoem(84px);
+  }
+  line-height: pxtoem(95px, 84px);
   font-weight: 100;
   letter-spacing: pxtoem(3px, 123px);
   text-align: left;
