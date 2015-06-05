@@ -3,11 +3,14 @@ layout: default
 ---
 <h2>{{ page.title }}</h2>
 <p class="post__submitted">{% assign d = page.date | date: "%-d" %}
-          {{ page.date | date: "%B" }}
-          {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
-          {{ page.date | date: "%Y" }}
-        {% endif %}</p>
-
+  {{ page.date | date: "%B" }}
+  {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ page.date | date: "%Y" }}
+{% endif %}
+<span class="post__reading-time">
+  {{ content | reading_time_as_s }}
+</span>
+</p>
 <div class="post">
 {{ content }}
 </div>

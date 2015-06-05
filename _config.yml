@@ -44,5 +44,8 @@ markdown: redcarpet
 # redcarpet:
   # extensions: ['fenced_code_blocks', 'smart']
 
-# Use Pygments to highlight code blocks
-pygments: false
+# Highlight code blocks
+highlighter: null
+
+gems:
+  - jekyll-time-to-read
