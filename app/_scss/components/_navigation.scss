@@ -19,7 +19,7 @@ nav li:first-child {
   }
 }
 
-.to-home {
+.site-nav li.is-active {
   background: #000;
   border: 0;
   color: #fff;
@@ -30,6 +30,6 @@ nav li:first-child {
     color: $becca;
   }
 }
-.site-nav .to-home a:hover {
+.site-nav li.is-active:hover {
   border-bottom-color: transparent;
 }

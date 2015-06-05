@@ -26,9 +26,14 @@
     <header>
       <nav class="site-nav">
         <ul>
-          <li class="to-home"><a href="/">{{ site.name }}</a></li>
-          <li><a href="/blog">Blog</a></li>
-          <li><a href="/info">Info</a></li>
+          {% comment %}
+            The code below dynamically generates a sidebar nav of pages defined in /_data/menu.yml.
+          {% endcomment %}
+
+          {% assign navurl = page.url | remove: '/index.html' %}
+          {% for item in site.data.menu %}
+            <li {% if item.url == navurl %}class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
+          {% endfor %}
         </ul>
       </nav>
     </header>
