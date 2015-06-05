@@ -9,7 +9,7 @@ The trio of friends: Elliot, Stuart, and Dan, have great chemistry and a tendenc
 
 My recommended episodes are:
 
-* * [Episode #100 – Tango & Cash](http://www.flophousepodcast.com/2012/04/episode-100-tango-cash/)
+* [Episode #100 – Tango & Cash](http://www.flophousepodcast.com/2012/04/episode-100-tango-cash/)
 * [Episode #133 – Bullet to the Head](http://www.flophousepodcast.com/2013/08/episode-133-bullet-to-the-head/)
 * [Episode #174 – That Awkward Moment](http://www.flophousepodcast.com/2015/03/episode-174-that-awkward-moment/)
 * [Episode #155 – Last Vegas](http://www.flophousepodcast.com/2014/06/episode-155-last-vegas/)
