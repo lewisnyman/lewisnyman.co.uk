@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Flophouse: The best bad movie podcast
+title: The Flophouse
 ---
 
 Since the turn of the year I've been listening obsessively to The Flophouse. It's a podcast where three friends watch a bad movie and then talk about it. It is hilarious. If you're thinking along the lines of "Mystery Science Theater 3000" you're not far off.
