@@ -29,8 +29,7 @@
           {% comment %}
             The code below dynamically generates a sidebar nav of pages defined in /_data/menu.yml.
           {% endcomment %}
-
-          {% assign navurl = page.url | remove: '/index.html' %}
+          {% assign navurl = page.url | remove: 'index.html' %}
           {% for item in site.data.menu %}
             <li {% if item.url == navurl %}class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
           {% endfor %}
@@ -42,11 +41,12 @@
 
         <div class="main-content">
           {% if page.date %}
-            <p class="post__submitted">Posted on
+            <p class="post__meta">Posted on
             {% assign d = page.date | date: "%-d" %}
             {{ page.date | date: "%B" }}
             {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
             {{ page.date | date: "%Y" }}
+            <span class="post__reading-time">Read in {{ content | reading_time_as_s }}</span>
           </p>
           {% endif %}
           {{ content }}

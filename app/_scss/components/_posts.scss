@@ -1,5 +1,8 @@
 .post {
   border-bottom: 1px solid #CCC;
+  @include breakpoint($is-color) {
+    border-bottom-color:$super-subtle-text;
+  }
   padding-bottom: 29px;
 }
 .post__header {
@@ -7,6 +10,10 @@
 }
 .post__meta {
   margin: 0;
+  color: $subtle-text;
+  .post:hover & {
+    color: inherit;
+  }
 }
 .post__reading-time {
   float: right;

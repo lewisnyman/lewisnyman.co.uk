@@ -1,6 +1,7 @@
+# Note: Must include trailing slash in urls.
 - title: Lewis Nyman
   url: /
 - title: Blog
-  url: /blog
+  url: /blog/
 - title: Info
-  url: /info
+  url: /info/

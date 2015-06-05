@@ -28,9 +28,9 @@ body {
     font-size: large;
   }
   @include breakpoint($is-color) {
-    background-color: $becca;
-    color: $white;
-    border-color: $white;
+    background-color: $white;
+    color: $becca;
+    border-color: $becca;
   }
 
 }

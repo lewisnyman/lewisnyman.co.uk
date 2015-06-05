@@ -26,8 +26,8 @@ nav li:first-child {
   font-weight: 300;
   padding: 0 0.5em;
   @include breakpoint($is-color) {
-    background: $white;
-    color: $becca;
+    background: $becca;
+    color: $white;
   }
 }
 .site-nav li.is-active:hover {
