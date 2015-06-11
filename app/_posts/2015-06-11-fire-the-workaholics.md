@@ -9,4 +9,4 @@ Since reading [Rework](http://37signals.com/rework/) five years ago, one of the 
 
 Sadly, this is because I still see too many workaholics who are so influential in their own company that they really should know better. What you do in your company sets expectations and it sets the foundation of the the culture of the company. 
 
-When you have the power to set the culture of a company, be responsible.
+If you have the power to set the culture of a company, please be responsible.
