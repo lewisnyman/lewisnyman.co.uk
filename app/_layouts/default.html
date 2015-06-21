@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
+
+      <!-- Meta -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Twitter Card -->
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content="@{{ site.author.twitter }}" />
+      <meta name="twitter:domain" content="{{ site.url }}" />
+      <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
       <meta name="twitter:title" content="{{ page.title }}" />
-     <meta content="{{ site.name }}" property="og:site_name" />
-     <meta content="object" property="og:type" />
-     <meta content="{{ page.title }}" property="og:title" />
+      <meta name="twitter:url" content="{{ page.url }}" />
 
+     <!-- Facebook Open Graph -->
+     <meta property="og:site_name" content="{{ site.name }}" />
+     <meta property="og:type" content="article" />
+     <meta property="og:title" content="{{ page.title }}" />
+     <meta property="article:author" content="{{ site.author.facebook }}" />
+
+      <!-- RSS -->
       <link rel="alternate" type="application/rss+xml" title="Lewis Nyman" href="/rss.xml" />
 
       <title>{{ site.name }} - {{ page.title }}</title>

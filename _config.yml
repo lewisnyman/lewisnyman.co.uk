@@ -14,6 +14,7 @@ author:
   email: hello@lewisnyman.co.uk
   github: lewisnyman
   twitter: lewisnyman
+  facebook: https://facebook.com/lewisnyman
 
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
