@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Company identity vs collective identity
+tags: culture
 ---
 In [Bogota,](https://www.youtube.com/watch?v=EJlm58wZCUM) Todd spoke about the idea of a company culture that either focused on the company or focused on the people within.
 

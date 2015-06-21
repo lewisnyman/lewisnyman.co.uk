@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Advice on giving advice
+tags: 100 words, relationships
 ---
 
 The other day I listened to an episode of [Friendshipping,](https://friendshipping.simplecast.fm) a podcast about friendship and how to be a good friend.

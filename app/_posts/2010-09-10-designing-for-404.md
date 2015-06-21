@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Designing for 404
+tags: design
 created: 1284118860
 ---
     <p class="intro">I'll forgive you if you don't know the meaning of 404.</p>

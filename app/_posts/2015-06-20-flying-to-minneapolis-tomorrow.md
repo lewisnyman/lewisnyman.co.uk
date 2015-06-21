@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Flying to Minneapolis tomorrow
+tags: 100 words
 ---
 
 Tomorrow I'll be catching a flight to Minneapolis, via Amsterdam. The total travel time is over ten hours, so I'm brainstorming something to be productive with on the trip.

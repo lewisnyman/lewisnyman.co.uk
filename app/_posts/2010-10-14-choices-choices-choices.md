@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Choices, Choices, Choices
+tags: design
 created: 1287057065
 ---
     <p class="intro">The year is 1997. Steve Jobs walks into a board room at 1 Infinity Loop, Cupertino, 12 years after he was fired from the company he co-founded. </p>

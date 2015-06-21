@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Drupal 8 frontend SMACSS
+tags: drupal
 ---
 
 I spent most of today working on [Drupal 8 frontend issues.](https://www.drupal.org/project/issues/search?text=&projects=Drupal%20core&assigned=&submitted=&project_issue_followers=&status[Open]=Open&&&issue_tags_op=%3D&issue_tags=frontend) Most of the day was spent on [Split system.module.css and system.theme.css files into SMACSS style components](https://www.drupal.org/node/2395853) which is a huge issue that will have a great affect on the frontend of Drupal 8.

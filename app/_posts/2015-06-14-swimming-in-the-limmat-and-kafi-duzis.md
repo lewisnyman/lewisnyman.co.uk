@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Swimming in the Limmat and Kafi Duzis
+tags: 100 words
 ---
 
 Last night our neighbors had a party that lasted until 7am. Fuck them.

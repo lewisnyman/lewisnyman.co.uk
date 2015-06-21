@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Are we Approaching Responsive Images the Wrong Way?
+tags: responsive web design
 created: 1333632783
 ---
 <p>There's a lot of talk about responsive images right now. Some white knights in the web design community are rallying around this problem and fair play to them. It's a tough problem that needs solving. Responsive design is great in theory, but if we are forcing mobile users download ridiculous sized images and grinding their experience down to a halt who can blame some if they declare <a href="http://blog.cloudfour.com/css-media-query-for-mobile-is-fools-gold/">separate mobile sites</a> to be the best solution?</p>

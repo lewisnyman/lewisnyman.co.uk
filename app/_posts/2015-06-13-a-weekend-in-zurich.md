@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A weekend in Zürich
+tags: 100 words
 ---
 
 Finally after being out of the country for so long and moving flat in the weekends inbetween we had a chance to spend time in Zürich.

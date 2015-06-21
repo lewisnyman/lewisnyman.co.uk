@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Creating a new theme for Drupal Core
+tags: 100 words, drupal
 ---
 
 A combination of residual jetlag and a [late night of celebration](/blog/jac-celebration-dinner/) resulted in another late start. Sorry team!

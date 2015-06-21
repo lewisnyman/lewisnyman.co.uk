@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Productivity
+tags: tools
 created: 1360762637
 ---
 This post is about the kind of productivity gains that I use every day without thinking. They've become so entangled into how I use a Mac that I don't consider the to be separate from OSX. Whenever I start a new contract with new equipment I feel like a fish out of water, clunkily moving and cursing the unintuitive nature of the default interface. I'm hoping I can give you some insight into how you can improve your productivity and maybe you can do the same for me.

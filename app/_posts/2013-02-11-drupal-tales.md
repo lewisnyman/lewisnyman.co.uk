@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Drupal Tales
+tags: drupal
 created: 1360587451
 ---
 <blockquote>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Exporting from moves to Myfitnesspal
+tags: 100 words, fitness
 ---
 
 I've been using [Moves](https://www.moves-app.com/) constantly for two and a half years, mainly because you don't have to do anything to use it. Not even open the app.

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: A Birthday and a leaving party
+tags: 100 words
 ---
 
 OK so I didn't blog for the past two days. I've had two full days. It's more important not to fall than not to stumble. 

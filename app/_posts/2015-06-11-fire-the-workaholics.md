@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Fire the workaholics
+tags: 100 words, culture
 ---
 
 <blockquote>Workaholics aren't heroes. They don't save the day, they just use it up. The real hero is home because she figured out a faster way</blockquote>

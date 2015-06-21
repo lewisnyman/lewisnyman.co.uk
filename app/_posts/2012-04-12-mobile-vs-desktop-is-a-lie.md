@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mobile vs Desktop is a lie
+tags: responsive web design
 created: 1334217052
 ---
 <p>Last week Jakob Nielsen published an article titled <a href="http://www.useit.com/alertbox/mobile-vs-full-sites.html">Mobile vs Full Sites.</a> Some <a href="http://www.netmagazine.com/opinions/nielsen-wrong-mobile">members of the web community</a> have already predicted that this is the point where Nielson has <a href="https://twitter.com/#!/arh/status/191196895371206656">jumped the shark.</a></p>
