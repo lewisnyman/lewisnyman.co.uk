@@ -1,0 +1,14 @@
+---
+layout: none
+---
+
+[
+ {% for post in site.posts %}
+     {
+       "title"    : {{ post.title | jsonify }},
+       "url"     : "{{ site.url }}{{ post.url }}",
+       "date"     : {{ post.date | date: "%B %d, %Y" | jsonify }},
+       "content"  : {{ post.content | markdownify |jsonify }}
+     } {% if forloop.last %}{% else %},{% endif %}
+ {% endfor %}
+]
