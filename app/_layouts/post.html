@@ -1,16 +1,20 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="post__meta">{% assign d = page.date | date: "%-d" %}
-  {{ page.date | date: "%B" }}
-  {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
-  {{ page.date | date: "%Y" }}
-{% endif %}
-<span class="post__reading-time">
-  {{ content | reading_time_as_s }}
-</span>
-</p>
+<header>
+  <h2>{{ page.title }}</h2>
+</header>
+<footer>
+  <p class="post__meta">{% assign d = page.date | date: "%-d" %}
+    {{ page.date | date: "%B" }}
+    {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+    {{ page.date | date: "%Y" }}
+  {% endif %}
+  <span class="post__reading-time">
+    {{ content | reading_time_as_s }}
+  </span>
+  </p>
+</footer>
 <div class="post">
-{{ content }}
+  {{ content }}
 </div>

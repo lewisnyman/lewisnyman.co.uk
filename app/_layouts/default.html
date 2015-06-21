@@ -48,7 +48,7 @@
           {% endcomment %}
           {% assign navurl = page.url | remove: 'index.html' %}
           {% for item in site.data.menu %}
-            <li {% if item.url == navurl %}class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
+            <li{% if item.url == navurl %} class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
       </nav>
@@ -56,9 +56,9 @@
 
       <h1 class="title"><a href="/">{{ page.title }}</a></h1>
 
-        <div class="main-content">
+        <main class="main-content" role="main">
           {% if page.date %}
-            <p class="post__meta">Posted on
+            <p class="post__meta post__meta--full">Posted on
             {% assign d = page.date | date: "%-d" %}
             {{ page.date | date: "%B" }}
             {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
@@ -67,7 +67,7 @@
           </p>
           {% endif %}
           {{ content }}
-      </div>
+      </main>
   </div> <!-- /container -->
 
   <!-- build:js(app) /js/bottom.js -->
