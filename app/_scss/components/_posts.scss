@@ -3,17 +3,24 @@
   @include breakpoint($is-color) {
     border-bottom-color:$super-subtle-text;
   }
-  padding-bottom: 29px;
+  padding-bottom: 14px;
 }
 .post__header {
   margin-bottom: 0;
 }
 .post__meta {
-  margin: 0;
+  margin: 14px 0 0;
   color: $subtle-text;
   .post:hover & {
     color: inherit;
   }
+}
+.post__meta--full {
+  border-bottom: 1px solid #CCC;
+  @include breakpoint($is-color) {
+    border-bottom-color:$super-subtle-text;
+  }
+  padding-bottom: 14px;
 }
 .post__reading-time {
   float: right;
