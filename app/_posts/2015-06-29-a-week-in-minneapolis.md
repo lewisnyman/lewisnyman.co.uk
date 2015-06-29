@@ -29,7 +29,7 @@ Wednesday was another early start with another full day of observation. It was g
 
 On Thursday, we analysed and prioritised all the issues we found during the previous two days. 140 issues! This took a really long time...
 
-Friday, the camp started and everyone but me had presentations to give. I spent a good amount of time working on the Saturday presentation on the results of the usability study. I spent a lot of time hanging out with the team from Ten7, who are lovely.
+Friday, the camp started and everyone but me had presentations to give. I spent a good amount of time working on the Saturday presentation on the results of the usability study. I also watched Todds keynote again, and I loved it just as much as when I saw it in Bogota.
 
 Saturday, we had a presentation to give. We were tweaking the slides up until the session was due to start! I'm not very comfortable sharing the stage with others and I wasn't used to using Google Drive to present. Even so it went surprisingly well! It was great to present alongside Angie, Bojhan, Ivan, Link, and Nick. I'm glad Nick made it to the camp, as he's so full of energy and valuable advice. After the presentation we could finally relax a little :-)
 
