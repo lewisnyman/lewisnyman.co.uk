@@ -8,11 +8,14 @@ title: Blog
     <li class="posts__post">
       <a href="{{ post.url }}">
         <h2 class="post__header">{{ post.title }}</h2>
-        <p class="post__meta"> {% assign d = post.date | date: "%-d" %}
-        {{ post.date | date: "%B" }}
-        {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
-        {{ post.date | date: "%Y" }}
-        <span class="post__reading-time">Read in {{ post.content | reading_time_as_s }}</span>
+        <p class="post__meta">
+        <span class="post__meta__item">
+          {% assign d = post.date | date: "%-d" %}
+          {{ post.date | date: "%B" }}
+          {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+          {{ post.date | date: "%Y" }}
+        </span>
+        <span class="post__meta__item">Read in {{ post.content | reading_time_as_s }}</span>
         </p>
     </a>
     </li>

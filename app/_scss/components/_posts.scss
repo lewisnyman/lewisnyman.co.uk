@@ -11,6 +11,7 @@
 .post__meta {
   margin: 14px 0 0;
   color: $subtle-text;
+  @include clearfix();
 }
 .post__meta--full {
   border-bottom: 1px solid #CCC;
@@ -19,6 +20,18 @@
   }
   padding-bottom: 14px;
 }
-.post__reading-time {
-  float: right;
+.post__meta__item {
+  float: left;
+  padding: 0 0.5em;
+  border-right: 1px solid #CCC;
+  @include breakpoint($is-color) {
+    border-right-color:$super-subtle-text;
+  }
+}
+.post__meta__item:first-child {
+  padding-left: 0;
+}
+.post__meta__item:last-child {
+  padding-right: 0;
+  border-right: 0;
 }
