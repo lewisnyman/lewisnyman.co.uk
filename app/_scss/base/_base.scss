@@ -79,13 +79,12 @@ h4 {
 p,
 pre {
   margin-bottom: $base-line-height;
-  margin-top: $base-line-height;
+  margin-top: 0;
 }
 
 .intro {
   font-size: pxtoem(47px);
   line-height: pxtoem(58px,47px);
-  margin-top: 0;
 }
 
 a:link,
