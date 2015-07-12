@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal 8 theming guide Q & A
 tags: drupal
 ---
@@ -12,7 +12,7 @@ The job of a core component maintainer is [well documented.](https://www.drupal.
 I'm also responsible for making sure the issues are in a organised and in a good state to work on. I also have enough experience to review all the patches for Seven, checking them for quality and consistency.
 
 ## What are new features for the Seven theme in Drupal 8?
-Seven's design has evolved in Drupal 8. [Ry5n,](https://www.drupal.org/u/ry5n) [Yoroy,](https://www.drupal.org/u/yoroy) and [Bojhan](https://www.drupal.org/u/bojhan) produced a style guide for which has improved the look-and-feel of the theme as well as providing a more stable and consistent base to make UX improvements across the many core modules. 
+Seven's design has evolved in Drupal 8. [Ry5n,](https://www.drupal.org/u/ry5n) [Yoroy,](https://www.drupal.org/u/yoroy) and [Bojhan](https://www.drupal.org/u/bojhan) produced a style guide for which has improved the look-and-feel of the theme as well as providing a more stable and consistent base to make UX improvements across the many core modules.
 
 Some examples would be consistent use of different button types, dropbuttons, the new content creation layout, and the inline form errors.
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupal Tales
 tags: drupal
 created: 1360587451

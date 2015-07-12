@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Roy Scholten Bootstrapping UX design in your open source project
 tags: design
 ---

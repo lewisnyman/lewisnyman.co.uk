@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Designing for 404
 tags: design
 created: 1284118860

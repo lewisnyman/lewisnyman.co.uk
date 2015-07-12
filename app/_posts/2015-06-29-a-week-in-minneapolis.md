@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: A week in Minneapolis
 tags: 100 words, Drupal
 ---

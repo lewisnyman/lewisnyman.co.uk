@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Flying to Minneapolis tomorrow
 tags: 100 words
 ---

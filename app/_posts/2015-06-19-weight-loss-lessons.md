@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Weight loss lessons
 tags: 100 words, fitness
 ---

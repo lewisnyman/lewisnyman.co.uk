@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Company identity vs collective identity
 tags: culture
 ---

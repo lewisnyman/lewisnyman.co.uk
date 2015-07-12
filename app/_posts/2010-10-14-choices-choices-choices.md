@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Choices, Choices, Choices
 tags: design
 created: 1287057065
@@ -14,9 +14,9 @@ created: 1287057065
 
 <p>Thirteen years later and the Mac product line stands at two, the iMac and the Mac Pro. The Macbook line stands at three. In thirteen years net profit has grown from -$1,045m to $5,704m. That's a steep ascent from the red into the clouds. This is no coincidence.</p>
 
-<p>People hate choice, despite what their brains tell them. </p> 
+<p>People hate choice, despite what their brains tell them. </p>
 
-<blockquote><q>Freedom of choice is what you got, freedom from choice is what you want</q> <cite>Devo - 1980</cite></blockquote> 
+<blockquote><q>Freedom of choice is what you got, freedom from choice is what you want</q> <cite>Devo - 1980</cite></blockquote>
 
 <p>If you look close enough, you see this principle put to work in all areas of design from Apple. We should talk about that but first, let's talk about jam. </p>
 
@@ -27,7 +27,7 @@ created: 1287057065
 
 <p><q>What's the the interesting part?</q> Of all the people who stopped at the 24 jam stall, only 3% actually bought the jam. At the six jam table, <em>thirty percent</em> of all tasters walked out as proud owners of delicious jam. What's going on here?</p>
 
-<blockquote><q>Lots of choices will grab our attention, but too many choices overwhelm us – to the point where we likely won't buy at all.</q> <cite>Susan Weinschenk - Neuro Web Design</cite></blockquote> 
+<blockquote><q>Lots of choices will grab our attention, but too many choices overwhelm us – to the point where we likely won't buy at all.</q> <cite>Susan Weinschenk - Neuro Web Design</cite></blockquote>
 
 <h2>Back to Apple – Less is more?</h2>
 <p>Apple's iPhone gets constantly ripped by tech nerds for being inflexible and closed. Owners can do whatever they want as long as Apple says so, developers are becoming increasingly shackled as Apple enforces a <a href="http://www.apple.com/pr/library/2011/02/15appstore.html">tighter grip on the app marketplace</a>. It's <a href="http://techcrunch.com/2011/02/15/apple-in-app-subscriptions/">more then just money grabbing</a> though. With control they can ensure a consistent experience for the user. You only ever have to learn one interface for subscriptions. Great for users, bad for publishers.</p>
@@ -53,4 +53,4 @@ created: 1287057065
 
 <h3>4. Get smart with defaults</h3>
 <p>Smart defaults are selections made for the user, often found in web forms.</p>
-<p>If it is possible, try and help your users make the correct decision to take some processing power out of their hands. You don't have to be right in every situation, just most of them. <a href="http://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/">Design for the 80%.</a></p>  
+<p>If it is possible, try and help your users make the correct decision to take some processing power out of their hands. You don't have to be right in every situation, just most of them. <a href="http://www.webdesignerdepot.com/2011/02/the-8020-rule-applied-to-web-design/">Design for the 80%.</a></p>

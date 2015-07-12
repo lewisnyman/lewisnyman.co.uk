@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Design & the Pursuit of Happiness
 tags. design
 created: 1282814520

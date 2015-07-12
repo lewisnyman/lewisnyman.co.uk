@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Exporting from moves to Myfitnesspal
 tags: 100 words, fitness
 ---

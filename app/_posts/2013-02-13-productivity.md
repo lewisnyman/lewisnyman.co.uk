@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Productivity
 tags: tools
 created: 1360762637

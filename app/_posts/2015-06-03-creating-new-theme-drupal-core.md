@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Creating a new theme for Drupal Core
 tags: 100 words, drupal
 ---

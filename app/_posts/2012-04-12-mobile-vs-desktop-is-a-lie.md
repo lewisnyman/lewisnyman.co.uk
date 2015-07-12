@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Mobile vs Desktop is a lie
 tags: responsive web design
 created: 1334217052
@@ -25,7 +25,7 @@ created: 1334217052
 <blockquote>
     <p>The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page. We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility. But first, we must “accept the ebb and flow of things.” </p>
     <address>
-        <cite>John Allsopp</cite>, “<a href="http://www.alistapart.com/articles/dao/">A Dao of Web Design</a>” 
+        <cite>John Allsopp</cite>, “<a href="http://www.alistapart.com/articles/dao/">A Dao of Web Design</a>”
     </address>
 </blockquote>
 

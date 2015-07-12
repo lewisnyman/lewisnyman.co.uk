@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: JAC celebration dinner
 tags: 100 words
 ---

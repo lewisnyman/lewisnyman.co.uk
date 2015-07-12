@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Are we Approaching Responsive Images the Wrong Way?
 tags: responsive web design
 created: 1333632783

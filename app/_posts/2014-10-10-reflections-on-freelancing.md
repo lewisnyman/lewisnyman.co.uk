@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Reflections on freelancing
 tags: business
 ---

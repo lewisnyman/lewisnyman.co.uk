@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Hello Jekyll
 created: 1388763948
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Flophouse
 tags: 100 words, podcasts
 ---

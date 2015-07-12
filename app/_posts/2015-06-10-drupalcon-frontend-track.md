@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Drupalcon frontend track
 tags: 100 words, drupal
 ---

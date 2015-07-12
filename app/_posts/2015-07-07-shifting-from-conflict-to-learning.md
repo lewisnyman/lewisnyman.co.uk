@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Shifting from conflict to learning
 tags: 100 words, relationships
 ---

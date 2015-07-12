@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: post
 title: A Birthday and a leaving party
 tags: 100 words
 ---
 
-OK so I didn't blog for the past two days. I've had two full days. It's more important not to fall than not to stumble. 
+OK so I didn't blog for the past two days. I've had two full days. It's more important not to fall than not to stumble.
 
 Saturday involved a trip to the [Epping Railway](http://eorailway.co.uk/) and a trip though the lovely countryside for my Dad's birthday. The evening involved rushing to see of my good friend [Sam,](http://samdransfield.tumblr.com/) who's leaving England to ply his trade on the west coast, Los Angeles. I'll miss him.
 
