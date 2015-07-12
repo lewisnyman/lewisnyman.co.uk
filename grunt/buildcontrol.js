@@ -8,7 +8,10 @@ module.exports = {
   pages: {
     options: {
       remote: 'https://github.com/lewisnyman/lewisnyman.github.io.git',
-      branch: 'master'
+      branch: 'master',
+      config: {
+        'user.name': 'lewisnyman'
+      },
     }
   },
   local: {
