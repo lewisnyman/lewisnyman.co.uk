@@ -3,13 +3,14 @@
 	to {opacity: 1;}
 }
 
-h1,
-h1 [class*=char],
-.main-content {
-  opacity: 0;
+.js {
+  h1,
+  h1 [class*=char],
+  .main-content {
+    opacity: 0;
+  }
 }
 
-.no-js,
 .no-cssanimations {
   h1,
   h1 [class*=char],
