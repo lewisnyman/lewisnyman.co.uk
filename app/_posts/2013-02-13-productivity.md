@@ -8,7 +8,7 @@ This post is about the kind of productivity gains that I use every day without t
 
 ## Alfred
 
-I'm lost without <a href="http://www.alfredapp.com/">Alfred.</a> Hitting alt+space and typing what I want is like breathing air. Alfred is a simple app launcher on the surface but it has <strong>depth.</strong> I commonly use it as a calculator, the bonus is that the result of your query is automatically copied to the clipboard. I use this all the time when converting fixed visual designs into responsive web designs.
+I'm lost without [Alfred.](http://www.alfredapp.com/) Hitting alt+space and typing what I want is like breathing air. Alfred is a simple app launcher on the surface but it has <strong>depth.</strong> I commonly use it as a calculator, the bonus is that the result of your query is automatically copied to the clipboard. I use this all the time when converting fixed visual designs into responsive web designs.
 
 Alfred is completely customisable, you can write or <a href="http://support.alfredapp.com/extensions">download</a> a ton of varied extensions although to be honest I haven't found many that are intuitive for me to type. Suggestions are welcome. You can also hook up your own custom keywords that output to a web search. Here's a sweet <a href="https://twitter.com/jongold/status/33844503236317184">colour swatch tip from Jon Gold</a> that really kickstarted my interest in customising Alfred further.
 
