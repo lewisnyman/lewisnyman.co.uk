@@ -51,7 +51,7 @@ The main reason for moving house to Jekyll was to ease development and gain a ti
 * **Old:** — Three requests, 43.6kb
 * **New:** — Two requests, 5.432kb
 
-I'm not saying you couldn't get better results than mine with Drupal but it is a lot harder to do so. I'm pretty happy with having all the control in the front-end. There are still more improvements to make and I'm looking forward to rolling out the next facets of the site design in 2014.
+I'm not saying you couldn't get better results than this with Drupal but it is a lot harder to do so. I'm pretty happy with having all the control in the front-end. There are still more improvements to make and I'm looking forward to rolling out the next facets of the site design in 2014.
 
 
 
