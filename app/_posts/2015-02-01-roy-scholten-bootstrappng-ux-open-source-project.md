@@ -9,7 +9,7 @@ At FOSDEM, [Roy](https://twitter.com/royscholten) shared his experiences on the 
 ## Why bother with UX?
 
 * It must be usable, if a user can't install it they can't tell if it's useful to them.
-* Once they know, there are probably other products available, so you need to make your product delightful or deseriable.
+* Once they know, there are probably other products available, so you need to make your product delightful or desirable.
 
 ## Drupal retrospective
 ###Drupal 6
@@ -22,7 +22,7 @@ At FOSDEM, [Roy](https://twitter.com/royscholten) shared his experiences on the 
 ###Drupal 7
 * Dries blogged, critical UX issues, Drupal 7 is not getting released without it. Put UX in the spotlight.
 * The community UX team was formed.
-* The community struggeld to make an impact, improvements were iterative.
+* The community struggled to make an impact, improvements were iterative.
 * Two professional designers outside the community were hired by Acquia, to develop a grander vision for Drupal 7.
 * They did design research, usability testing, developed a grander vision for Drupal 7. 80,000 euros for half a year were spent.
 * Drupal 7 was lab tested, the critical usability issues were fixed.
@@ -55,7 +55,7 @@ At FOSDEM, [Roy](https://twitter.com/royscholten) shared his experiences on the 
 
 #### Tools and processes
 * Create a design tag to make the design issues easy to find
-* Post screenshots in issues, so it's easy for designers to review UI changes
+* Post screen shots in issues, so it's easy for designers to review UI changes
 
 #### Help Developers get better at design
 * Teach developers about learnability, efficiency and performances, memorability, safety, satisfaction.
