@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design & the Pursuit of Happiness
-tags. design
+tags: design
 created: 1282814520
 ---
     <p class="intro">I am one of your users. I'm on your website right now. </p>

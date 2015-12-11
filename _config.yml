@@ -18,7 +18,7 @@ author:
 
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
-exclude: ['img', 'css', 'js', 'fonts',
+exclude: ['vendor', 'img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg']
 
 # Force inclusion of directories and/or files in the conversion.
@@ -50,3 +50,4 @@ highlighter: null
 
 gems:
   - jekyll-time-to-read
+  # - jekyll-crosspost-to-medium
