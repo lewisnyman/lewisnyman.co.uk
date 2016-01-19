@@ -18,6 +18,11 @@ $base-font-size: 18px;
    @return $target / $context + 0em;
 }
 
+@function pxtorem($target) {
+   @if $target == 0 { @return 0 }
+   @return $target / $base-font-size + 0rem;
+}
+
 
 // Official animation shorthand property.
 @mixin animation ($animations...) {
