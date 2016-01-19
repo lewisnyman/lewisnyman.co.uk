@@ -16,7 +16,9 @@ layout: default
     </span>
     <span class="post__meta__item">
       {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
-      {% webmention_count permalink %} webmentions
+      <a href="#webmentions">
+        {% webmention_count permalink %} webmentions
+      </a>
     </span>
     <span class="post__meta__item">Read in {{ content | reading_time_as_s }}</span>
     </p>
@@ -25,3 +27,10 @@ layout: default
     </div>
   </main>
 </article>
+
+<aside id="webmentions" class="overlay" role="contentinfo">
+  <div class="overlay__dialog">
+    <a href="#close" class="overlay__close">x</a>
+    {% webmentions permalink %}
+  </div>
+</aside>

@@ -1,0 +1,45 @@
+.overlay {
+  display: none;
+  background: rgba(255,255,255,0.85);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.overlay:target {
+  display: block;
+}
+.overlay__dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(0, -500%);
+  transition: transform 3s ease-out;
+  background: white;
+  border: 1px solid #efefef;
+  padding: 1em;
+  overflow: scroll;
+  padding: 30px 20px;
+}
+.overlay:target .overlay__dialog {
+  display: block;
+  transform: translate(0, 0);
+}
+
+.overlay__close {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  color: #aaaaaa;
+  width: 40px;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  background: none;
+}
