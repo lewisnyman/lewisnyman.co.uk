@@ -51,7 +51,7 @@ At Drupalcon Barcelona, I [presented on Drupal 8's user experience](https://even
 
 The biggest problem with improving our user experience is process. As Angie mentions in the presentation:
 
-> How normal people improve their products using the LEAN method is the cheapest way possible. Paper prototypes and things like that. Then they'll test out their solution on users. Then they'll ship really fast and see if it sticks.
+> How normal people improve their products using the [Lean methodology](http://theleanstartup.com/principles) is the cheapest way possible. Paper prototypes and things like that. Then they'll test out their solution on users. Then they'll ship really fast and see if it sticks.
 >
 > We don't do things like that. We start by building elaborate cathedrals and putting them into core, where they have pass the usability gate and the accessibility gate and all these things. 
 >
