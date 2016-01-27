@@ -3,8 +3,8 @@ language: node_js
 node_js:
   - "5.1.0"
   - "stable"
+before_install: npm install -g grunt-cli
 install:
-  - npm install grunt
   - npm install
   - bundle install
 script: grunt build
