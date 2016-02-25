@@ -27,7 +27,7 @@ Spurred on by tangible progress and the elevating feeling of contribution, I wor
 
 I was really tempted to mix design and code together in the issue queue. The separation between the design process and implementation was a big issue that we tried to tackle in the [design initiative.](https://groups.drupal.org/drupal-design/d8di) I didn't want to risk my design work just sitting there and never being implemented.
 
-Working on self-contained issues felt like progress, but I struggled to make a high level impact that I aimed for in the mobile prototyping. Issues are great for iteratively improvement, but I couldn't figure out how to make larger changes to the entire UI to meet mobile user needs and expectations.
+Working on self-contained issues felt like progress, but I struggled to make a high level impact that I aimed for in the mobile prototyping. Issues are great for iterative improvement, but I couldn't figure out how to make broad changes to the entire UI to meet mobile user needs and expectations.
 
 ## 2013: Maintaining the Seven theme
 
