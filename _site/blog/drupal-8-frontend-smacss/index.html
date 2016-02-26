@@ -1,9 +1,0 @@
-<p>I spent most of today working on <a href="https://www.drupal.org/project/issues/search?text=&amp;projects=Drupal%20core&amp;assigned=&amp;submitted=&amp;project_issue_followers=&amp;status%5BOpen%5D=Open&amp;&amp;&amp;issue_tags_op=%3D&amp;issue_tags=frontend">Drupal 8 frontend issues.</a> Most of the day was spent on <a href="https://www.drupal.org/node/2395853">Split system.module.css and system.theme.css files into SMACSS style components</a> which is a huge issue that will have a great affect on the frontend of Drupal 8.</p>
-
-<p>The files system.module.css (449 lines) and system.theme.css (604 lines) in Drupal contain most of the shared styling across all the functionality in Drupal. Menus, messages, buttons, tabs, etc, etc.</p>
-
-<p>By splitting them all up into their individual files, themers will have a lot more control over what does or doesn&#39;t get loaded, and when it gets loaded. Win!</p>
-
-<p>The main reason I want to do it is maintainability, it&#39;s really difficult to pick through these massive files to figure our what is going on or where some styling lives. It also makes it a lot easier to tidy up a file if it&#39;s only 20 lines instead of a 600 line monster.</p>
-
-<p>Beyond Drupal 8, this opens up even more opportunities. We can start thinking about markup templates, CSS, and JavaScript as bundled components. It will be exciting to see where this leads.</p>
