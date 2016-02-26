@@ -1,8 +1,9 @@
 source "http://rubygems.org"
 
-gem 'jekyll', '2.5.3'
+gem 'jekyll'
 gem 'redcarpet'
-gem 'sass'
+gem 'classifier-reborn'
+gem 'fast-stemmer'
 gem 'compass'
 gem "breakpoint"
 gem "animation"

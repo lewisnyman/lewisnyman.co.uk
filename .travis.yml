@@ -6,8 +6,7 @@ node_js:
   - "0.12"
   - "stable"
   - "iojs"
-before_install: npm install -g grunt-cli
 install:
   - npm install
   - bundle install
-script: grunt build
+script: gulp build
