@@ -56,12 +56,7 @@ module.exports = function (grunt) {
   grunt.registerTask('check', [
     'clean:server',
     'jekyll:check',
-    'compass:server',
-    'jshint:all',
-    'csscss:check',
-    'csslint:check',
-    // 'deadlink',
-    'pagespeed'
+    'compass:server'
   ]);
 
   grunt.registerTask('build', [
