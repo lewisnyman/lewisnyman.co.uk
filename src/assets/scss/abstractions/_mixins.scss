@@ -13,6 +13,14 @@ $base-font-size: 18px;
   @if $spec   {         #{$property}: $value; }
 }
 
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 @function pxtoem($target, $context: $base-font-size) {
    @if $target == 0 { @return 0 }
    @return $target / $context + 0em;

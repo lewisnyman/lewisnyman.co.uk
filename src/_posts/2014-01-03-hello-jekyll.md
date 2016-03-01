@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Hello Jekyll
-created: 1388763948
 ---
 
 <p class="intro">Late last year I ported my personal site from Drupal to Jekyll. When I've mentioned this in passing to people I get odd looks.</p>

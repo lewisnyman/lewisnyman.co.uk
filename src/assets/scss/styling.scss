@@ -1,12 +1,14 @@
-// External Libraries
-@import "compass";
-@import "breakpoint";
-
-@import "abstractions/*";
-@import "variables/*";
-@import "base/**/*";
-@import "layouts/**/*";
-@import "components/*";
+@import "abstractions/mixins";
+@import "variables/breakpoints";
+@import "variables/variables";
+@import "base/base";
+@import "base/print";
+@import "layouts/layout";
+@import "components/animations";
+@import "components/navigation";
+@import "components/overlay";
+@import "components/posts";
+@import "components/webmentions";
 
 .deemphasis {
   color: $light-grey;

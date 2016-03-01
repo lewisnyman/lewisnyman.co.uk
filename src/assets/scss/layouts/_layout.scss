@@ -2,5 +2,5 @@
   padding: 0 10px;
   margin: 0 auto;
   max-width: 900px;
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 }

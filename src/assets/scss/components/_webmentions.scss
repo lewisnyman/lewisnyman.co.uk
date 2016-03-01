@@ -2,7 +2,7 @@
   display: block;
   @include clearfix();
   border-bottom: 1px solid #CCC;
-  @include breakpoint($is-color) {
+  @media($is-color) {
     border-bottom-color:$super-subtle-text;
   }
   margin-bottom: pxtorem($base-line-height);
@@ -11,7 +11,7 @@
   }
 }
 .webmention__author {
-  @include breakpoint($breakpoint-medium-width) {
+  @media($breakpoint-medium-width) {
     float: left;
     max-width: 80px;
     margin-right: 20px;

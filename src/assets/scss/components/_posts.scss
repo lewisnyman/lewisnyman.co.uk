@@ -1,6 +1,6 @@
 .posts__post {
   border-bottom: 1px solid #CCC;
-  @include breakpoint($is-color) {
+  @media($is-color) {
     border-bottom-color:$super-subtle-text;
   }
 }
@@ -15,7 +15,7 @@
 .post__meta--full {
   margin: 0 0 pxtorem($base-line-height);
   border-bottom: 1px solid #CCC;
-  @include breakpoint($is-color) {
+  @media($is-color) {
     border-bottom-color:$super-subtle-text;
   }
   padding-bottom: 7px;
@@ -24,7 +24,7 @@
   float: left;
   padding: 0 0.5em ;
   border-right: 1px solid #CCC;
-  @include breakpoint($is-color) {
+  @media($is-color) {
     border-right-color:$super-subtle-text;
   }
 }
