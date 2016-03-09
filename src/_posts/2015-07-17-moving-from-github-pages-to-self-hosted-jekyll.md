@@ -4,7 +4,7 @@ title: Moving from Github pages to self hosted Jekyll
 tags: indieweb
 ---
 
-Last year I [migrated this site to Jekyll.]({% post_url 2014-01-03-hello-jekyll %}) One of the reasons was I really didn't want to worry about my own server, and the option was there to use Github pages for free.
+Last year I [migrated this site to Jekyll.](/blog/2014-01-03-hello-jekyll) One of the reasons was I really didn't want to worry about my own server, and the option was there to use Github pages for free.
 
 I have a custom build process for my site, using Grunt. This meant I couldn't take full advantage of the automated build process of Github pages. I built the site on my local machine and used [grunt-build-control](https://github.com/robwierzbowski/grunt-build-control) to deploy this to a [separate github repo.](https://github.com/lewisnyman/lewisnyman.github.io) Not pretty but it works.
 

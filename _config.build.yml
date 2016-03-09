@@ -8,6 +8,8 @@ show_drafts: false
 # lsi: true
 # Removes the upper limit for posts generated
 limit_posts: 0
+# Disables incremental builds
+incremental: false
 
 source: 'src'
 destination: 'serve'

@@ -44,6 +44,8 @@ show_drafts: true
 lsi: false
 # Only make the last 10 posts so generating isn't slow
 limit_posts: 10
+# Incremental builds
+incremental: true
 
 # Markdown library
 markdown: redcarpet
@@ -55,5 +57,5 @@ markdown: redcarpet
 highlighter: null
 
 gems:
-  # - jekyll-time-to-read
+  - jekyll-time-to-read
   # - jekyll-crosspost-to-medium

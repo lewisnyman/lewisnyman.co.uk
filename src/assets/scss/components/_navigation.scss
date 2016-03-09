@@ -15,7 +15,7 @@ nav li:first-child {
 }
 .site-nav a:hover {
   border-bottom-color: #000;
-  @media($is-color) {
+  @media(#{$is-color}) {
     border-bottom-color: $white;
   }
 }
@@ -26,7 +26,7 @@ nav li:first-child {
   color: #fff;
   font-weight: 300;
   padding: 0 0.5em;
-  @media($is-color) {
+  @media(#{$is-color}) {
     background: $becca;
     color: $white;
   }

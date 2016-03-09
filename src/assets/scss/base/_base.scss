@@ -24,10 +24,10 @@ body {
   padding: 0;
   margin: 0;
   border-top: 2px solid $black;
-  @media($breakpoint-medium-width) {
+  @media (min-width: $breakpoint-medium-width) {
     font-size: large;
   }
-  @media($is-color) {
+  @media(#{$is-color}) {
     background-color: $white;
     color: $becca;
     border-color: $becca;
@@ -43,7 +43,7 @@ h1 {
   text-align: left;
   margin-top: pxtoem(29px, 123px);
   margin-bottom: 0;
-  @media($breakpoint-medium-height) {
+  @media(min-height: $breakpoint-medium-height) {
       margin-bottom: pxtoem(87px, 123px);
   }
 }
@@ -129,7 +129,7 @@ blockquote {
 blockquote:before,
 blockquote:after {
   color: #e7e7e7;
-  @media($is-color) {
+  @media(#{$is-color}) {
     color:$super-subtle-text;
   }
   content: "“";
