@@ -53,28 +53,28 @@ gulp.task("styles", function () {
 // Optimizes the images that exists
 gulp.task("images", function () {
   return gulp.src("src/assets/images/**")
-    .pipe($.changed("site/assets/images"))
+    .pipe($.changed("serve/assets/images"))
     .pipe($.imagemin({
       // Lossless conversion to progressive JPGs
       progressive: true,
       // Interlace GIFs for progressive rendering
       interlaced: true
     }))
-    .pipe(gulp.dest("site/assets/images"))
+    .pipe(gulp.dest("serve/assets/images"))
     .pipe($.size({title: "images"}));
 });
 
 // Copy over fonts to the "site" directory
 gulp.task("fonts", function () {
   return gulp.src("src/assets/fonts/**")
-    .pipe(gulp.dest("site/assets/fonts"))
+    .pipe(gulp.dest("serve/assets/fonts"))
     .pipe($.size({ title: "fonts" }));
 });
 
 // Copy xml and txt files to the "site" directory
 gulp.task("copy", function () {
   return gulp.src(["serve/*.txt", "serve/*.xml"])
-    .pipe(gulp.dest("site"))
+    .pipe(gulp.dest("serve"))
     .pipe($.size({ title: "xml & txt" }))
 });
 
@@ -106,28 +106,8 @@ gulp.task("html", ["styles"], function () {
       removeRedundantAttributes: true
     })))
     // Send the output to the correct folder
-    .pipe(gulp.dest("site"))
+    .pipe(gulp.dest("serve"))
     .pipe($.size({title: "optimizations"}));
-});
-
-
-// Task to upload your site to your personal GH Pages repo
-gulp.task("deploy", function () {
-  // Deploys your optimized site, you can change the settings in the html task if you want to
-  return gulp.src("./site/**/*")
-    .pipe($.ghPages({
-      // Currently only personal GitHub Pages are supported so it will upload to the master
-      // branch and automatically overwrite anything that is in the directory
-      branch: "master"
-      }));
-});
-
-// Run JS Lint against your JS
-gulp.task("jslint", function () {
-  gulp.src("./serve/assets/javascript/*.js")
-    // Checks your JS code quality against your .jshintrc file
-    .pipe($.jshint(".jshintrc"))
-    .pipe($.jshint.reporter());
 });
 
 // Runs "jekyll doctor" on your site to check for errors with your configuration
@@ -161,7 +141,7 @@ gulp.task("serve:prod", function () {
     notify: false,
     // tunnel: true,
     server: {
-      baseDir: "site"
+      baseDir: "serve"
     }
   });
 });
@@ -170,15 +150,9 @@ gulp.task("serve:prod", function () {
 gulp.task("default", ["serve:dev", "watch"]);
 
 // Checks your CSS, JS and Jekyll for errors
-gulp.task("check", ["jslint", "doctor"], function () {
+gulp.task("check", ["doctor"], function () {
   // Better hope nothing is wrong.
 });
 
 // Builds the site but doesn"t serve it to you
 gulp.task("build", ["jekyll:prod", "styles"], function () {});
-
-// Builds your site with the "build" command and then runs all the optimizations on
-// it and outputs it to "./site"
-gulp.task("publish", ["build"], function () {
-  gulp.start("html", "copy", "images", "fonts");
-});
