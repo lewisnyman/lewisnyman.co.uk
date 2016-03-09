@@ -1,0 +1,152 @@
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.element-invisible { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.element-invisible.focusable:active, .element-invisible.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+body {
+  font-size: normal;
+  font-style: normal;
+  font-weight: 300;
+  line-height: pxtorem($base-line-height);
+  font-family: "brandon-grotesque", Helvectica, sans-serif;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid $black;
+  @media (min-width: $breakpoint-medium-width) {
+    font-size: large;
+  }
+  @media(#{$is-color}) {
+    background-color: $white;
+    color: $becca;
+    border-color: $becca;
+  }
+
+}
+
+h1 {
+  font-size: pxtorem(84px);
+  line-height: pxtoem(95px, 84px);
+  font-weight: 100;
+  letter-spacing: pxtoem(-3px, 123px);
+  text-align: left;
+  margin-top: pxtoem(29px, 123px);
+  margin-bottom: 0;
+  @media(min-height: $breakpoint-medium-height) {
+      margin-bottom: pxtoem(87px, 123px);
+  }
+}
+
+h2 {
+  font-size: pxtorem(42px);
+  line-height: pxtoem(58px, 42px);
+  letter-spacing: pxtoem(1px, 42px);
+  margin-bottom: 0;
+  margin-top: pxtoem($base-line-height, 42px);
+  font-weight: 100;
+  font-style: normal;
+}
+h1 + h2 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: pxtorem($base-line-height);
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: pxtorem($base-line-height);
+}
+h2 + h3 {
+  margin-top: 0;
+}
+
+h4 {
+  font-weight: bold;
+  font-style: italic;
+  line-height: pxtorem($base-line-height);
+  margin-top: pxtorem($base-line-height);
+  margin-bottom: 0;
+}
+
+p,
+pre {
+  margin-bottom: pxtorem($base-line-height);
+  margin-top: 0;
+}
+
+.intro {
+  font-size: pxtorem(47px);
+  line-height: pxtoem(58px,47px);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background-image: linear-gradient( to right,rgba(102,51,153,1) 1px, rgba(0,0,0,0) 1px);
+  background-repeat: repeat-x;
+  background-size: 2px 1px;
+  background-position: 0 85%;
+  text-shadow: 1px 0 #fbfafc,-1px 0 #fbfafc;
+}
+
+a:hover,
+a:focus,
+h2 a:link,
+h2 a:visited {
+  border: 0;
+}
+
+h2 a:link,
+h2 a:visited {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 pxtorem($base-line-height);
+}
+ol {
+  padding: 0;
+  margin: 0 0 pxtorem($base-line-height);
+}
+
+blockquote {
+  position: relative;
+}
+blockquote:before,
+blockquote:after {
+  color: #e7e7e7;
+  @media(#{$is-color}) {
+    color:$super-subtle-text;
+  }
+  content: "“";
+  font-size: 100px;
+  position: absolute;
+  left: -40px;
+  top: 0.2em;
+}
+blockquote:after {
+  content: "”";
+  left: auto;
+  right: -20px;
+  top: auto;
+  bottom: -32px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -3,11 +3,12 @@
 # Grunt handles some Jekyll configuration. If you set something here and
 # it doesn't work, check if it is set in the Gruntfile.
 
-# Use _config.build.yml to override these settings on `grunt build`.
+# Use _config.build.yml to override these settings on `gulp build`.
 
 name: Lewis Nyman
 description: Lewis Nyman's personal thinking spot.
 url: http://lewisnyman.co.uk
+url: localhost:4000
 
 author:
   name: Lewis Nyman
@@ -15,6 +16,10 @@ author:
   github: lewisnyman
   twitter: lewisnyman
   facebook: https://facebook.com/lewisnyman
+
+# Used so Jekyll outputs the site correctly so Gulp can do what it wants
+source: src
+destination: serve
 
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
@@ -31,13 +36,16 @@ include: ['.htaccess']
 # none  /:categories/:title.html
 permalink: /blog/:title/
 
-# Publish posts with future date.
-# _config.build.yml sets this to false on `grunt build`
+# _config.build.yml overwrites these options when you run `gulp build`
+# Enables future posts (posts with dates in the future) and drafts
 future: true
-
-# Compile posts in the _drafts directory.
-# _config.build.yml sets this to false on `grunt build`
 show_drafts: true
+# Disables the more accurate related posts for faster generating of the site
+lsi: false
+# Only make the last 10 posts so generating isn't slow
+limit_posts: 10
+# Incremental builds
+incremental: true
 
 # Markdown library
 markdown: redcarpet

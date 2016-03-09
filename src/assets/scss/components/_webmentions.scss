@@ -1,0 +1,35 @@
+.webmentions__item {
+  display: block;
+  @include clearfix();
+  border-bottom: 1px solid #CCC;
+  @media(#{$is-color}) {
+    border-bottom-color:$super-subtle-text;
+  }
+  margin-bottom: pxtorem($base-line-height);
+  p {
+    margin: none;
+  }
+}
+.webmention__author {
+  @media(min-width: $breakpoint-medium-width) {
+    float: left;
+    max-width: 80px;
+    margin-right: 20px;
+  }
+  max-width: 150px;
+  a {
+    background: none;
+    line-height: pxtoem(16px);
+  }
+  .p-name {
+    font-weight: 400;
+    font-size: pxtorem(16px);
+    display: inline-block;
+  }
+}
+.webmention__meta {
+  margin: 14px 0 7px;
+  color: $subtle-text;
+  font-size:pxtorem(16px);
+  @include clearfix();
+}

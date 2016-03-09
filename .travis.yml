@@ -1,13 +1,8 @@
-sudo: false
 language: node_js
 node_js:
-  - "5.1"
-  - "4.3"
-  - "0.12"
-  - "stable"
-  - "iojs"
-before_install: npm install -g grunt-cli
+- 0.12
+before_install: rvm install 2.0.0
 install:
-  - npm install
-  - bundle install
-script: grunt build
+- bundle install
+- npm install
+script: gulp build
