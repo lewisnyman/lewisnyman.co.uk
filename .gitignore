@@ -35,3 +35,4 @@ serve
 node_modules
 .tmp
 src/assets/stylesheets/
+Gemfile.lock
