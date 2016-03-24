@@ -16,6 +16,7 @@ A lot of modern work environments are very ego-centric. Everyone is carefully pr
 If you're preoccupied with failure, you create mental barriers to learning and development.
 
 > Show me a man who has never made a mistake, and I will show you one who has never tried anything. 
-> Albert Einstein
+>
+> — Albert Einstein
 
 So that's why I'm learning to skate. I'm also learning to be better at trying new things, failing, and learning. I want to lead by example and create a culture where others feel free to fail as well.
