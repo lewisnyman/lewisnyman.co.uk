@@ -3,13 +3,7 @@
 @import "variables/variables";
 @import "base/base";
 @import "base/print";
-@import "layouts/layout";
-@import "components/animations";
-@import "components/navigation";
+@import "components/site-nav";
 @import "components/overlay";
 @import "components/posts";
 @import "components/webmentions";
-
-.deemphasis {
-  color: $light-grey;
-}
