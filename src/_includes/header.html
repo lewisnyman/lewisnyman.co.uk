@@ -26,7 +26,6 @@
     <!-- Add web sign-in -->
     <link rel="me" href="mailto:hello@lewisnyman.co.uk" />
     <link rel="me" href="https://twitter.com/lewisnyman" />
-    <link rel="me" href="http://drupal.org/user/751964" />
     <link rel="me" href="sms:+447753103690" />
 
     <!-- Webmention.io -->
@@ -36,7 +35,12 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Lewis Nyman" href="/rss.xml" />
 
-    <title>{{ site.name }} - {{ page.title }}</title>
+    {% if page.title %}
+      <title>{{ site.name }} - {{ page.title }}</title>
+    {% else %}
+    <!-- We don't have a title for the home page -->
+      <title>{{ site.name }}</title>
+    {% endif %}
 
     <!-- build:js(app) /js/top.js -->
     <script src="/assets/js/vendor/modernizr.js"></script>
