@@ -24,6 +24,7 @@
   border: 1px solid #efefef;
   padding: 1em;
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   padding: 30px 20px;
 }
 .overlay:target .overlay__dialog {
