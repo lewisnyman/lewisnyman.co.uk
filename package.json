@@ -17,7 +17,7 @@
     "gulp-changed": "^1.0.0",
     "gulp-filter": "^2.0.0",
     "gulp-gzip": "1.4.0",
-    "gulp-htmlmin": "^0.2.0",
+    "gulp-htmlmin": "^2.0.0",
     "gulp-if": "^1.2.4",
     "gulp-imagemin": "^3.0.2",
     "gulp-load-plugins": "^1.2.1",
