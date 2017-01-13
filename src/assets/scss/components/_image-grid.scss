@@ -1,0 +1,16 @@
+.image-grid {
+  display: flex;
+}
+.image-grid__item {
+  display: block;
+  flex: auto;
+  margin: .5vw;
+  overflow: hidden;
+  background: none;
+  .image-grid--2 & {
+    width: 50%;
+  }
+  .image-grid--3 & {
+    width: 33%;
+  }
+}
