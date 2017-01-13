@@ -31,6 +31,13 @@ $base-font-size: 18px;
    @return $target / $base-font-size + 0rem;
 }
 
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
 
 // Official animation shorthand property.
 @mixin animation ($animations...) {
