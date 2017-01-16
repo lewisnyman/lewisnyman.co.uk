@@ -1,6 +1,7 @@
 // Generated on 2016-02-26 using generator-jekyllized 0.7.4
 "use strict";
 
+require('es6-promise').polyfill();
 var gulp = require("gulp");
 // Loads the plugins without having to list all of them, but you need
 // to call them as $.pluginname
