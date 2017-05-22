@@ -3,4 +3,6 @@
 lewisnyman.co.uk
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lewisnyman/lewisnyman.co.uk-source.svg)](https://greenkeeper.io/)
+
 This is the source code for http://lewisnyman.co.uk.
