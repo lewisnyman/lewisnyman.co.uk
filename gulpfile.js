@@ -80,22 +80,14 @@ gulp.task("copy", function () {
 });
 
 // Optimizes all the CSS, HTML and concats the JS etc
-gulp.task("html", ["styles"], function () {
-  var assets = $.useref.assets({searchPath: "serve"});
+gulp.task("html", ["jekyll:prod", "styles"], function () {
 
   return gulp.src("serve/**/*.html")
-    .pipe(assets)
     // Concatenate JavaScript files and preserve important comments
     .pipe($.if("*.js", $.uglify({preserveComments: "some"})))
     // Minify CSS
     .pipe($.if("*.css", $.minifyCss()))
-    // Start cache busting the files
-    .pipe($.revAll({ ignore: [".eot", ".svg", ".ttf", ".woff"] }))
-    .pipe(assets.restore())
-    // Conctenate your files based on what you specified in _layout/header.html
     .pipe($.useref())
-    // Replace the asset names with their cache busted names
-    .pipe($.revReplace())
     // Minify HTML
     .pipe($.if("*.html", $.htmlmin({
       removeComments: true,
@@ -106,6 +98,8 @@ gulp.task("html", ["styles"], function () {
       removeAttributeQuotes: true,
       removeRedundantAttributes: true
     })))
+    // Start cache busting the files
+    .pipe($.revAll.revision({ dontRenameFile: [".html",".eot", ".svg", ".ttf", ".woff"] }))
     // Send the output to the correct folder
     .pipe(gulp.dest("serve"))
     .pipe($.size({title: "optimizations"}));
@@ -156,4 +150,4 @@ gulp.task("check", ["doctor"], function () {
 });
 
 // Builds the site but doesn"t serve it to you
-gulp.task("build", ["jekyll:prod", "styles"], function () {});
+gulp.task("build", ["html", "images", "jekyll:prod", "styles"], function () {});
