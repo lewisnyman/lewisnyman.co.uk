@@ -4,7 +4,7 @@ title: Stop clock watching. Measure effectiveness not hours.
 published: true
 ---
 
-<p class="intro">A productive day is still measured by how many hours you spend at your desk. We believe the best way to measure and reward productivity is to focus on output, and we give people the freedom to manage their work day themselves. Here’s why, and six ways to change your culture to do the same.</p>
+<p class="intro">A productive day is still measured by how many hours you spend at your desk. We believe the best way to measure and reward productivity is to focus on output, and we give people the freedom to manage their work day themselves. Here’s why, and seven ways to change your culture to do the same.</p>
 
 When Convivio launched one year ago, we wanted to create a workplace that supports a good lifestyle. It’s part of our collective ambition that we all have a happy, fulfilling life — and do high quality work.
 
@@ -56,7 +56,7 @@ At Convivio, we don’t log hours. We don’t use time as a measurement for succ
 
 Instead of sitting at a desk putting in the hours over fear of some kind of punishment, people feel more in control, and more committed to the shared goals of the organisation.
 
-## Six ways to move towards Free-range working
+## Seven ways to move towards Free-range working
 
 Here are changes you can make to change your commpany culture, away from one that values number of hours worked over work done.
 
