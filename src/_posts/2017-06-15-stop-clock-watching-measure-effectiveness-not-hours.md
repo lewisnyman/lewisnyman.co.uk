@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Stop clock watching. Measure effectiveness not hours.
+published: true
 ---
 
-When Convivio launched one year ago, we wanted to create a workplace that supports a good lifestyle. It's part of our collective ambition that we all have a happy, fulfilling life; and do high quality work.
+<p class="intro">A productive day is still measured by how many hours you spend at your desk. We believe the best way to measure and reward productivity is to focus on output, and we give people the freedom to manage their work day themselves. Here’s why, and six ways to change your culture to do the same.</p>
+
+When Convivio launched one year ago, we wanted to create a workplace that supports a good lifestyle. It’s part of our collective ambition that we all have a happy, fulfilling life — and do high quality work.
 
 One cornerstone of that is distributed working, we don't rent permenant office space, everyone is free to live where is best for them. We also take that a step further, that we call [free-range working](https://blog.weareconvivio.com/free-range-working-an-introduction-27eb178db97c) which allows freedom of location and time.
 
@@ -11,15 +14,15 @@ One cornerstone of that is distributed working, we don't rent permenant office s
 
 The idea that every working hour of the day is equal value is an idea left over from the industrial age. Let's pretend you work in a hat factory, where your job is to repeat the same menial tasks over and over to construct hats. Every day. The more hours you work directly correlates to the number of hats you can produce, which correlates directly to profit.
 
-Contrast this to the roles and responsibilities we have now, consulting, strategy, design, and development. You're not paid to repeat the same tasks over and over. You're paid because you're an expert, you have experience, and you're able apply proven tools and processes to new situations and problems. Every day.
+Contrast this to the roles and responsibilities we have now, consulting, strategy, design, and development. You’re not paid to repeat the same tasks over and over. You’re paid because you’re an expert, you have experience, and you’re able to apply proven tools and processes to new situations and problems. Every day.![stop-clock-watching]({{site.baseurl}}/src/assets/stop-clock-watching)
 
 So much value depends on making the right decisions and doing good work. This rarely achieved by putting in more hours.
 
 ## Putting in the hours
 
-If you look in your contract you're likely to find a required number of hours in a working day. It's likely that you have the start and end times dictated as well. Company culture can reinforce this, punishing people for starting late or leaving early.
+If you look in your contract you’re likely to find a required number of hours in a working day. It’s likely that you have the start and end times dictated as well. Company culture can reinforce this, discouraging people from starting late or leaving early.
 
-As long as you're at your desk for eight hours a day, you won't get in trouble. No wonder people waste time on social media or watching youtube at work. 
+As long as you’re at your desk for eight hours a day, you won’t get in trouble. No wonder people waste time on social media or watching YouTube at work.
 
 ## The toxic culture of martyrdom
 
@@ -31,25 +34,25 @@ The classic sign of a company culture that promotes quantity of hours over quali
 
 [Fire the workaholics — Signal v. Noise](https://signalvnoise.com/posts/902-fire-the-workaholics)
 
-## Naturing your flow state
+## Nurturing your flow state
 
-In “Drive: The Surprising Truth About What Motivates Us” Daniel H. Pink describes the flow state:
+In [Drive: The Surprising Truth About What Motivates Us](https://books.google.co.uk/books/about/Drive.html?id=A-agLi2ldB4C&redir_esc=y) Daniel H. Pink describes the flow state:
 
 > Creative people with a drive for perfection often work in a flow state, which means they pursue a task with the highest degree of concentration and passion, forget the world around them and lose themselves entirely in their work. Think of painters who happily work at their pictures for hours on end.
 
-Do you remember a period of time of intense focus where you've managed to complete a task in half the time estimated? Your instinct, might encourage you to reach for the next task on the pile, to try and keep this state of productivity rolling. That's exactly how to kill this state.
+Do you remember a period of time of intense focus where you’ve managed to complete a task in half the time estimated? Your instinct might encourage you to reach for the next task on the pile, to try and keep this state of productivity rolling. That’s exactly how to kill this state.
 
-Daniel H. Pink acknowledges that the flow state can not last for extended periods. It needs nuturing. That means good sleep, exercise, and supporting good mental health. If you need a lie in to feel 100%, that benefits everyone. If you need a walk to clear your head and think over a problem, that benefits everyone. If you want to take an extra lunch hour so you can exercise, that benefits everyone.
+Daniel H. Pink acknowledges that the flow state can not last for extended periods. It needs nurturing. That means good sleep, exercise, and supporting good mental health. If you need a lie in to feel 100%, that benefits everyone. If you need a walk to clear your head and think over a problem, that benefits everyone. If you want to take a longer lunch hour so you can exercise, that benefits everyone.
 
 > An unhealthy culture of workaholism prevents us from getting enough sleep. In fact, according to a 2010 US government report, 30 percent of all employees get less than six hours os sleep per night, while nearly 70 percent describe their sleep as “insufficient”.
 
 [The Sleep Revolution — Arianna Huffington](http://ariannahuffington.com/books/the-sleep-revolution-tr/the-sleep-revolution-hc)
 
-What's better; eight hours where you're chained to your desk waiting for day to end, or four hours of focused time where you achieve the same output?
+What’s better, eight hours where you’re chained to your desk waiting for the day to end, or four hours of focused time where you achieve the same output?
 
-## Self management unlocks intrinsic motivation
+## Self-management unlocks intrinsic motivation
 
-At Convivio, we don't log hours. We don't use time as a measurement for success, instead we measure output. When you give people responsibility over their working day, you give them responsibility over their productivity, career progression, and lifestyle. 
+At Convivio, we don’t log hours. We don’t use time as a measurement for success, instead we measure output. When you give people responsibility over their working day, you give them responsibility over their productivity, career progression, and lifestyle.
 
 Instead of sitting at a desk putting in the hours over fear of some kind of punishment, people feel more in control, and more committed to the shared goals of the organisation.
 
@@ -67,7 +70,7 @@ In the morning, try setting a realistic number of tasks you'd be happy completin
 
 ### Set a good example
 
-If you're a CEO or in a leadership position, you can't encourage people to self-care and then work late yourself. It's what you do that sets the tone, not what you say. Be honest if you're feeling run down, and show your team what to do to fix it. Go for a walk or sleep in.
+If you’re in a leadership position, such as CEO, project managers, team leads, or a senior developer, you can’t encourage people to self-care and then work late yourself. It’s what you do that sets the tone, not what you say. Be honest if you’re feeling run down or not 100%, and demonstrate to your team what to do to fix it. Go for a walk, do some exercise, or sleep in.
 
 ### Reward people for looking after themselves
 
@@ -83,11 +86,4 @@ Let people take time off when they feel they need it, not to fill some quota. If
 
 ### Support people working from home
 
-Change how you communicate so people aren't required to be in the office all day every day. Commutes can be a terrible drain on focus and time which means you usually don't get enough sleep. 
-
-
-
-
-
-
-
+Change how you communicate so people aren't required to be in the office all day every day. Commutes can be a terrible drain on focus and time which means you usually don't get enough sleep.
