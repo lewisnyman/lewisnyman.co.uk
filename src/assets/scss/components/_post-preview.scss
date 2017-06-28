@@ -1,0 +1,9 @@
+.post-preview {
+  margin-bottom: pxtorem($base-line-height);
+}
+.post-preview__title {
+  font-size: 1em;
+}
+.post-preview .post__meta {
+  margin-top: 0;
+}

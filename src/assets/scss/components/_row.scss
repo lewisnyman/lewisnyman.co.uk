@@ -1,0 +1,9 @@
+@media(min-width: $breakpoint-wide-width) {
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .row__col {
+    flex-basis: 32%;
+  }
+}
