@@ -1,3 +1,9 @@
+---
+layout: post
+title: How we schedule flexi-working.
+published: false
+---
+
 Working in a flexi-time culture has it's benefits. It gives you the freedom to look after yourself, maintain the quality of your work, and find a good work/life balance. It also requires trust, between your team and with any external clients. Without trust, the whole system quickly falls apart. Here are some of the techniques we use to build trust that allows us to work in a flexible manner.
 
 ## Working out loud
