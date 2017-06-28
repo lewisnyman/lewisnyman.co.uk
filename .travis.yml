@@ -6,3 +6,7 @@ install:
 - bundle install
 - npm install
 script: gulp build
+addons:
+  apt:
+    packages:
+    - libgsl0-dev
