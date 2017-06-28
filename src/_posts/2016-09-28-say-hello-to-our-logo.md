@@ -38,4 +38,4 @@ I’m proud that we took our time on the logo instead of rushing something out f
 
 I’m really excited to continue to build the visual identity from here, stay tuned to see our identity evolve.
 
-![convivio-logo.png]({{site.baseurl}}/srcassets/images/convivio-logo.png)
+![convivio-logo.png]({{site.baseurl}}/src/assets/images/convivio-logo.png)
