@@ -58,4 +58,3 @@ highlighter: null
 
 gems:
   - jekyll-time-to-read
-  # - jekyll-crosspost-to-medium

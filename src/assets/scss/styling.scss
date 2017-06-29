@@ -8,8 +8,11 @@
 @import "components/navigation";
 @import "components/overlay";
 @import "components/posts";
+@import "components/post-preview";
 @import "components/webmentions";
+@import "components/closing-info";
 @import "components/image-grid";
+@import "components/row";
 
 .deemphasis {
   color: $light-grey;
