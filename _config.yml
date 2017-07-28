@@ -26,6 +26,8 @@ destination: serve
 exclude: ['vendor', 'img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg']
 
+keep_files: ['assets/images']
+
 # Force inclusion of directories and/or files in the conversion.
 # .htaccess is a good example since dotfiles are excluded by default.
 include: ['.htaccess']
@@ -56,5 +58,5 @@ markdown: redcarpet
 # Highlight code blocks
 highlighter: null
 
-gems:
+plugins:
   - jekyll-time-to-read
