@@ -4,8 +4,8 @@ title: Moving out
 ---
 
 <div class="image-grid image-grid--2">
-![]({{site.baseurl}}/src/_posts/JPEG%20image-CD3385026C62-1.jpeg)
-![]({{site.baseurl}}/src/_posts/JPEG%20image-BB1CD8595116-1.jpeg)
+{% include image-grid__item.html src="{{site.baseurl}}/src/_posts/JPEG%20image-CD3385026C62-1.jpeg" alt="Our old flat" %}
+{% include image-grid__item.html src="{{site.baseurl}}/src/_posts/JPEG%20image-BB1CD8595116-1.jpeg" alt="Our storage unit" %}
 </div>
 
 It's official! Today we returned the keys to our flat and replaced them with keys to a padlock on a storage unit. We're technically "without fixed abode" for the foreseeable future.
