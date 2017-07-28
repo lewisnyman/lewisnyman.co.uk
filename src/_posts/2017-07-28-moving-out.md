@@ -1,4 +1,7 @@
-## Moving out 
+---
+layout: post
+title: Moving out
+---
 
 <div class="image-grid image-grid--2">
 ![]({{site.baseurl}}/src/_posts/JPEG%20image-CD3385026C62-1.jpeg)
@@ -15,4 +18,4 @@ Travelling is fun and great to broaden your perspective in life. We've already m
 
 Emma and I are in a rare and envious situation where we can both work from where ever we want, and it feels wrong not to try and do something people would dream to do if they could.
 
-Hoping to see you around on our travels. 
+Hoping to see you around on our travels.
