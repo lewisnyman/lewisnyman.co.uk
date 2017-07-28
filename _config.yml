@@ -22,7 +22,7 @@ source: src
 destination: serve
 
 # Exclude directories and/or files from the conversion.
-# Grunt moves image files and asset directories.
+# Gulp moves image files and asset directories.
 exclude: ['vendor', 'img', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg']
 

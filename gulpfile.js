@@ -25,7 +25,7 @@ gulp.task("clean:prod", del.bind(null, ["site"]));
 
 // Runs the build command for Jekyll to compile the site locally
 // This will build the site with the production settings
-gulp.task("jekyll:dev", $.shell.task("jekyll build"));
+gulp.task("jekyll:dev", $.shell.task("jekyll build --config _config.yml"));
 gulp.task("jekyll-rebuild", ["jekyll:dev"], function () {
   reload;
 });
@@ -53,7 +53,7 @@ gulp.task("styles", function () {
 
 // Optimizes the images that exists
 gulp.task("images", function () {
-  return gulp.src("src/assets/images/**")
+  return gulp.src("src/assets/images/**/*.{jpg,jpeg,png}")
     .pipe($.changed("serve/assets/images"))
     .pipe($.imagemin({
       // Lossless conversion to progressive JPGs
@@ -112,7 +112,7 @@ gulp.task("doctor", $.shell.task("jekyll doctor"));
 // BrowserSync will serve our site on a local server for us and other devices to use
 // It will also autoreload across all devices as well as keep the viewport synchronized
 // between them.
-gulp.task("serve:dev", ["styles", "jekyll:dev"], function () {
+gulp.task("serve:dev", ["styles", "images", "jekyll:dev"], function () {
   bs = browserSync({
     notify: true,
     // tunnel: "",
