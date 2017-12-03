@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Housesit one with Depp
+title: Our first Housesit
 tags: housesitting, collie
+published: true
 ---
 
 This is the story about our first housesit, how we stumbled into it, and how it kicked off our nomad adventure.

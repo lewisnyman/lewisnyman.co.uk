@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving out
+published: true
 ---
 
 <div class="image-grid image-grid--2">
