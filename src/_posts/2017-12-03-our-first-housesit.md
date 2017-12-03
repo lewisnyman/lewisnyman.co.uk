@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our first Housesit
+title: Our first housesit
 tags: housesitting, collie
 published: true
 ---
