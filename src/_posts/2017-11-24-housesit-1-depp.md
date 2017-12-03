@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Housesit #1 with Depp
+title: Housesit one with Depp
 tags: housesitting, collie
 ---
 
@@ -52,6 +52,11 @@ One short slightly-awkward Skype call later, we were confirmed to housesit in tw
 
 From the second we walked through the door, you could tell what kind of dog Depp was. A 10-year old Border Collie, he instantly melted onto the floor the second we said hi and started stroking him. Janet offered us tea, and as we sat down at the kitchen table he rest his chin on our laps and lent against us lovingly. He was a very soppy dog.
 
+<div class="image-grid image-grid--2">
+  {% include image-grid__item.html src="/assets/images/depp/depp1.JPG" alt="Depp being soppy" %}
+  {% include image-grid__item.html src="/assets/images/depp/depp2.JPG" alt="Depp sleeping in the kitchen" %}
+</div>
+
 Janet was an excellent, experienced host. She had cooked dinner for us and her daughter, an opera singer (more on that later). Janet told us all about the many other housesitter she had After dinner she and her husband showed us around the house, and told us what we might need to do in the unlikely event that something went wrong. Like where the water mains valve and the fuse box is.
 
 After that, Janet took us on a walk with Depp. This has become a regular and important part of the house sitting experience. It's good to learn what is normal behaviour for the dog, and what their quirks are, so you can tell if their acting out of character.
@@ -71,6 +76,8 @@ The path through the field lead to these magnificent bluebell carpeted woods. It
 Along the path in the bluebell woods, Depp had been attacked by another dog. Janet told us the story, another housesitter was walking him when he ran through a gate, and into the path of two other dogs. He must of startled them and they attacked him. I think it was quite bad and he needed stiches.
 
 Every day when we walked towards this same gate he'd quickly sniff the air and promptly turn round and head back the way we came. He wouldn't even stop and wait for me. I guess he could smell those dogs somewhere, and didn't want anything to do with them ever again.
+
+<img src="assets/images/depp/bluebells.JPG" alt="Bluebell woods" />
 
 ## Living in someone else's home is a bit weird
 
