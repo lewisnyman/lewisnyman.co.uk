@@ -28,8 +28,11 @@ Then I closed my laptop and forgot all about it. What happened next would change
 One week later. Emma was back. I recieved a unexpected email in my inbox. Someone had sent us a message on Trusted Housesitters.
 
 > Dear Lewis and Emma,
+>
 > Just wondered if you are interested in a housesit from 17th–21st April? Have you any references from other sources?
+>
 > Kind regards.
+>
 > Janet
 
 Oh god, that's four days away! At this point, I hadn't even told Emma I sent up the profile. I rushed through an explanation of what I did when she was away and why Janet messaged us. We were local to her, and it was a short notice housesit. For some reason she was willing to take a chance and reach out to someone with no review or references.
@@ -37,14 +40,19 @@ Oh god, that's four days away! At this point, I hadn't even told Emma I sent up 
 Emma and I talked it over. We were free next week and this is our chance to give house sitting a try, it's only a few days. If it all went wrong, we weren't far away from home. Let's do it.
 
 > Hello Janet
+>
 > Yes we're interested.
+>
 > Let's see what I can give you in terms of reference, I have ten reviews on Airbnb from 2012 onwards, all positive. Would you like me to send you screenshots of them? I can also ask the CEO of my company (Steve Parks) to write me a quick reference letter. Let me know.
+>
 > Lewis
 
 They were happy with a reference with Steve, who kindly whipped up some words on short notice—as he is known to do—and sent it over.
 
 > I would be grateful if you could help us out.
+>
 > It will not be the first time we have taken first-time housesitters (you have to start somewhere!) and it has always worked out fine.
+>
 > I will now read the reference Steve has sent us. Do you have Skype?
 
 One short slightly-awkward Skype call later, we were confirmed to housesit in two days.
@@ -78,7 +86,7 @@ Along the path in the bluebell woods, Depp had been attacked by another dog. Jan
 
 Every day when we walked towards this same gate he'd quickly sniff the air and promptly turn round and head back the way we came. He wouldn't even stop and wait for me. I guess he could smell those dogs somewhere, and didn't want anything to do with them ever again.
 
-<img src="assets/images/depp/bluebells.JPG" alt="Bluebell woods" />
+<img src="/assets/images/depp/bluebells.JPG" alt="Bluebell woods" />
 
 ## Living in someone else's home is a bit weird
 
