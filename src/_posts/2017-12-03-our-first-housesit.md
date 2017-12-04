@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our first housesit
-tags: housesitting, collie
+tags: 'housesitting, collie'
 published: true
 ---
 
@@ -35,7 +35,7 @@ One week later. Emma was back. I recieved a unexpected email in my inbox. Someon
 >
 > Janet
 
-Oh god, that’s four days away! At this point, I hadn’t even told Emma I sent up the profile. I rushed through an explanation of what I did when she was away and why Janet messaged us. We were local to her, and it was a short notice housesit. For some reason she was willing to take a chance and reach out to someone with no review or references.
+Oh god, that’s four days away! At this point, I hadn’t even told Emma I set up the profile. I rushed through an explanation of what I did when she was away and why Janet messaged us. We were local to her, and it was a short notice housesit. For some reason she was willing to take a chance and reach out to someone with no review or references.
 
 Emma and I talked it over. We were free next week and this is our chance to give house sitting a try, it’s only a few days. If it all went wrong, we weren’t far away from home. Let’s do it.
 
