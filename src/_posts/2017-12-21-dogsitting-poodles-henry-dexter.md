@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Dogsitting poodles: Henry and Dexter
+title: Dogsitting poodles Henry and Dexter
 published: false
 ---
 
