@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - 4
-before_install: rvm install 2.1.0
+before_install: rvm install 2.3.0
 install:
 - bundle install
 - npm install
