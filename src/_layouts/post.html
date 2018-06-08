@@ -18,6 +18,7 @@ layout: default
       {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
     </span>
     <span class="post__meta__item">Read in {{ content | reading_time_as_s }}</span>
+    <span class="post__meta__item">{% webmention_count permalink %} webmentions</span>
     </p>
     <div class="e-content">
       {{ content }}
