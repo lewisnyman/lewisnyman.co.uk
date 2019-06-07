@@ -8,7 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.12.5",
+    "browser-sync": "^2.26.7",
     "del": "^2.2.1",
     "es6-promise": "^4.0.5",
     "gulp": "^3.8.8",
