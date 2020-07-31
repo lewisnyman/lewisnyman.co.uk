@@ -10,7 +10,7 @@ I have a custom build process for my site, using Grunt. This meant I couldn't ta
 
 Recently, I've been feeling the need to own my server again. It's a pain having to build on my own machine, meaning I'm tied to it for creating content.
 
-As I want to [move towards publishing more content](({% post_url 2015-07-15-indie-web-camp-2015 %})) on this site I need to make it more flexible. I thought about introducing support for [notes](http://indiewebcamp.com/note) and [micropub](http://indiewebcamp.com/micropub) and realised that having an automated build process was a blocker.
+As I want to [move towards publishing more content](/blog/2015-07-15-indie-web-camp) on this site I need to make it more flexible. I thought about introducing support for [notes](http://indiewebcamp.com/note) and [micropub](http://indiewebcamp.com/micropub) and realised that having an automated build process was a blocker.
 
 I also want to start pulling in all my data from other services I use and maybe doing something cool (eg. [gyrosco.pe](https://gyrosco.pe)) . To do that, I'm going to need a persistent server somewhere storing and serving data.
 
