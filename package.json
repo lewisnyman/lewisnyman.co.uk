@@ -6,6 +6,12 @@
     "type": "git",
     "url": "https://github.com/lewisnyman/lewisnyman.co.uk-source"
   },
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+  },
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"

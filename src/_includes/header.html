@@ -14,13 +14,13 @@
     <meta name="twitter:site" content="@{{ site.author.twitter }}" />
     <meta name="twitter:domain" content="{{ site.url }}" />
     <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
-    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ title }}" />
     <meta name="twitter:url" content="{{ page.url }}" />
 
     <!-- Facebook Open Graph -->
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:title" content="{{ title }}" />
     <meta property="article:author" content="{{ site.author.facebook }}" />
 
     <!-- Add web sign-in -->
@@ -40,7 +40,7 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="Lewis Nyman" href="/rss.xml" />
 
-    <title>{{ site.name }} - {{ page.title }}</title>
+    <title>{{ site.name }} - {{ title }}</title>
 
     <!-- build:js(src) /js/top.js -->
     <script src="/assets/js/vendor/modernizr.js"></script>
@@ -61,11 +61,10 @@
       <nav class="site-nav">
         <ul>
           {% comment %}
-            The code below dynamically generates a sidebar nav of pages defined in /_data/menu.yml.
+            The code below dynamically generates a sidebar nav of pages defined in /_data/menu.json.
           {% endcomment %}
-          {% assign navurl = page.url | remove: 'index.html' %}
-          {% for item in site.data.menu %}
-            <li{% if item.url == navurl %} class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
+          {% for item in menu %}
+            <li{% if item.url == page.url %} class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
           {% endfor %}
         </ul>
       </nav>
