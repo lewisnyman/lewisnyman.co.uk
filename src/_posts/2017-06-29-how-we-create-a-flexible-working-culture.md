@@ -12,7 +12,7 @@ published: true
 
 We encourage working out loud. This includes simple things like saying ‘hi’ and ‘bye’ when starting or finishing work, or when taking a break. It also includes mentioning what you’re working on, and how you’re getting on, as you go through the day.
 
-![morning-slack.jpg]({{site.baseurl}}/src/assets/images/morning-slack.jpg)
+![The team greeting each other on Slack in the morning]({{site.baseurl}}/src/assets/image/morning-slack.jpg)
 
 For example, if I’m struggling to figure out a problem, I’ll mention it in the chat, and that I’m taking a 5 minute break away from the desk to mull it over. When you’re not sitting across from each other in an office, you completely miss the body language and other cues on colleagues mental state.
 
@@ -36,7 +36,7 @@ When you have a fixed maximum holiday time it’s easy to plan throughout the ye
 
 We even built a little tool that checks our calendar for our last holiday. At the time of writing, it looks like I’m slacking!
 
-![Screenshot 2017-06-22 16.11.27.jpg]({{site.baseurl}}/src/_posts/Screenshot 2017-06-22 16.11.27.jpg)
+![Screenshot 2017-06-22 16.11.27.jpg]({{site.baseurl}}/src/\_posts/Screenshot 2017-06-22 16.11.27.jpg)
 
 ## Finding the right people
 
@@ -46,14 +46,14 @@ To make sure this culture works productively, you need to look for the right att
 
 [When we re-thought our hiring process,](https://blog.weareconvivio.com/smarter-interviews-for-finding-smarter-humans-84046b03bd22) we generated our interview questions based around our company values and culture:
 
-> *Doing the right thing:* being healthy, sustainable and working with integrity;
+> _Doing the right thing:_ being healthy, sustainable and working with integrity;
 >
-> *Doing things right:* being professional, achieving excellence;
+> _Doing things right:_ being professional, achieving excellence;
 >
-> *Doing things big:* being ambitious, thinking higher and long-term;
+> _Doing things big:_ being ambitious, thinking higher and long-term;
 >
-> *Doing things:* getting things done with focus and momentum;
+> _Doing things:_ getting things done with focus and momentum;
 >
-> *Doing things together:* being collaborative and sharing, radically transparent.
+> _Doing things together:_ being collaborative and sharing, radically transparent.
 
 Working towards a flexitime, self-managing culture isn’t easy, and it’s a privilege you have to keep earning. It takes time, reflection, transparency and honesty to get it right. We’re still learning how to get better at it and would love to hear your thoughts and ideas on what works for you, or what problems you face.
