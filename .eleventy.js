@@ -18,6 +18,11 @@ module.exports = function (eleventyConfig) {
     "./serve/assets/stylesheets/styling.css"
   );
 
+  // Custom filters
+  eleventyConfig.addFilter("jsonify", function (variable) {
+    return JSON.stringify(variable);
+  });
+
   return {
     dir: {
       input: "./src",
