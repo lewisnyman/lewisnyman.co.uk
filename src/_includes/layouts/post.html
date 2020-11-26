@@ -8,14 +8,11 @@ layout: default
   <main class="main-content" role="main">
     <p class="post__meta post__meta--full">
       <span class="post__meta__item">
-        Posted on {% assign d = page.date | date: "%-d" %} {{ page.date | date:
-        "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2"
-        or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{%
-        endcase %},
+        Posted on
         <time
           class="dt-published"
           datetime="{{ page.date | date_to_xmlschema }}"
-          >{{ page.date | date: "%Y" }}</time
+          >{{ page.date | prettyDate }}</time
         >
       </span>
       <span class="post__meta__item">

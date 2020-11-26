@@ -1,5 +1,6 @@
 const sass = require("./build-process/sass-process");
 const readingTime = require("reading-time");
+const moment = require("moment");
 
 module.exports = function (eleventyConfig) {
   // Layout alias
@@ -26,10 +27,14 @@ module.exports = function (eleventyConfig) {
     return JSON.stringify(variable);
   });
 
-  // Custom filters
   eleventyConfig.addFilter("readingTime", function (text) {
     const stats = readingTime(text);
     return Math.round(stats.minutes);
+  });
+
+  eleventyConfig.addFilter("prettyDate", function (date) {
+    var a = moment(date);
+    return a.format("MMMM Do YYYY");
   });
 
   return {
