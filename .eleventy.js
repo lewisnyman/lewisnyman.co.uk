@@ -1,4 +1,5 @@
 const sass = require("./build-process/sass-process");
+const readingTime = require("reading-time");
 
 module.exports = function (eleventyConfig) {
   // Layout alias
@@ -23,6 +24,12 @@ module.exports = function (eleventyConfig) {
   // Custom filters
   eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable);
+  });
+
+  // Custom filters
+  eleventyConfig.addFilter("readingTime", function (text) {
+    const stats = readingTime(text);
+    return Math.round(stats.minutes);
   });
 
   return {

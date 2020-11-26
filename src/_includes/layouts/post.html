@@ -7,21 +7,25 @@ layout: default
 
   <main class="main-content" role="main">
     <p class="post__meta post__meta--full">
-    <span class="post__meta__item">
-      Posted on
-      {% assign d = page.date | date: "%-d" %}
-      {{ page.date | date: "%B" }}
-      {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2" or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
-    </span>
-    <span class="post__meta__item">
-      {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
-    </span>
-    <span class="post__meta__item">Read in {{ content | reading_time_as_s }}</span>
+      <span class="post__meta__item">
+        Posted on {% assign d = page.date | date: "%-d" %} {{ page.date | date:
+        "%B" }} {% case d %}{% when "1" or "21" or "31" %}{{ d }}st{% when "2"
+        or "22" %}{{ d }}nd{% when "3" or "23" %}{{ d }}rd{% else %}{{ d }}th{%
+        endcase %},
+        <time
+          class="dt-published"
+          datetime="{{ page.date | date_to_xmlschema }}"
+          >{{ page.date | date: "%Y" }}</time
+        >
+      </span>
+      <span class="post__meta__item">
+        {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
+      </span>
+      <span class="post__meta__item"
+        >Read in {{ content | readingTime }} minutes</span
+      >
     </p>
-    <div class="e-content">
-      {{ content }}
-    </div>
+    <div class="e-content">{{ content }}</div>
   </main>
 </article>
 
@@ -34,7 +38,9 @@ layout: default
         <a href="{{ post.url }}">
           <h3 class="post-preview__title">{{ post.title }}</h3>
           <p class="post__meta">
-          <span class="post__meta__item">Read in {{ post.content | reading_time_as_s }}</span>
+            <span class="post__meta__item"
+              >Read in {{ post.templateContent | readingTime }} minutes</span
+            >
           </p>
         </a>
       </article>
@@ -42,4 +48,3 @@ layout: default
     {% endfor %}
   </div>
 </footer>
-

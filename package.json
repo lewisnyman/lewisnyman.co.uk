@@ -18,6 +18,7 @@
     "dotenv": "^8.2.0",
     "fibers": "^5.0.0",
     "fs-extra": "^9.0.1",
+    "reading-time": "^1.2.1",
     "sass": "^1.29.0"
   },
   "engines": {
