@@ -12,6 +12,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   // eleventyConfig.addPassthroughCopy("source/robots.txt");
 
+  eleventyConfig.setDataDeepMerge(true);
+
   // Sass pre-processing
   sass(
     "./src/assets/scss/styling.scss",
