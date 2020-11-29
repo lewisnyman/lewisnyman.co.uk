@@ -11,23 +11,24 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@{{ site.author.twitter }}" />
-    <meta name="twitter:domain" content="{{ site.url }}" />
-    <meta name="twitter:creator" content="@{{ site.author.twitter }}" />
-    <meta name="twitter:title" content="{{ title }}" />
-    <meta name="twitter:url" content="{{ page.url }}" />
+    <meta name="twitter:site" content="{{ site.twitter }}" />
+    <meta name="twitter:creator" content="{{ site.twitter }}" />
 
     <!-- Facebook Open Graph -->
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ title }}" />
-    <meta property="article:author" content="{{ site.author.facebook }}" />
+    <meta property="og:url" content="{{site.url}}{{ page.url }}" />
+    {% if description %}
+    <meta property="og:description" content="{{ description }}" />
+    {% endif %}
+    {% if social_image %}
+    <meta property="og:image" content="{{ social_image }}" />
+    {% endif %}
 
     <!-- Add web sign-in -->
     <link rel="me" href="mailto:hello@lewisnyman.co.uk" />
     <link rel="me" href="https://twitter.com/lewisnyman" />
-    <link rel="me" href="http://drupal.org/user/751964" />
-    <link rel="me" href="sms:+447753103690" />
 
     <!-- Webmention.io -->
     <link rel="pingback" href="https://webmention.io/lewisnyman.co.uk/xmlrpc" />
@@ -38,7 +39,7 @@
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="Lewis Nyman" href="/rss.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/rss.xml" />
 
     <title>{{ site.name }} - {{ title }}</title>
 
