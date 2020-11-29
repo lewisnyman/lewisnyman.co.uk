@@ -2,6 +2,8 @@
 layout: post
 title: Dogsitting poodles Henry and Dexter
 published: false
+permalink: false
+eleventyExcludeFromCollections: true
 ---
 
 After an easy and relaxing first housesit with Depp and Janet, it is to be expected that we'd encounter some trickier tougher situations as we gained more experience. Housesit number two was one of those.
@@ -15,5 +17,3 @@ We were looking after two poodles in Southbourne, a now-quite-trendy area betwee
 ## Southbourne
 
 ## Walks along the coast
-
-

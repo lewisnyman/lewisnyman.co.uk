@@ -4,6 +4,7 @@ title: Choices, Choices, Choices
 tags: design
 created: 1287057065
 ---
+
     <p class="intro">The year is 1997. Steve Jobs walks into a board room at 1 Infinity Loop, Cupertino, 12 years after he was fired from the company he co-founded. </p>
 
 <p class="intro">He carries with him an <em>axe</em>.</p>
@@ -39,16 +40,16 @@ created: 1287057065
 <p>Let me be clear. When I talk about psychology and taking 'advantage' I don't mean tricking people into buying dodgy products like a <a href="http://wiki.darkpatterns.org/">dark arts</a> magician. It's about making informed choices about how to communicate to the user effectively. With the right information and know how you can help the user make effective choices and navigate throughout the site to their <a href="/articles/design-pursuit-happiness">ultimate goal</a>, that's what interactive design is all about.</p>
 
 <h3>1. Reduce</h3>
-<a href="https://membership.thinkvitamin.com/subscribe/plans"><img alt="The Think Vitamin sign up page" src="/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/Plans%20--%20Think%20Vitamin%20Membership.jpg"></a>
+<a href="https://membership.thinkvitamin.com/subscribe/plans"><img alt="The Think Vitamin sign up page" src="/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/Plans%20--%20Think%20Vitamin%20Membership.jpg" /></a>
 <p>Think long and hard about how many choices you present to your visitors. Is each item easily distinguishable from the others? Don't suffer from the same problems Apple faced before Jobs swung the axe.  <a href="http://thinkvitamin.com/">Think Vitamin</a> just simplfied their price plans from three to two. The staff at Carsonified are well aware of the benefits of narrowing the focus of visitors and making their decision a 50/50 one.</p>
 
 <h3>2. Describe</h3>
-<a href="http://37signals.com/"><img alt="The 37 Signals Front Page" src="/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/37signals.jpg"></a>
+<a href="http://37signals.com/"><img alt="The 37 Signals Front Page" src="/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/37signals.jpg" /></a>
 <p><a href="http://37signals.com/">37 Signals</a> give you a small pitch initially. If the visitor is interested, they can gradually unpeel more and more information about a specific product. Very smart from a company with four major products.</p>
  <p>In order to choose if a product is suitable for them, people need to know just enough about the product. Don't overload them with information. Tell them what they can do. Don't them them how they can do it in till they ask.</p>
 
 <h3>3. Suggest</h3>
-<a href="https://typekit.com/plans"><img alt="The Typekit pricing page" src="/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/typekit.jpg"></a>
+<a href="https://typekit.com/plans"><img alt="The Typekit pricing page" src="/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/typekit.jpg" /></a>
 <p>If you have a product or service that is far more popular then the others, let people know about it. <a href="http://ww.typekit.com">Typekit</a> know who comes to their site, professional web designers are their bread and butter.</p>
 
 <h3>4. Get smart with defaults</h3>

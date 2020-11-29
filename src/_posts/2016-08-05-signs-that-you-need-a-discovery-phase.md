@@ -1,3 +1,7 @@
+---
+title: Signs that you need a discovery phase
+---
+
 A discovery phase is the most important step in the journey of successful project.
 
 As well as investigating the goals and challenges inside your organisation, a discovery focuses on gathering a wealth of information about the users of your organisation. What are their goals and motivations? How do they use your service to achieve those goals? How could you help them more effectively? Analysing this information gives you a strong focus and direction to move forward together.
