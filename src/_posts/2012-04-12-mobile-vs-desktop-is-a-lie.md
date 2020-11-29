@@ -4,6 +4,7 @@ title: Mobile vs Desktop is a lie
 tags: responsive web design
 created: 1334217052
 ---
+
 <p>Last week Jakob Nielsen published an article titled <a href="http://www.useit.com/alertbox/mobile-vs-full-sites.html">Mobile vs Full Sites.</a> Some <a href="http://www.netmagazine.com/opinions/nielsen-wrong-mobile">members of the web community</a> have already predicted that this is the point where Nielson has <a href="https://twitter.com/#!/arh/status/191196895371206656">jumped the shark.</a></p>
 
 <p>Has Nielsen completely missed the point of Responsive Web Design? Yep.</p>
@@ -29,7 +30,7 @@ created: 1334217052
     </address>
 </blockquote>
 
-<p>That's the opening paragraph of <a href="http://www.alistapart.com/articles/responsive-web-design" />Ethans article.</a> The whole philosophy is built around designing systems that respond to changing environments. We <em>should</em> embrace all the differences on the web, some of those differences may fall under the banner of "mobile" and some may not.</p>
+<p>That's the opening paragraph of <a href="http://www.alistapart.com/articles/responsive-web-design">Ethans article.</a> The whole philosophy is built around designing systems that respond to changing environments. We <em>should</em> embrace all the differences on the web, some of those differences may fall under the banner of "mobile" and some may not.</p>
 
 <p>I like to think of a static mobile design a storyboard or keyframe. The full or desktop site is another. There's a hell of a lot going on in between those two frames that we can't afford to ignore.</p>
 
