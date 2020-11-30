@@ -12,6 +12,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/js");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
+  eleventyConfig.addPassthroughCopy("src/analytics.txt");
   // eleventyConfig.addPassthroughCopy("source/robots.txt");
 
   eleventyConfig.setDataDeepMerge(true);
