@@ -10,7 +10,7 @@ I’ve worked for enough companies that clearly prioritise profit over people, a
 > People who are workaholics are likely to attempt to fix problems by throwing sheer hours at the problem. If you’re dealing with people working with anything creatively that’s a deadbeat way to get great work done.
 > People who always work late makes the people who don’t feel inadequate for merely working reasonable hours. That’ll lead to guilt, misery, and poor morale. Worse, it’ll lead to ass-in-seat mentality where people will “stay late” out of obligation, but not really be productive.
 
-[**Fire the workaholics — Signal v. Noise](https://signalvnoise.com/posts/902-fire-the-workaholics)**
+[Fire the workaholics — Signal v. Noise](https://signalvnoise.com/posts/902-fire-the-workaholics)
 
 [At Convivio we aim to work a healthy way.](https://blog.weareconvivio.com/stop-clock-watching-measure-effectiveness-not-hours-5d7c28fd03a7) By healthy, I mean putting people first, looking after each other, and working in a sustainable long-term way.
 
@@ -20,18 +20,14 @@ To learn more about this, I took part in a two-day Mental Health First Aid cours
 
 ## ALGEE: The action plan
 
-Physical first aid has the **ABC ** plan: Airways, Breathing, CPR. This is a simple and memorable list of steps. In a crisis situation, you need something simple to refer to instead of complex instructions.
+Physical first aid has the **ABC** plan: Airways, Breathing, CPR. This is a simple and memorable list of steps. In a crisis situation, you need something simple to refer to instead of complex instructions.
 
 MHFA developed a similar plan: **ALGEE**
 
 1. **Approach** and assess for risk of harm or even suicide.
-
 1. **Listen** non-judgementally.
-
 1. **Give** support and information.
-
 1. **Encourage** appropriate professional help.
-
 1. **Encourage** other forms of support.
 
 The role of a mental health first aider is very similar to physical first aid. You’re not expected to diagnose or treat any issues, just keep someone safe and help them receive professional support. You can save lives!
@@ -41,11 +37,8 @@ The role of a mental health first aider is very similar to physical first aid. Y
 If you spot signs of mental health issues, the best thing to do is approach that person directly. Doing this well is not always easy.
 
 * Is it the right time or place? Consider the most comfortable environment to raise your concerns. A public place might be less intimidating than an office.
-
 * Be mindful of personal space. Different people have different levels of comfort opening up.
-
 * Respect their privacy unless you think there is a risk of harm to self or others.
-
 * Start an open conversation, without judgement. This gives the other person a chance to express their own concerns without having to fit your perception. For example:
 *“I’ve noticed that you’ve been working late recently and wondered how you are?”*
 
