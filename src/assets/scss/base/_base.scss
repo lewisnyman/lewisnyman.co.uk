@@ -16,16 +16,16 @@
 .clearfix { *zoom: 1; }
 
 body {
-  font-size: normal;
+  font-size: $base-font-size;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: pxtorem($base-line-height);
   font-family: "brandon-grotesque", Helvectica, sans-serif;
   padding: 0;
   margin: 0;
   border-top: 2px solid $black;
-  @media (min-width: $breakpoint-medium-width) {
-    font-size: large;
+  @media (min-width: #{$breakpoint-medium-width}) {
+    font-size: pxtorem($large-font-size);
   }
   @media(#{$is-color}) {
     background-color: $white;
@@ -53,8 +53,9 @@ h2 {
   line-height: pxtoem(58px, 42px);
   letter-spacing: pxtoem(1px, 42px);
   margin-bottom: 0;
-  margin-top: pxtoem($base-line-height, 42px);
-  font-weight: 100;
+  margin-top: pxtoem(10px, $base-line-height);
+  margin-bottom: pxtoem(5px, $base-line-height);
+  font-weight: normal;
   font-style: normal;
 }
 h1 + h2 {
@@ -64,8 +65,8 @@ h1 + h2 {
 h3 {
   font-size: pxtorem($base-line-height);
   font-style: normal;
-  font-weight: 300;
-  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: pxtoem(10px, $base-line-height);
   margin-top: pxtorem($base-line-height);
 }
 h2 + h3 {
@@ -114,7 +115,6 @@ h2 a:visited {
 }
 
 ul {
-  list-style: none;
   padding: 0;
   margin: 0 0 pxtorem($base-line-height);
 }
