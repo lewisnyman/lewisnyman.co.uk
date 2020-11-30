@@ -40,10 +40,14 @@
 
     <title>{{ site.name }} - {{ title }}</title>
 
-    <!-- build:js(src) /js/top.js -->
-    <script src="/assets/js/vendor/modernizr.js"></script>
-    <script src="/assets/js/loader.js"></script>
-    <!-- endbuild -->
+    {% capture js %}
+      {% include ./js/modernizr.js %}
+      {% include ./js/loader.js %}
+    {% endcapture %}
+    <!-- Print critical JS directly on to each page -->
+    <script>
+      {{ js | safe }}
+    </script>
 
     <!-- build:css({src,.tmp}) /css/styling.css -->
     <!-- Custom CSS -->
