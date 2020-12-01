@@ -1,1 +1,1 @@
-/blog/:year-:month-:date:slug  /blog/:slug
+/blog/:year-:month-:date:slug /blog/:slug
