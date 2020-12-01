@@ -5,6 +5,9 @@ tags: design
 created: 1284118860
 ---
 
+A quick note from 2020 Lewis. This is a very old post which has now become very ironic. Not only does the current version of this site not support smart 404 pages as suggested in this article, but also a lot the links and images are broken. I'm keeping it as-is for now.
+
+
 <p class="intro">I'll forgive you if you don't know the meaning of 404.</p>
 
 <p>Why should you? Unless your a technical web architect that specific combination of numbers should never of crossed your path.</p>
@@ -13,7 +16,7 @@ created: 1284118860
 <h2>The Importance of Damage Control</h2>
 <p>A lot of designers tend to focus on the nice side of web navigation, where everything is running smoothly. Visitors drop into your site, find what they want and scuttle off again with not one problem. It's not fun to design for when everything goes wrong but I think that's gotta be more important then the well traveled road.</p>
 <p>When a user hits any error, especially 404, this is red alert. They are split seconds away from closing the window and finding another source of information, products, work or what ever the purpose of your site is.</p>
-<p>You are literally <em>haemorrhaging</em> sales.</p>
+<p>You are <em>haemorrhaging</em> sales.</p>
 <p>You might not expect users to ever land on a missing page but no does, that's kind of the whole point.<br />
 So 404 pages are pretty important right? How do you actually design a decent 404 page? </p>
 <p>I was just getting to that...</p>

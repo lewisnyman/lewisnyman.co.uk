@@ -17,7 +17,7 @@ created: 1334217052
 
 <p>As <a href="http://www.kylebean.co.uk/portfolio/#mobileevolution">Kyle Beans excellent russian doll project</a> demonstrated, the definition of "mobile phone" has changed so many times in the past 20 years. I'm sure it's bound to change even more in the next 20.</p>
 
-<p>So what makes a mobile a mobile? No one really knows. They could have small screen, or they could not be. They could have a touch screen, <a href="www.flickr.com/photos/ivyfield/4667604500/">or they could not be.</a> They could be on a slow network connection, <a href="http://www.flickr.com/photos/shanalines/4785508962/">or they could not be.</a> They could be using a colour display, <a href="http://www.flickr.com/photos/alienratt/5580530063/">or they could not be</a>. The rise of "mobile" devices has made it really obvious how broad and varied the web is. All our assumptions get thrown out the (1024 x 768) window.</p>
+<p>So what makes a mobile a mobile? No one really knows. They could have small screen, or they could not be. <a href="http://www.flickr.com/photos/ivyfield/4667604500/">They could have a touch screen, or they could not be.</a> <a href="http://www.flickr.com/photos/shanalines/4785508962/">They could be on a slow network connection, or they could not be.</a> <a href="http://www.flickr.com/photos/alienratt/5580530063/">They could be using a colour display, or they could not be</a>. The rise of "mobile" devices has made it really obvious how broad and varied the web is. All our assumptions get thrown out the (1024 x 768) window.</p>
 
 <p>That's where Responsive Web Design excels.</p>
 
