@@ -5,7 +5,7 @@ tags: design
 created: 1282814520
 ---
 
-    <p class="intro">I am one of your users. I'm on your website right now. </p>
+<p class="intro">I am one of your users. I'm on your website right now. </p>
 
 <p class="intro">Can you tell me why?</p>
 <p>The internet is a multi-tool for life, people use it to pay their bills, communicate with friends and family, find employment, the list goes on and on.</p>
