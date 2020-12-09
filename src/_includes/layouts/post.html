@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="h-entry">
+  <h1 class="title p-name"><a href="/">{{ title }}</a></h1>
+
+  <main class="main-content" role="main">
+    <p class="post__meta post__meta--full">
+      <span class="post__meta__item">
+        Posted on
+        <time
+          class="dt-published"
+          datetime="{{ page.date | date_to_xmlschema }}"
+          >{{ page.date | prettyDate }}</time
+        >
+      </span>
+      <span class="post__meta__item">
+        {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
+      </span>
+      <span class="post__meta__item"
+        >Read in {{ content | readingTime }} minutes</span
+      >
+    </p>
+    <div class="e-content">{{ content }}</div>
+  </main>
+</article>

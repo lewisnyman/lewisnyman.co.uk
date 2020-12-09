@@ -4,6 +4,7 @@ title: Are we Approaching Responsive Images the Wrong Way?
 tags: responsive web design
 created: 1333632783
 ---
+
 <p>There's a lot of talk about responsive images right now. Some white knights in the web design community are rallying around this problem and fair play to them. It's a tough problem that needs solving. Responsive design is great in theory, but if we are forcing mobile users download ridiculous sized images and grinding their experience down to a halt who can blame some if they declare <a href="http://blog.cloudfour.com/css-media-query-for-mobile-is-fools-gold/">separate mobile sites</a> to be the best solution?</p>
 
 <p>Our brightest hope for the future seems to be resting on the shoulders of the (currently fictional) <a href="http://www.w3.org/community/respimg/2012/03/07/14/">&lt;picture&gt; element.</a> Here's the html set-up:</p>
@@ -34,7 +35,6 @@ created: 1333632783
 
 <p>Let's imagine the same code with just these two factors thrown in:</p>
 
-
 <pre><code>
    &lt;picture alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"&gt;
         &lt;source src="small_bw.jpg"&gt;
@@ -56,7 +56,7 @@ created: 1333632783
 
 <p>All I've done is point out two major problems with the current, proposed concept. I want this conversation to continue, not die. Here's my proposal:</p>
 
-<p>You know what's really good at handling complex logic and serving different types of content? Server side code. Programming code is very adept at handling complex logic with many variables. There are some very mature and robust image generators written in server side code that do all kinds of magic like dynamically resize, reformat, and modify. It's no surprise that the most <a href="http://www.sencha.com/learn/how-to-use-src-sencha-io/">robust solution so far</a> takes advantage of dynamic image generation on the server.
+<p>You know what's really good at handling complex logic and serving different types of content? Server side code. Programming code is very adept at handling complex logic with many variables. There are some very mature and robust image generators written in server side code that do all kinds of magic like dynamically resize, reformat, and modify. It's no surprise that the most <a href="http://www.sencha.com/learn/how-to-use-src-sencha-io/">robust solution so far</a> takes advantage of dynamic image generation on the server.</p>
 
 <p>An algorithm could dynamically resize to the exact size required by the device visiting the site without any extra work from developers or clients. Just upload the largest size you have and let the server scale it down. We could also conditionally convert the image to greyscale and increase compression if we need to. Again with no extra work from us. It scales like a dream.</p>
 
@@ -72,6 +72,6 @@ created: 1333632783
   <li>Pressure browser vendors to add more contextual information in a <a href="http://djce.org.uk/dumprequest">http request.</a></li>
 </ol>
 
-<p>With this article I'm trying to do the third. Client requests already contain information servers use to serve different content. Let's just add a bit more. <q>I'd like this content please. Oh and by the way here's some useful information to help you find the right format for me.</p>
+<p>With this article I'm trying to do the third. Client requests already contain information servers use to serve different content. Let's just add a bit more. <q>I'd like this content please. Oh and by the way here's some useful information to help you find the right format for me.</q></p>
 
 <p>Is the server the holy grail? <a href="https://twitter.com/lewisnyman">Let me know what you think.</a></p>

@@ -1,4 +1,5 @@
 .posts__post {
+  list-style-type: none;
   border-bottom: 1px solid #CCC;
   @media(#{$is-color}) {
     border-bottom-color:$super-subtle-text;

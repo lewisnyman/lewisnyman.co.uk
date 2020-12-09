@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our first housesit
-tags: 'housesitting, collie'
+tags: "housesitting, collie"
 published: true
 ---
 
@@ -62,8 +62,8 @@ One short slightly-awkward Skype call later, we were confirmed to housesit in tw
 From the second we walked through the door, you could tell what kind of dog Depp was. A 10-year old Border Collie, he instantly melted onto the floor the second we said hi and started stroking him. Janet offered us tea, and as we sat down at the kitchen table he rest his chin on our laps and lent against us lovingly. He was a very soppy dog.
 
 <div class="image-grid image-grid--2">
-  {% include image-grid__item.html src="/assets/images/depp/depp1.JPG" alt="Depp being soppy" %}
-  {% include image-grid__item.html src="/assets/images/depp/depp2.JPG" alt="Depp sleeping in the kitchen" %}
+  {% include image-grid__item.html, src:"/assets/images/depp/depp1.JPG", alt:"Depp being soppy" %}
+  {% include image-grid__item.html, src:"/assets/images/depp/depp2.JPG", alt:"Depp sleeping in the kitchen" %}
 </div>
 
 Janet was an excellent, experienced host. She had cooked dinner for us and her daughter, an opera singer (more on that later). Janet told us all about the many other house sitters she had. After dinner she and her husband showed us around the house, and told us what we might need to do in the unlikely event that something went wrong. Like where the water mains valve and the fuse box is.

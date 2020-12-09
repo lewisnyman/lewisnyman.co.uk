@@ -1,14 +1,15 @@
 ---
 layout: null
+permalink: "posts.json"
 ---
 
 [
- {% for post in site.posts %}
+ {% for post in collections.posts reversed %}
      {
-       "title"    : {{ post.title | jsonify }},
+       "title"    : {{ post.data.title | jsonify }},
        "url"     : "{{ site.url }}{{ post.url }}",
        "date"     : {{ post.date | date: "%B %d, %Y" | jsonify }},
-       "content"  : {{ post.content | markdownify |jsonify }}
+       "content"  : {{ post.templateContent | jsonify }}
      } {% if forloop.last %}{% else %},{% endif %}
  {% endfor %}
 ]
