@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/analytics.txt");
   eleventyConfig.addPassthroughCopy("_redirects");
+  eleventyConfig.addPassthroughCopy('src/admin');
   // eleventyConfig.addPassthroughCopy("source/robots.txt");
 
   eleventyConfig.setDataDeepMerge(true);
