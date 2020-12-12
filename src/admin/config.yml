@@ -1,10 +1,11 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: highlights-2018
 
 # local_backend: true
 
 media_folder: 'assets/images' # Media files will be stored in the repo under images/uploads
+publish_mode: editorial_workflow
 
 collections:
   - name: 'post' # Used in routes, e.g., /admin/collections/blog
