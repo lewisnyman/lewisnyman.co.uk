@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: netlify-cms
+  branch: master
 
 # local_backend: true
 
