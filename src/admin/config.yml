@@ -28,4 +28,10 @@ collections:
           required: false,
           hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
         }
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "YYY-MM-DD" 
+        time_format: false
       - { label: 'Body', name: 'body', widget: 'markdown' }
