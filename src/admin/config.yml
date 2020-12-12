@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: netlify-cms
+
+# local_backend: true
+
+media_folder: 'assets/images' # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: 'post' # Used in routes, e.g., /admin/collections/blog
+    label: 'Blog post' # Used in the UI
+    folder: 'src/_posts' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Meta description',
+          name: 'metadesc',
+          widget: 'text',
+          hint: 'This text shows up under search engine results. Limit of 275 characters.',
+          pattern: ['^.{1,275}$', 'Must have less than 275 characters.'],
+        }
+      - {
+          label: 'Permalink',
+          name: 'permalink',
+          widget: 'string',
+          required: false,
+          hint: 'Use this to set the URL the page will be accessible from. See other pages for examples.',
+        }
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "YYYY-MM-DD" 
+        time_format: false
+      - { label: 'Body', name: 'body', widget: 'markdown' }
