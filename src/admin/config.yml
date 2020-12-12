@@ -32,6 +32,6 @@ collections:
         name: "date"
         widget: "datetime"
         default: ""
-        date_format: "YYY-MM-DD" 
+        date_format: "YYYY-MM-DD" 
         time_format: false
       - { label: 'Body', name: 'body', widget: 'markdown' }
