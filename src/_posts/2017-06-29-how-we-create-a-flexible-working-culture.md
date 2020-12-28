@@ -12,13 +12,13 @@ published: true
 
 We encourage working out loud. This includes simple things like saying ‘hi’ and ‘bye’ when starting or finishing work, or when taking a break. It also includes mentioning what you’re working on, and how you’re getting on, as you go through the day.
 
-![The team greeting each other on Slack in the morning]({{site.baseurl}}/src/assets/image/morning-slack.jpg)
+![The team greeting each other on Slack in the morning](/assets/images/morning-slack.jpg)
 
 For example, if I’m struggling to figure out a problem, I’ll mention it in the chat, and that I’m taking a 5 minute break away from the desk to mull it over. When you’re not sitting across from each other in an office, you completely miss the body language and other cues on colleagues mental state.
 
 We use a lot of Slack integrations to output commits, deployments, design updates, and feedback into project chat rooms. That shows the results of our work.
 
-We also use the Slack status feature to update each other on our whereabouts, be it 🚂 commuting to a client office, ☕️ working from a coffee shop, or 🏋️‍ at the gym.
+We also use the Slack status feature to update each other on our whereabouts, be it: 🚂 commuting to a client office, ☕️ working from a coffee shop, or 🏋️‍ at the gym.
 
 ## Peer review all the things
 
@@ -36,7 +36,7 @@ When you have a fixed maximum holiday time it’s easy to plan throughout the ye
 
 We even built a little tool that checks our calendar for our last holiday. At the time of writing, it looks like I’m slacking!
 
-![Screenshot 2017-06-22 16.11.27.jpg]({{site.baseurl}}/src/\_posts/Screenshot 2017-06-22 16.11.27.jpg)
+![Screenshot 2017-06-22 16.11.27.jpg](/\_posts/Screenshot 2017-06-22 16.11.27.jpg)
 
 ## Finding the right people
 

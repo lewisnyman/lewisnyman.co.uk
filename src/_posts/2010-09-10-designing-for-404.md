@@ -42,6 +42,7 @@ You already have a clue about what they are looking for, up there in the url. On
 <p>If you're out there running <a href="http://www.drupal.org">Drupal,</a> you can add this functionality in minutes with the <a href="http://drupal.org/project/search404">Search 404</a> module.</p>
 <h2>Sites that get it right</h2>
 <p>If you're looking for some more ideas, here are a list of sites that handle 'page not found' errors really well.</p>
-<p><a href="http://vimeo.com/404.html"><img src="http://www.lewisnyman.co.uk/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/vimeo_404.jpg" alt="Vimeo 404" /></a></p>
-<p><a href="http://www.mozilla.com/en-US/404"><img src="http://www.lewisnyman.co.uk/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/mozilla_404.jpg" alt="Mozilla 404" /></a></p>
-<p><a href="http://www.realmacsoftware.com/rapidweaver/overview/404"><img src="http://www.lewisnyman.co.uk/sites/lewisnyman.co.uk/files/imagecache/article_img/porto/realmac_404.jpg" alt="Real Mac 404" /></a></p>
+
+<p><a href="http://vimeo.com/404.html">Vimeo</a></p>
+<p><a href="http://www.mozilla.com/en-US/404">Vimeo</a></p>
+<p><a href="http://www.realmacsoftware.com/rapidweaver/overview/404">Real Mac Software</a></p>
