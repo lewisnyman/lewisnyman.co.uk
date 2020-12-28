@@ -1,6 +1,7 @@
 const sass = require("./build-process/sass-process");
 const readingTime = require("reading-time");
 const moment = require("moment");
+const pluginLocalRespimg = require('eleventy-plugin-local-respimg');
 
 module.exports = function (eleventyConfig) {
   // Layout alias
@@ -38,6 +39,49 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("prettyDate", function (date) {
     var a = moment(date);
     return a.format("MMMM Do YYYY");
+  });
+
+  // Responsive images
+  eleventyConfig.addPlugin(pluginLocalRespimg, {
+    folders: {
+      source: 'src', // Folder images are stored in
+      output: 'serve', // Folder images should be output to
+    },
+    images: {
+      resize: {
+        min: 100, // Minimum width to resize an image to
+        max: 900, // Maximum width to resize an image to
+        step: 50, // Width difference between each resized image
+      },
+      gifToVideo: false, // Convert GIFs to MP4 videos
+      sizes: '(min-width: 900px) 280px, 100vw', // Default image `sizes` attribute
+      lazy: true, // Include `loading="lazy"` attribute for images
+      // additional: [
+      //   // Globs of additional images to optimize (won't be resized)
+      //   'images/icons/**/*',
+      // ],
+      watch: {
+        src: 'assets/images/**/*', // Glob of images that Eleventy should watch for changes to
+      },
+      pngquant: {
+        /* ... */
+      }, // imagemin-pngquant options
+      mozjpeg: {
+        /* ... */
+      }, // imagemin-mozjpeg options
+      svgo: {
+        /* ... */
+      }, // imagemin-svgo options
+      gifresize: {
+        /* ... */
+      }, // @gumlet/gif-resize options
+      webp: {
+        /* ... */
+      }, // imagemin-webp options
+      gifwebp: {
+        /* ... */
+      }, // imagemin-gif2webp options
+    },
   });
 
   return {

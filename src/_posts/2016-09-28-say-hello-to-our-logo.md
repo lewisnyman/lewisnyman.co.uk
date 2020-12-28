@@ -10,7 +10,7 @@ published: true
 
 Our very first step, before we even decided on a name or a brand, was to define our values. Values define what aim for and how you do. They inform your decisions at every level.
 
-![convivio-values.jpeg]({{site.baseurl}}/src/assets/images/convivio-values.jpeg)
+![convivio-values.jpeg](/assets/images/convivio-values.jpeg)
 
 We already knew each other pretty well, so it was no surprise to find that our motivations and principles were well aligned.
 
@@ -38,4 +38,4 @@ I’m proud that we took our time on the logo instead of rushing something out f
 
 I’m really excited to continue to build the visual identity from here, stay tuned to see our identity evolve.
 
-![convivio-logo.png]({{site.baseurl}}/src/assets/images/convivio-logo.png)
+![convivio-logo.png](/assets/images/convivio-logo.png)

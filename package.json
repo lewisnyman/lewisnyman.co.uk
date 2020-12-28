@@ -16,6 +16,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "dotenv": "^8.2.0",
+    "eleventy-plugin-local-respimg": "^0.4.0",
     "fibers": "^5.0.0",
     "fs-extra": "^9.0.1",
     "moment": "^2.29.1",

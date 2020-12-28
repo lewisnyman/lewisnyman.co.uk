@@ -14,7 +14,7 @@ One cornerstone of that is distributed working, we don't rent permenant office s
 
 The idea that every working hour of the day is equal value is an idea left over from the industrial age. Let's pretend you work in a hat factory, where your job is to repeat the same menial tasks over and over to construct hats. Every day. The more hours you work directly correlates to the number of hats you can produce, which correlates directly to profit.
 
-Contrast this to the roles and responsibilities we have now, consulting, strategy, design, and development. You’re not paid to repeat the same tasks over and over. You’re paid because you’re an expert, you have experience, and you’re able to apply proven tools and processes to new situations and problems. Every day.![stop-clock-watching]({{site.baseurl}}/src/assets/stop-clock-watching)
+Contrast this to the roles and responsibilities we have now, consulting, strategy, design, and development. You’re not paid to repeat the same tasks over and over. You’re paid because you’re an expert, you have experience, and you’re able to apply proven tools and processes to new situations and problems. Every day.!
 
 So much value depends on making the right decisions and doing good work. This rarely achieved by putting in more hours.
 
