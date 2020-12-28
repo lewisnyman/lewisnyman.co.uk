@@ -10,7 +10,12 @@
   .image-grid--2 & {
     width: 50%;
   }
-  .image-grid--3 & {
+  .image-grid--3 &,
+  .image-grid--6 & {
     width: 33%;
+  }
+  .image-grid--4 &,
+  .image-grid--8 & {
+    width: 25%;
   }
 }
