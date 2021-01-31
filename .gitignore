@@ -1,3 +1,5 @@
 node_modules
 serve
 .env
+src/assets/stylesheets/styling.css.map
+src/assets/stylesheets/styling.css

@@ -1,4 +1,3 @@
-const sass = require("./build-process/sass-process");
 const readingTime = require("reading-time");
 const moment = require("moment");
 const pluginLocalRespimg = require('eleventy-plugin-local-respimg');
@@ -12,6 +11,7 @@ module.exports = function (eleventyConfig) {
   // Static file passthough
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/js");
+  eleventyConfig.addPassthroughCopy("src/assets/stylesheets");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/analytics.txt");
   eleventyConfig.addPassthroughCopy("_redirects");
