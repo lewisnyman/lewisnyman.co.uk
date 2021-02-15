@@ -20,12 +20,6 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setDataDeepMerge(true);
 
-  // Sass pre-processing
-  sass(
-    "./src/assets/scss/styling.scss",
-    "./serve/assets/stylesheets/styling.css"
-  );
-
   // Custom filters
   eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable);
