@@ -7,10 +7,12 @@
     "url": "https://github.com/lewisnyman/lewisnyman.co.uk-source"
   },
   "scripts": {
-    "start": "npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
+    "start": "npm run sass && npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch && npm run watchsass",
     "serve": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "sass": "sass --style=compressed src/assets/scss/styling.scss src/assets/stylesheets/styling.css",
+    "watchsass": "npm run sass -- --watch"
   },
   "dependencies": {},
   "devDependencies": {

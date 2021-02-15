@@ -1,4 +1,3 @@
-const sass = require("./build-process/sass-process");
 const readingTime = require("reading-time");
 const moment = require("moment");
 const pluginLocalRespimg = require('eleventy-plugin-local-respimg');
@@ -12,6 +11,7 @@ module.exports = function (eleventyConfig) {
   // Static file passthough
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/js");
+  eleventyConfig.addPassthroughCopy("src/assets/stylesheets");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");
   eleventyConfig.addPassthroughCopy("src/analytics.txt");
   eleventyConfig.addPassthroughCopy("_redirects");
@@ -19,12 +19,6 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPassthroughCopy("source/robots.txt");
 
   eleventyConfig.setDataDeepMerge(true);
-
-  // Sass pre-processing
-  sass(
-    "./src/assets/scss/styling.scss",
-    "./serve/assets/stylesheets/styling.css"
-  );
 
   // Custom filters
   eleventyConfig.addFilter("jsonify", function (variable) {
@@ -49,9 +43,9 @@ module.exports = function (eleventyConfig) {
     },
     images: {
       resize: {
-        min: 100, // Minimum width to resize an image to
+        min: 320, // Minimum width to resize an image to
         max: 900, // Maximum width to resize an image to
-        step: 50, // Width difference between each resized image
+        step: 150, // Width difference between each resized image
       },
       gifToVideo: false, // Convert GIFs to MP4 videos
       sizes: '(min-width: 900px) 280px, 100vw', // Default image `sizes` attribute
