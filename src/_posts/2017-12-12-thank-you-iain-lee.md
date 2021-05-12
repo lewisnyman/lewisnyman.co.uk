@@ -1,8 +1,13 @@
 ---
 title: Thank you Iain Lee
 date: 2017-12-12
-medium_url: "https://medium.com/@lewisnyman/thank-you-iain-lee-3222b761655d?source=friends_link&sk=2659560e7a98b23155ea086051abd974"
+medium_url: https://medium.com/@lewisnyman/thank-you-iain-lee-3222b761655d?source=friends_link&sk=2659560e7a98b23155ea086051abd974
+metadesc: Iain Lee chose not to hide his own mental health in full view of the
+  public on reality television and he should be applauded for it.
 ---
+<p class="intro">I’m not a big fan of reality television, but I’m immensely proud of Iain Lee for being so vulnerable on the most public arena.</p>
+
+![Iain Lee close to tears on I'm a celebrity get me out of here](/src/assets/images/1_jn__z67bzpajvd2pbz5jmg.jpeg)
 
 Iain Lee was a comedy childhood hero of mine, watching RI:SE in the morning was part of my teenage school routine. I was fond of his blunt sarcastic sense of humour, and his love of video games that constantly bubbled to the surface. He’d look to push the boundaries of what was acceptable to say on morning television, especially when he knew it was due to be cancelled.
 
