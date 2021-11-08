@@ -16,14 +16,14 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0",
-    "dotenv": "^8.2.0",
+    "@11ty/eleventy": "^0.12.1",
+    "dotenv": "^8.6.0",
     "eleventy-plugin-local-respimg": "^0.4.0",
     "fibers": "^5.0.0",
-    "fs-extra": "^9.0.1",
+    "fs-extra": "^9.1.0",
     "moment": "^2.29.1",
-    "reading-time": "^1.2.1",
-    "sass": "^1.29.0"
+    "reading-time": "^1.5.0",
+    "sass": "^1.43.4"
   },
   "engines": {
     "node": ">=12.0"
