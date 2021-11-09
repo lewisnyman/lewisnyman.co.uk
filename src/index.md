@@ -19,6 +19,8 @@ I worked with the **Cabinet Office** to research, understand, and strategise on 
 
 I worked with Hackney Council to research and prototype a new Directory of Community Services.
 
+I worked with the Crown Prosecution Service to understand the context and goals of visitors to their website, including victims of crime, so they could redesign the site to better meet those goals.
+
 I worked with **[The Judicial Appointment Commission](https://judicialappointments.gov.uk/)** to overhaul their recruitment process and work practices, support by a new application management platform.
 
 I worked with **Comic Relief,** developing the sites for Red Nose Day and Sport Relief.
