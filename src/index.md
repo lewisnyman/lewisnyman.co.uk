@@ -17,9 +17,9 @@ I worked with **GDS** to improve their [Technical Documentation Template,](https
 
 I worked with the **Cabinet Office** to research, understand, and strategise on the [Better Information for Better Government](https://www.gov.uk/government/publications/better-information-for-better-government) programme.
 
-I worked with Hackney Council to research and prototype a new Directory of Community Services.
+I worked with **Hackney Council** to research and prototype a new Directory of Community Services.
 
-I worked with the Crown Prosecution Service to understand the context and goals of visitors to their website, including victims of crime, so they could redesign the site to better meet those goals.
+I worked with **The Crown Prosecution Service** to understand the context and goals of visitors to their website, including victims of crime, so they could redesign the site to better meet those goals.
 
 I worked with **[The Judicial Appointment Commission](https://judicialappointments.gov.uk/)** to overhaul their recruitment process and work practices, support by a new application management platform.
 
