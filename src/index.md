@@ -3,7 +3,7 @@ layout: page
 title: Hello! I'm Lewis Nyman.
 ---
 
-<p class="intro">I'm work with teams in UK government to design and build evidence led, accessible, and impactful digital services.</p>
+<p class="intro">I work with teams in the puclic sector to design and build evidence led, accessible, and impactful digital services.</p>
 
 <p>If you'd like to work with me, please <a href="mailto:hello@lewisnyman.co.uk">get in touch</a></p>
 
