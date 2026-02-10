@@ -3,7 +3,7 @@ layout: page
 title: Hello! I'm Lewis Nyman.
 ---
 
-<p class="intro">I work with teams in the public sector to design and build evidence led, accessible, and impactful digital services.</p>
+<p class="intro">I design evidence-led, accessible, and impactful digital services.</p>
 
 <p>If you'd like to work with me, please <a href="mailto:hello@lewisnyman.co.uk">get in touch</a></p>
 
@@ -14,7 +14,7 @@ I'm also the founder of the <a href="https://www.wilddrives.co.uk/" target="_bla
 <h2>Digital projects</h2>
 
 I worked with the **National Health Service** to support and coach local teams to immrove Health Checks for people with Severe Mental Illness.
-  
+
 I worked with **The Ministry of Housing, Communities, and Local Government** to research and prototype a [Cyber Health Framework for Local Councils.](https://dluhcdigital.blog.gov.uk/2021/03/02/kicking-off-the-cyber-health-framework-alpha-phase/)
 
 I worked with **[The National Leadership Centre](https://www.nationalleadership.gov.uk/)** to research, prototype, design, and build their first digital services for senior leaders in the public sector.
