@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "npm run sass && npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
     "sass": "sass --style=compressed src/assets/scss/styling.scss src/assets/stylesheets/styling.css",
     "watch:eleventy": "npx @11ty/eleventy --serve",
