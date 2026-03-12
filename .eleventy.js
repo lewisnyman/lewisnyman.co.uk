@@ -1,8 +1,11 @@
 const readingTime = require("reading-time");
 const moment = require("moment");
 const pluginLocalRespimg = require('eleventy-plugin-local-respimg');
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(UpgradeHelper);
+
   // Layout alias
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
