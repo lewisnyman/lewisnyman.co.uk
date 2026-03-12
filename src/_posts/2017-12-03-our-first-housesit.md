@@ -86,7 +86,7 @@ Along the path in the bluebell woods, Depp had been attacked by another dog. Jan
 
 Every day when we walked towards the same gate he’d quickly sniff the air and promptly turn round and head back the way we came. He wouldn’t even stop and wait for me. I guess he could smell those dogs somewhere, and didn’t want anything to do with them ever again.
 
-<img src="/assets/images/depp/bluebells.JPG" alt="Bluebell woods" />
+{% include "image-grid__item.html", src:"/assets/images/depp/bluebells.JPG", alt:"Bluebell woods" %}
 
 ## Living in someone else's home is a bit weird
 

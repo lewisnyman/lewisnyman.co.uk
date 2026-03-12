@@ -19,9 +19,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "dotenv": "^8.6.0",
-    "eleventy-plugin-local-respimg": "^0.4.0",
-    "fs-extra": "^9.1.0",
-    "moment": "^2.29.1",
+"moment": "^2.29.1",
     "npm-run-all": "^4.1.5",
     "reading-time": "^1.5.0",
     "sass": "^1.43.4"

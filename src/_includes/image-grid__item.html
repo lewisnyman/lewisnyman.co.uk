@@ -1,3 +1,22 @@
-<a href="{{ src }}" class="image-grid__item" target="_blank">
-  <img src="{{ src }}" alt="{{ alt }}" sizes="{{ sizes }}" />
+{% assign public_id = src | replace: "/assets/images/", "" %}
+{% assign base = "https://res.cloudinary.com/" | append: site.cloudinary_name | append: "/image/upload/" %}
+{% assign w320 = base | append: "f_auto,q_auto,w_320/" | append: public_id %}
+{% assign w470 = base | append: "f_auto,q_auto,w_470/" | append: public_id %}
+{% assign w620 = base | append: "f_auto,q_auto,w_620/" | append: public_id %}
+{% assign w770 = base | append: "f_auto,q_auto,w_770/" | append: public_id %}
+{% assign w900 = base | append: "f_auto,q_auto,w_900/" | append: public_id %}
+{% assign full = base | append: "f_auto,q_auto/" | append: public_id %}
+{% if sizes %}
+  {% assign img_sizes = sizes %}
+{% else %}
+  {% assign img_sizes = "(min-width: 900px) 280px, 100vw" %}
+{% endif %}
+<a href="{{ full }}" class="image-grid__item" target="_blank">
+  <img
+    src="{{ w620 }}"
+    srcset="{{ w320 }} 320w, {{ w470 }} 470w, {{ w620 }} 620w, {{ w770 }} 770w, {{ w900 }} 900w"
+    sizes="{{ img_sizes }}"
+    alt="{{ alt }}"
+    loading="lazy"
+  />
 </a>
