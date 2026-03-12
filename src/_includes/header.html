@@ -41,12 +41,12 @@
     <title>{{ site.name }} - {{ title }}</title>
 
     {% capture js %}
-      {% include ./js/modernizr.js %}
-      {% include ./js/loader.js %}
+      {% include "./js/modernizr.js" %}
+      {% include "./js/loader.js" %}
     {% endcapture %}
     <!-- Print critical JS directly on to each page -->
     <script>
-      {{ js | safe }}
+      {{ js }}
     </script>
 
     <!-- build:css({src,.tmp}) /css/styling.css -->

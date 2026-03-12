@@ -18,8 +18,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/admin');
   // eleventyConfig.addPassthroughCopy("source/robots.txt");
 
-  eleventyConfig.setDataDeepMerge(true);
-
   // Custom filters
   eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable);
