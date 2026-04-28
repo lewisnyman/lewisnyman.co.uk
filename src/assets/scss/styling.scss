@@ -1,5 +1,5 @@
-@import "variables/variables";
 @import "abstractions/mixins";
+@import "variables/variables";
 @import "variables/breakpoints";
 @import "base/base";
 @import "base/print";
@@ -8,6 +8,7 @@
 @import "components/navigation";
 @import "components/overlay";
 @import "components/posts";
+@import "components/projects";
 @import "components/post-preview";
 @import "components/webmentions";
 @import "components/closing-info";
