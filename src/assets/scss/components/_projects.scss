@@ -1,0 +1,21 @@
+.projects {
+  padding: 0;
+}
+
+.projects__item {
+  list-style-type: none;
+  border-bottom: 1px solid $super-subtle-text;
+  padding: 1em 0;
+}
+
+.projects__title {
+  margin-bottom: 0;
+}
+
+.projects__description {
+  margin: 0.5em 0 0;
+}
+
+.projects__link {
+  margin-top: 0.75em;
+}

@@ -1,33 +1,23 @@
 .posts__post {
   list-style-type: none;
-  border-bottom: 1px solid #CCC;
-  @media(#{$is-color}) {
-    border-bottom-color:$super-subtle-text;
-  }
+  border-bottom: 1px solid $super-subtle-text;
 }
 .post__header {
   margin-bottom: 0;
 }
 .post__meta {
   margin: 14px 0 7px;
-  color: $subtle-text;
   @include clearfix();
 }
 .post__meta--full {
   margin: 0 0 pxtorem($base-line-height);
-  border-bottom: 1px solid #CCC;
-  @media(#{$is-color}) {
-    border-bottom-color:$super-subtle-text;
-  }
+  border-bottom: 1px solid $super-subtle-text;
   padding-bottom: 7px;
 }
 .post__meta__item {
   float: left;
   padding: 0 0.5em ;
-  border-right: 1px solid #CCC;
-  @media(#{$is-color}) {
-    border-right-color:$super-subtle-text;
-  }
+  border-right: 1px solid $super-subtle-text;
 }
 .post__meta__item:first-child {
   padding-left: 0;
