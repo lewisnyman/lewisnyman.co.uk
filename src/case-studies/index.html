@@ -9,7 +9,10 @@ description: A selection of projects I've worked on professionally.
   {% for item in collections.work reversed %}
   <li class="listing__item">
     <h2 class="listing__title"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
-    <p class="listing__detail">{{ item.data.client }}{% if item.data.period %} · {{ item.data.period }}{% endif %}</p>
+    <p class="meta">
+      <span class="meta__item">{{ item.data.client }}{% if item.data.period %}</span>
+      <span class="meta__item">{{ item.data.period }}</span>{% endif %}
+    </p>
     <p class="listing__detail">{{ item.data.summary }}</p>
   </li>
   {% endfor %}
