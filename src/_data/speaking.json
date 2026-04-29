@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Super collaborative design with teams and clients",
+    "event": "UX Camp Brighton",
+    "year": 2016,
+    "url": "https://speakerdeck.com/lewisnyman/super-collaborative-design-with-teams-and-clients"
+  },
+  {
+    "title": "Simple visual regression testing",
+    "event": "Drupalcamp Brighton",
+    "year": 2015
+  },
+  {
+    "title": "Designing Drupal 8",
+    "event": "Drupalcon Bogota",
+    "year": 2015,
+    "url": "https://www.youtube.com/watch?v=e5MAptNlJzo"
+  },
+  {
+    "title": "Drupal by Design",
+    "event": "Drupalcon Austin",
+    "year": 2014,
+    "url": "https://austin2014.drupal.org/session/drupal-design.html"
+  },
+  {
+    "title": "Do websites dream of elastic sheep?",
+    "event": "Frontend United, London",
+    "year": 2013,
+    "url": "https://speakerdeck.com/lewisnyman/do-websites-dream-of-elastic-sheep"
+  },
+  {
+    "title": "Drupal 8 UI changes",
+    "event": "Drupalcamp London",
+    "year": 2013,
+    "url": "https://www.youtube.com/watch?v=_eMhSsuL8jw"
+  },
+  {
+    "title": "Designing for touch",
+    "event": "Badcamp, Berkeley",
+    "year": 2012
+  },
+  {
+    "title": "Responsive Web Design: The past, present, and future",
+    "event": "Drupalcon Denver",
+    "year": 2012,
+    "url": "http://denver2012.drupal.org/program/sessions/responsive-web-design-past-present-and-future"
+  },
+  {
+    "title": "Making Drupal core mobile friendly",
+    "event": "Drupalcon Denver",
+    "year": 2012,
+    "url": "http://denver2012.drupal.org/program/sessions/making-drupal-core-mobile-friendly"
+  }
+]

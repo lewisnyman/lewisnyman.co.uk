@@ -1,0 +1,15 @@
+---
+layout: page
+title: Speaking
+description: I have spoken to audiences between 10–600 about design, UX, frontend tools and techniques, and open source.
+---
+
+<p class="intro">{{ description }}</p>
+<ul class="listing">
+  {% for talk in speaking %}
+  <li class="listing__item">
+    <h2 class="listing__title">{% if talk.url %}<a href="{{ talk.url }}" target="_blank" rel="noopener noreferrer">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</h2>
+    <p class="listing__detail">{{ talk.event }}{% if talk.year %}, {{ talk.year }}{% endif %}</p>
+  </li>
+  {% endfor %}
+</ul>

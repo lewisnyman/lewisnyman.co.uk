@@ -6,21 +6,21 @@ description: A list of all articles published on this site, sorted by date.
 
 <p>Here's a collection of longer-form writing on topics I care about. Browse by topic: <a href="/blog/tags/design/">design</a>, <a href="/blog/tags/tech/">tech</a>, <a href="/blog/tags/drupal/">drupal</a>, <a href="/blog/tags/conferences/">conferences</a>, <a href="/blog/tags/culture/">culture</a>.</p>
 
-<ul class="posts">
+<ul class="listing">
   {% for post in collections.article reversed %}
-  <li class="posts__post">
+  <li class="listing__item">
     <article class="h-entry">
       <a href="{{ post.url }}">
-        <h2 class="post__header p-name">{{ post.data.title }}</h2>
-        <p class="post__meta">
-          <span class="post__meta__item">
+        <h2 class="listing__title p-name">{{ post.data.title }}</h2>
+        <p class="meta">
+          <span class="meta__item">
             <time
               class="dt-published"
               datetime="{{ post.date | date_to_xmlschema }}"
               >{{ post.date | prettyDate }}</time
             >
           </span>
-          <span class="post__meta__item"
+          <span class="meta__item"
             >Read in {{ post.templateContent | readingTime }} minutes</span
           >
         </p>

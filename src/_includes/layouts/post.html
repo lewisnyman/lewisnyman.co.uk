@@ -6,8 +6,8 @@ layout: default
   <h1 class="title p-name"><a href="/">{{ title }}</a></h1>
 
   <main class="main-content" role="main">
-    <p class="post__meta post__meta--full">
-      <span class="post__meta__item">
+    <p class="meta meta--full">
+      <span class="meta__item">
         Posted on
         <time
           class="dt-published"
@@ -15,10 +15,10 @@ layout: default
           >{{ page.date | prettyDate }}</time
         >
       </span>
-      <span class="post__meta__item">
+      <span class="meta__item">
         {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
       </span>
-      <span class="post__meta__item"
+      <span class="meta__item"
         >Read in {{ content | readingTime }} minutes</span
       >
     </p>

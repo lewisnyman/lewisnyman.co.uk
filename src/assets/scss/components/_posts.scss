@@ -1,28 +1,21 @@
-.posts__post {
-  list-style-type: none;
-  border-bottom: 1px solid $super-subtle-text;
-}
-.post__header {
-  margin-bottom: 0;
-}
-.post__meta {
+.meta {
   margin: 0 0 7px;
   @include clearfix();
 }
-.post__meta--full {
+.meta--full {
   margin: 0 0 pxtorem($base-line-height);
   border-bottom: 1px solid $super-subtle-text;
   padding-bottom: 7px;
 }
-.post__meta__item {
+.meta__item {
   float: left;
-  padding: 0 0.5em ;
+  padding: 0 0.5em;
   border-right: 1px solid $super-subtle-text;
 }
-.post__meta__item:first-child {
+.meta__item:first-child {
   padding-left: 0;
 }
-.post__meta__item:last-child {
+.meta__item:last-child {
   padding-right: 0;
   border-right: 0;
 }

@@ -1,21 +1,22 @@
-.projects {
+.listing {
   padding: 0;
 }
 
-.projects__item {
+.listing__item {
   list-style-type: none;
   border-bottom: 1px solid $super-subtle-text;
   padding: 1em 0;
 }
 
-.projects__title {
+.listing__title {
   margin-bottom: 0;
 }
 
-.projects__description {
+.listing__detail {
   margin: 0.5em 0 0;
+  color: $subtle-text;
 }
 
-.projects__link {
+.listing__link {
   margin-top: 0.75em;
 }
