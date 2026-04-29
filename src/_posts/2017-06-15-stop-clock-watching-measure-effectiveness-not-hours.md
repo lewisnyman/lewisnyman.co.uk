@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stop clock watching. Measure effectiveness not hours.
-published: true
+tags: article, productivity
 ---
 
 <p class="intro">A productive day is still measured by how many hours you spend at your desk. We believe the best way to measure and reward productivity is to focus on output, and we give people the freedom to manage their work day themselves. Here’s why, and seven ways to change your culture to do the same.</p>
@@ -26,7 +26,7 @@ As long as you’re at your desk for eight hours a day, you won’t get in troub
 
 ## The toxic culture of martyrdom
 
-The classic sign of a company culture that promotes quantity of hours over quality of hours are where employees use overworking as a badge of honour. 
+The classic sign of a company culture that promotes quantity of hours over quality of hours are where employees use overworking as a badge of honour.
 
 > People who are workaholics are likely to attempt to fix problems by throwing sheer hours at the problem. If you’re dealing with people working with anything creatively that’s a deadbeat way to get great work done.
 

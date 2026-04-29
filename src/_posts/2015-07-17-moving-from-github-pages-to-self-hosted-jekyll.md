@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving from Github pages to self hosted Jekyll
-tags: indieweb
+tags: indieweb, tech, article
 ---
 
 Last year I [migrated this site to Jekyll.](/blog/2014-01-03-hello-jekyll) One of the reasons was I really didn't want to worry about my own server, and the option was there to use Github pages for free.

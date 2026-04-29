@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why I cancelled my Amazon Prime subscription
+tags: articles
 ---
 
 At the start of this year I cancelled my Amazon Prime subscription. The motivations were political and environmental and now I feel the urge to write about them.

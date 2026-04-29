@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JAC celebration dinner
-tags: 100 words
+tags: 100 words, note
 ---
 
 Last night was was a bad night for me, a good night for jetlag. I slept from 12am–3:30am.

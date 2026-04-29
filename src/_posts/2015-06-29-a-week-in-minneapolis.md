@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A week in Minneapolis
-tags: 100 words, Drupal
+tags: 100 words, Drupal, tech ,notes
 ---
 
 It's been nine days since I've written here. I can't remember having a spare five minutes the whole week when I didn't went to head straight to sleep.

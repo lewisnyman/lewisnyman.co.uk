@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Should Drupal add (another) JS framework into core? Not in the name of UX.
-tags: drupal
+tags: drupal, tech, article
 ---
 
 There has been a conversation going on in the Drupal community on which Javascript framework should be added into core. Dries started the conversation with the post [Should we decouple Drupal with a client-side framework?](http://buytaert.net/should-we-decouple-drupal-with-a-client-side-framework). One of the key reasons is to improve the administrative user interface.
 
 > As user experiences evolve from static pages to application-like experiences, end users' expectations of websites have become increasingly demanding. The Facebook newsfeed, the Gmail inbox, and the Twitter live stream are all compelling examples that form a baseline for the application-like experiences users now take for granted.
 >
-> Many of Drupal's administrative interfaces and Drupal sites could benefit from a similarly seamless, instantaneous user experience. 
+> Many of Drupal's administrative interfaces and Drupal sites could benefit from a similarly seamless, instantaneous user experience.
 
 The argument here is that people expect flashy whizz-bang user interfaces and slick user experiences, so let's skip the horse, the cart, go down the road, around the corner, call a taxi, and now let's decide which framework we should use to achieve that.
 
@@ -18,12 +18,12 @@ Drupal has a development driven culture, it always has. I'm not surprised people
 
 [nod_](https://www.drupal.org/u/nod_) has taken time to shift the [conversation a few steps back,](https://www.drupal.org/node/2651660) to actually look at the problems this framework would solve. This is still putting the cart in front of the horse.
 
-You can translate “Investigate where and how a frontend framework could be used” into “Let's grab our hammers and start looking for nails”. 
+You can translate “Investigate where and how a frontend framework could be used” into “Let's grab our hammers and start looking for nails”.
 
 [**Confirmation bias**](http://www.sciencedaily.com/terms/confirmation_bias.htm):
 > In psychology and cognitive science, confirmation bias (or confirmatory bias) is a tendency to search for or interpret information in a way that confirms one's preconceptions, leading to statistical errors.
 
-We are asking the community to start searching through Drupal's admin interface for areas where a JS framework *could* benefit. If asked to; I can also go through Drupal's admin interface looking for areas that could benefit from a telephone service. 
+We are asking the community to start searching through Drupal's admin interface for areas where a JS framework *could* benefit. If asked to; I can also go through Drupal's admin interface looking for areas that could benefit from a telephone service.
 
 That's actually not a bad idea.
 
@@ -53,7 +53,7 @@ The biggest problem with improving our user experience is process. As Angie ment
 
 > How normal people improve their products using the [Lean methodology](http://theleanstartup.com/principles) is the cheapest way possible. Paper prototypes and things like that. Then they'll test out their solution on users. Then they'll ship really fast and see if it sticks.
 >
-> We don't do things like that. We start by building elaborate cathedrals and putting them into core, where they have pass the usability gate and the accessibility gate and all these things. 
+> We don't do things like that. We start by building elaborate cathedrals and putting them into core, where they have pass the usability gate and the accessibility gate and all these things.
 >
 > Once we have finally gotten it thorough all these tests, then it has to survive the bikeshed gauntlet. That's how we measure, by how many core developers hate this thing. If the answer is more than one then we change the design which makes more people happy but actually reduces effectiveness of the original design.
 >

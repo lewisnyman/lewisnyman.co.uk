@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stepping away from Drupal Core
-tags: Drupal
+tags: Drupal, tech, article
 ---
 
 At the end of last year I submitted a patch to [remove myself from Drupal's maintainers.txt.](https://www.drupal.org/node/2627534) I wanted a little more time to understand my feelings, motivations, and goals before putting them into a post. It's taken a while to get around to.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Are we Approaching Responsive Images the Wrong Way?
-tags: responsive web design
+tags: responsive web design, design, article
 created: 1333632783
 ---
 

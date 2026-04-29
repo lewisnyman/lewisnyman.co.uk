@@ -2,6 +2,7 @@
 layout: post
 title: Thanks Hybrid
 alias: /blog/writing-again/
+tags: note
 ---
 
 It's been a while since I've written here. The trip to Minneapolis in June threw my mojo off and once I lost my routine it became easy to not write.

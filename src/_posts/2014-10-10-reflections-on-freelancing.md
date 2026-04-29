@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reflections on freelancing
-tags: business
+tags: business, article
 ---
 
 It's been about 10 months since I switched from freelancing to working back under a real organisation. I was freelancing for maybe a year and a half. Back in 2012 I had this to say:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building the Convivio brand — Part 2
+tags: article, branding, convivio
 ---
 
 Here’s the story of how we went from [brand ideas and imagery](https://blog.weareconvivio.com/building-the-convivio-brand-part-1-6e71afe8f9e5#.4br6xms20) to our [Convivio picnic bench.](https://blog.weareconvivio.com/say-hello-to-our-logo-2c1ec2ff11cf)
