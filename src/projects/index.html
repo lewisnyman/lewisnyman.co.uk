@@ -5,12 +5,12 @@ description: A collection of side projects and half-finished ideas that I have w
 ---
 
 <p class="intro">{{ description }}</p>
-<ul class="projects">
+<ul class="listing">
   {% for project in projects %}
-  <li class="projects__item">
-    <h2 class="projects__title"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a></h2>
-    <p class="projects__description">{{ project.description }}</p>
-    <div class="projects__link"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit {{ project.title }}</a></div>
+  <li class="listing__item">
+    <h2 class="listing__title"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a></h2>
+    <p class="listing__detail">{{ project.description }}</p>
+    <div class="listing__link"><a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">Visit {{ project.title }}</a></div>
   </li>
   {% endfor %}
 </ul>

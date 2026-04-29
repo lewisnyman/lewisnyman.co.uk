@@ -11,16 +11,16 @@ eleventyComputed:
   title: "Articles about {{ tag }}"
 ---
 
-<ul class="posts">
+<ul class="listing">
   {% assign articles = collections[tag] | where_exp: "post", "post.data.tags
   contains 'article'" %}
   {% for post in articles reversed %}
-  <li class="posts__post">
+  <li class="listing__item">
     <article class="h-entry">
       <a href="{{ post.url }}">
-        <h2 class="post__header p-name">{{ post.data.title }}</h2>
-        <p class="post__meta">
-          <span class="post__meta__item">
+        <h2 class="listing__title p-name">{{ post.data.title }}</h2>
+        <p class="meta">
+          <span class="meta__item">
             <time
               class="dt-published"
               datetime="{{ post.date | date_to_xmlschema }}"
