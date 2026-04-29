@@ -3,7 +3,8 @@ layout: page
 title: Hello! I'm Lewis Nyman.
 ---
 
-<p class="intro">I design evidence-led, accessible, and impactful digital services.</p>
+<div class="h-card vcard">
+<p class="intro">I design evidence-led, accessible, and impactful digital products and services.</p>
 
 <p>If you'd like to work with me, please <a href="mailto:hello@lewisnyman.co.uk">get in touch</a></p>
 
@@ -28,3 +29,19 @@ I worked with **[The Judicial Appointment Commission](https://judicialappointmen
 I worked with **Comic Relief,** developing the sites for Red Nose Day and Sport Relief.
 
 I worked with **Royal Mail,** developing the Royal Mail, Post Office, and Parcelforce digital services.
+
+<h2>Speaking</h2>
+
+Lewis Nyman has spoken at many conferences to audiences between 10–600. He speaks about design, UX, frontend tools and techniques, and open source.
+
+<ul>
+  <li><a href="http://www.uxcampbrighton.org/sessions/#lewis">Super collaborative design with teams and clients</a> at UX Camp Brighton.</li>
+  <li><a href="http://www.drupalcampbrighton.co.uk/drupalcamp-brighton-2015/sessions/simple-css-regression-testing">Simple visual regression testing</a> at Drupalcamp Brighton.</li>
+  <li><a href="https://latinamerica2015.drupal.org/session/designing-drupal-8">Designing Drupal 8</a> at Drupalcon Bogota.</li>
+  <li><a href="https://austin2014.drupal.org/session/drupal-design">Drupal by Design</a> at Drupalcon Austin.</li>
+  <li><a href="https://speakerdeck.com/lewisnyman/do-websites-dream-of-elastic-sheep">Do websites dream of elastic sheep?</a> at Frontend United in London.</li>
+  <li><a href="http://www.youtube.com/watch?v=_eMhSsuL8jw">Drupal 8 UI changes</a> at Drupalcamp London.</li>
+  <li><a href="http://www.badcamp.net/program/mobile-summit">Designing for touch</a> at Badcamp, in Berkeley.</li>
+  <li><a href="http://denver2012.drupal.org/program/sessions/responsive-web-design-past-present-and-future">Responsive Web Design: The past, present, and future</a> at Drupalcon Denver.</li>
+  <li><a href="http://denver2012.drupal.org/program/sessions/making-drupal-core-mobile-friendly">Making Drupal core mobile friendly</a> at Drupalcon Denver.</li>
+</ul>
