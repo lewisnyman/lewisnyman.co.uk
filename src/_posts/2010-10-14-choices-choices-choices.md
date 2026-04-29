@@ -39,7 +39,7 @@ created: 1287057065
 <h2>Choices in web design</h2>
 <p>What does this have to do with web design? Do the same rules of human consciousness translate onto the web and can we use them to our advantage?</p>
 
-<p>Let me be clear. When I talk about psychology and taking 'advantage' I don't mean tricking people into buying dodgy products like a <a href="http://wiki.darkpatterns.org/">dark arts</a> magician. It's about making informed choices about how to communicate to the user effectively. With the right information and know how you can help the user make effective choices and navigate throughout the site to their <a href="/articles/design-pursuit-happiness">ultimate goal</a>, that's what interactive design is all about.</p>
+<p>Let me be clear. When I talk about psychology and taking 'advantage' I don't mean tricking people into buying dodgy products like a <a href="http://wiki.darkpatterns.org/">dark arts</a> magician. It's about making informed choices about how to communicate to the user effectively. With the right information and know how you can help the user make effective choices and navigate throughout the site to their <a href="/blog/design-and-the-pursuit-of-happiness/">ultimate goal</a>, that's what interactive design is all about.</p>
 
 <h3>1. Reduce</h3>
 <a href="https://membership.thinkvitamin.com/subscribe/plans">

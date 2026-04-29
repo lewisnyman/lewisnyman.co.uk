@@ -1,0 +1,5 @@
+{
+  "layout": "case-study",
+  "tags": "work",
+  "permalink": "case-studies/{{ page.fileSlug }}/index.html"
+}

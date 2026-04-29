@@ -1,0 +1,19 @@
+---
+layout: page
+title: Case studies
+description: A selection of projects I've worked on professionally.
+---
+
+<p class="intro">{{ description }}</p>
+<ul class="listing">
+  {% for item in collections.work reversed %}
+  <li class="listing__item">
+    <h2 class="listing__title"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+    <p class="meta">
+      <span class="meta__item">{{ item.data.client }}{% if item.data.period %}</span>
+      <span class="meta__item">{{ item.data.period }}</span>{% endif %}
+    </p>
+    <p class="listing__detail">{{ item.data.summary }}</p>
+  </li>
+  {% endfor %}
+</ul>

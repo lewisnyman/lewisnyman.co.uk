@@ -30,7 +30,7 @@ So 404 pages are pretty important right? How do you actually design a decent 404
 <p>Just like every other page, visitors are landing at this page with a purpose. A list of your recent tweet is not going to help me. Neither is a link to the webmaster's email, allowing users to inform you of a missing page, that's your job not theirs. Neither is a <a href="http://www.twingly.com/errors/404.html?aspxerrorpath=/404">picture of a ninja,</a> surprisingly. </p>
 <p>And I definitely don't want to see any adverts, you lost to right to make money from my time when you failed to give me anything in return.</p>
 <h2>Give them smart options</h2>
-<p>Let's think about why the visitors are on the 404 page and how can we help them on their <a href="/articles/design-pursuit-happiness">pursuit of happiness</a>. The primary navigation of the site is a good start, giving the user an outline of the structure of the site.</p>
+<p>Let's think about why the visitors are on the 404 page and how can we help them on their <a href="/blog/design-and-the-pursuit-of-happiness/">pursuit of happiness</a>. The primary navigation of the site is a good start, giving the user an outline of the structure of the site.</p>
 <p>Let's not stop there.</p>
 <p>How about search box? All the user needs to do it throw in what they were looking for and a list of results will be displayed for them in one click.</p>
 <p>We could go even further though.</p>
