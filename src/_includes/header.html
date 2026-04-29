@@ -44,14 +44,12 @@
       {% include "./js/modernizr.js" %}
       {% include "./js/loader.js" %}
     {% endcapture %}
-    <!-- Print critical JS directly on to each page -->
     <script>
       {{ js }}
     </script>
 
     <!-- build:css({src,.tmp}) /css/styling.css -->
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/assets/stylesheets/styling.css">
+    <link rel="stylesheet" href="/assets/scss/styling.css">
     <!-- endbuild -->
 
   </head>
@@ -62,9 +60,6 @@
     <header>
       <nav class="site-nav">
         <ul>
-          {% comment %}
-            The code below dynamically generates a sidebar nav of pages defined in /_data/menu.json.
-          {% endcomment %}
           {% for item in menu %}
             <li{% if page.url == item.url or item.url != "/" and page.url contains item.url %} class="is-active"{% endif %}><a href="{{item.url}}">{{ item.title }}</a></li>
           {% endfor %}
