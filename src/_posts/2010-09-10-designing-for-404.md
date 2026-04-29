@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Designing for 404
-tags: design
+tags:
+  - design
+  - article
 created: 1284118860
 ---
 

@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Design & the Pursuit of Happiness
-tags: design
+tags:
+  - design
+  - article
 created: 1282814520
 ---
 

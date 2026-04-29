@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Drupal Tales
-tags: drupal
+tags:
+  - drupal
+  - article
+  - project
 created: 1360587451
 ---
 <blockquote>

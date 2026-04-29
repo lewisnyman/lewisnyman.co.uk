@@ -1,8 +1,10 @@
 ---
 layout: post
 title: Our first housesit
-tags: "housesitting, collie"
-published: true
+tags:
+  - housesitting
+  - collie
+  - note
 ---
 
 This is the story about our first housesit, how we stumbled into it, and how it kicked off our nomad adventure.

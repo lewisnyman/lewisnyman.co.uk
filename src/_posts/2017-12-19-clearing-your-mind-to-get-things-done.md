@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Clearing your mind to get things done
+tags:
+  - article
+  - productivity
 ---
 
 I've been working from home for roughly four years, recently as part of a distributed team at Convivio. Working from home gives a lot of flexibility and autonomy. No one else can immediately disrupt your focus as they could in a shared office. You're responsible for your own focus, and your environment. That's a big responsibility.
@@ -21,7 +24,7 @@ These are the principles I've pulled from Getting Things Done to be more mindful
 
 ## Don't use your mind for your to-do list
 
-Mindfulness is about having a mind that's focused on the present, what you're doing, where you are, and how you do it. It's really hard to focus if you're also storing your future tasks in your mind. This can be anything; replying to that email, doing the washing up, picking up food for dinner. 
+Mindfulness is about having a mind that's focused on the present, what you're doing, where you are, and how you do it. It's really hard to focus if you're also storing your future tasks in your mind. This can be anything; replying to that email, doing the washing up, picking up food for dinner.
 
 Any time you identify a tiny bit of anxiety sitting in your mind, over something you need to do in the future, get it out. Externalise it. Once you externalise it, you can give yourself permission to forget about it and put it out of your mind.
 
@@ -49,7 +52,7 @@ It could be: “Research productivity blog post”, or “Plan sections of produ
 
 Rather than having one long to-do list that you pluck from, Kanban-style, I prefer to spread them out over the next few days, or kick them to next week if you feel like you're taking too much on.
 
-This is why I like using digital apps for this kind of thing, as you can easily shift tasks to other days. 
+This is why I like using digital apps for this kind of thing, as you can easily shift tasks to other days.
 
 ## If it takes less than two minutes, do it now
 

@@ -1,5 +1,8 @@
 ---
 layout: post
+tags:
+  - article
+  - tech
 title: Hello Jekyll
 ---
 

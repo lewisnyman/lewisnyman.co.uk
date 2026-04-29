@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Flying to Minneapolis tomorrow
-tags: 100 words
+tags:
+  - 100 words
+  - note
 ---
 
 Tomorrow I'll be catching a flight to Minneapolis, via Amsterdam. The total travel time is over ten hours, so I'm brainstorming something to be productive with on the trip.

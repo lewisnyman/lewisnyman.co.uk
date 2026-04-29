@@ -1,10 +1,13 @@
 ---
 layout: post
 title: Shifting from conflict to learning
-tags: 100 words, relationships
+tags:
+  - 100 words
+  - relationships
+  - note
 ---
 
-I've started reading [Difficult Conversations: How to Discuss What Matters Most.](https://uk.bookshop.org/a/5463/9780670921348) I'm a quarter of the way through andI already want to recommend this book to everyone I've ever met or will meet.
+I've started reading [Difficult Conversations: How to Discuss What Matters Most.](https://uk.bookshop.org/a/5463/9780670921348) I'm a quarter of the way through and I already want to recommend this book to everyone I've ever met or will meet.
 
 One concept that applies situations of conflict is shifting 'learning mode'. Bare in mind that both parties usually think they are the ones who are in the right. You put aside your perspective of right and wrong and dig deeper into the 'why' of someones actions. Instead of making judgments on someones character, you find out why they acted like they did and how the situation looks from their perspective.
 

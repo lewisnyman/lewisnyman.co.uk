@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Drupalcon frontend track
-tags: 100 words, drupal
+tags:
+  - 100 words
+  - drupal
+  - conferences
+  - note
 ---
 
 Today I began looking over the session submission for the frontend track of Drupalcon Barcelona. There are some impressive looking talks with a good variety. I'm excited for the conference already and I haven't even finished going through them all.

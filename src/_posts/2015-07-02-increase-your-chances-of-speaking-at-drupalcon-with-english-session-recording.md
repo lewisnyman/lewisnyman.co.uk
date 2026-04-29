@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Increase your chances of speaking at Drupalcon with an english session recording.
-tags: 100 words, Drupal, Drupalcon
+tags:
+  - 100 words
+  - drupal
+  - conferences
+  - note
 ---
 
 Today I was replying to a request for feedback for a rejected DrupalCon session submission in the frontend track.

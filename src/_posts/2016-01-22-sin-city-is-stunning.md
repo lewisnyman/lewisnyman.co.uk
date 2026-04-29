@@ -1,14 +1,16 @@
 ---
 layout: post
 title: Sin City is Stunning
-tags: comics
+tags:
+  - comics
+  - note
 ---
 
 The Sin City franchise usually draws mixed opinions and I can understand why. The hyper-masculine, ultra-violent, cliched dialogue, neo-noir universe only works if you switch your brain off at the door. Even then it's not easy, you have to be a fan of the genre to understand a franchise that is half parody half homage.
 
 If you haven't read the Sin City books, then I encourage you to at least *look* at them. The artwork is Frank Miller at his best. The way he uses shadows, outlines, and contrast is mesmerising.
 
-Here are some of my favourite panels. 
+Here are some of my favourite panels.
 
 ![Marv beats a hitman into the ground](/assets/images/sin-city-01.PNG)
 ![Dwight leans over](/assets/images/sin-city-02.PNG)

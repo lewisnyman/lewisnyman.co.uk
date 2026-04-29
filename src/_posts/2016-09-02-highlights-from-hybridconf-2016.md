@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Highlights from Hybrid Conf.
+title: Highlights from Hybrid Conf
 published: true
+tags:
+  - conferences
+  - article
 ---
 
 ![1-MHFE4XjPe7iNuKFUE_jk_Q.jpeg](/assets/images/1-MHFE4XjPe7iNuKFUE_jk_Q.jpeg)

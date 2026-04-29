@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Swimming in the Limmat and Kafi Duzis
-tags: 100 words
+tags:
+  - 100 words
+  - note
 ---
 
 Last night our neighbors had a party that lasted until 7am. Fuck them.

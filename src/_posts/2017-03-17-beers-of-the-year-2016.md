@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Beers of the year 2016
+tags: note
 ---
 
 It's a little bit late, but 2016 was such a special year for beer I know I'm going enjoy looking back at this blog post for years to come.

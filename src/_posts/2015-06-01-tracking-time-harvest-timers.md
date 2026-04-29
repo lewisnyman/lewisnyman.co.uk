@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Tracking time with Harvest timers
-tags: 100 words
+tags:
+  - 100 words
+  - note
 ---
 
 Today I overslept for four hours! Jetlag is maybe the worst of the first world problems.

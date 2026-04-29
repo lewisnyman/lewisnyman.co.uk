@@ -1,5 +1,6 @@
 ---
 title: Signs that you need a discovery phase
+tags: article
 ---
 
 A discovery phase is the most important step in the journey of successful project.

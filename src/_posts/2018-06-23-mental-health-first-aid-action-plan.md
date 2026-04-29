@@ -2,6 +2,9 @@
 title: The Mental Health First Aid action plan
 date: 2018-06-23
 medium_url: "https://blog.weareconvivio.com/the-mental-health-first-aid-action-plan-3d17af1f0806?source=friends_link&sk=96b5f40ddd8cd68d7617c3c802920f14"
+tags:
+  - article
+  - mental health
 ---
 
 The tech industry suffers from a lack of support for good mental health. A lot of companies are focused on delivering a thing above all else, an demand an unhealthy work-life balance to sprint to the finish line before the budget runs out.

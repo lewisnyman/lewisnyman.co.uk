@@ -4,6 +4,9 @@ title: Dogsitting poodles Henry and Dexter
 published: false
 permalink: false
 eleventyExcludeFromCollections: true
+tags:
+  - note
+  - housesitting
 ---
 
 After an easy and relaxing first housesit with Depp and Janet, it is to be expected that we'd encounter some trickier tougher situations as we gained more experience. Housesit number two was one of those.

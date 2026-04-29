@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Choices, Choices, Choices
-tags: design
+tags:
+  - design
+  - article
 created: 1287057065
 ---
 

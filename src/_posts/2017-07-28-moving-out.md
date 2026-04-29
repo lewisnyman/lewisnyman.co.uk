@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving out
-published: true
+tags: note
 ---
 
 <div class="image-grid image-grid--2">
