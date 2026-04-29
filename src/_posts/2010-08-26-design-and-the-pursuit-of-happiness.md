@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Design & the Pursuit of Happiness
-tags: design, conferences, article
+tags:
+  - design
+  - conferences
+  - article
 created: 1282814520
 ---
 

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Mobile vs Desktop is a lie
-tags: responsive web design, design, article
+tags:
+  - responsive web design
+  - design
+  - article
 created: 1334217052
 ---
 

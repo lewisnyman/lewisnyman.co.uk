@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Roy Scholten Bootstrapping UX design in your open source project
-tags: design, article, conference
+tags:
+  - design
+  - article
+  - conference
 ---
 
 At FOSDEM, [Roy](https://twitter.com/royscholten) shared his experiences on the Drupal project and his advice for anyone looking to increase UX design in their own project.

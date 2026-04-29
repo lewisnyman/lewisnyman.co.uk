@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Back in Zürich
-tags: 100 words, note
+tags:
+  - 100 words
+  - note
 ---
 
 Last night I flew back to Zürich after a month away either in the UK or the USA. I forgot what it was like to relax, never being far from a backpack I have to rifle through to find my what I need for the day.

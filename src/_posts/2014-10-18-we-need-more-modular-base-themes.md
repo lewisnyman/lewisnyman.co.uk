@@ -1,7 +1,9 @@
 ---
 cross-post: https://medium.com/@lewisnyman/we-need-more-modular-base-themes-f3fcf3ea893f#.oct9e3ulm
 layout: post
-tags: article, tech
+tags:
+  - article
+  - tech
 title: We need more modular base themes
 ---
 

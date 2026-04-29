@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Shifting from conflict to learning
-tags: 100 words, relationships, note
+tags:
+  - 100 words
+  - relationships
+  - note
 ---
 
 I've started reading [Difficult Conversations: How to Discuss What Matters Most.](https://uk.bookshop.org/a/5463/9780670921348) I'm a quarter of the way through and I already want to recommend this book to everyone I've ever met or will meet.

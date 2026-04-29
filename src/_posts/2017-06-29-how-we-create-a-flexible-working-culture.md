@@ -1,7 +1,9 @@
 ---
 layout: post
 title: How we create a flexible working culture
-tags: article, culture
+tags:
+  - article
+  - culture
 ---
 
 <p class="intro">Working in a flexitime culture has clear benefits — the freedom to look after yourself, maintain the quality of your work, and find a good work/home life balance. But this requires trust, between your team and with any external clients, to work. Here are some of the techniques we use to build that trust</p>

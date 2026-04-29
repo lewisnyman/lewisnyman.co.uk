@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Pre-ampersand Conf
-tags: conference, note
+tags:
+  - conference
+  - note
 ---
 
 Whoops! Turns out you shouldn't write a blog title “Writing Again”. That's a bit of a jinx and it means you won't write again for another three months.

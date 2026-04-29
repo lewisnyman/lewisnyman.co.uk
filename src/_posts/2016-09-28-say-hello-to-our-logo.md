@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Say hello to our logo
-tags: article, branding, convivio
+tags:
+  - article
+  - branding
+  - convivio
 ---
 
 <p class="intro">When we kicked off Convivio 14 weeks ago, we made a conscious decision to focus on the important stuff first. We launched a minimum viable website and started talking to potential clients and building up our core processes.</p>

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Drupal 8 theming guide Q & A
-tags: drupal, article, tech
+tags:
+  - drupal
+  - article
+  - tech
 ---
 
 [Sander](http://www.sqndr.com/) asked me to answer a few questions for his [Drupal 8 theming guide](https://github.com/sqndr/d8-theming-guide/issues/17). It made sense to publish them here instead of including them in a Github comment.

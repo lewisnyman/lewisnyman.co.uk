@@ -1,6 +1,6 @@
 ---
 title: Thank you Iain Lee
-tag: note
+tags: note
 date: 2017-12-12
 medium_url: https://medium.com/@lewisnyman/thank-you-iain-lee-3222b761655d?source=friends_link&sk=2659560e7a98b23155ea086051abd974
 metadesc: Iain Lee chose not to hide his own mental health in full view of the

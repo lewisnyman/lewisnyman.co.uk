@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Design collaboration is needed more than ever
-tags: article, design
+tags:
+  - article
+  - design
 published: true
 ---
 

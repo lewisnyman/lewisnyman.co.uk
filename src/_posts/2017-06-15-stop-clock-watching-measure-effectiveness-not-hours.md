@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Stop clock watching. Measure effectiveness not hours.
-tags: article, productivity
+tags:
+  - article
+  - productivity
 ---
 
 <p class="intro">A productive day is still measured by how many hours you spend at your desk. We believe the best way to measure and reward productivity is to focus on output, and we give people the freedom to manage their work day themselves. Here’s why, and seven ways to change your culture to do the same.</p>

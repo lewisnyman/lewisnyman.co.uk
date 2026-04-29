@@ -2,7 +2,10 @@
 cross-post: https://blog.weareconvivio.com/building-the-convivio-brand-part-1-6e71afe8f9e5#.ghm3mrqrs
 layout: post
 title: Building the Convivio brand — Part 1
-tag: article, branding, convivio
+tags:
+  - article
+  - branding
+  - convivio
 ---
 
 We started Convivio by embracing the way we love to work, constant and quick iteration in the open. [On day one](https://blog.weareconvivio.com/hello-we-are-convivio-a1128f06d74d#.k6fpy4pmu), all we had was our name.

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Should Drupal add (another) JS framework into core? Not in the name of UX.
-tags: drupal, tech, article
+tags:
+  - drupal
+  - tech
+  - article
 ---
 
 There has been a conversation going on in the Drupal community on which Javascript framework should be added into core. Dries started the conversation with the post [Should we decouple Drupal with a client-side framework?](http://buytaert.net/should-we-decouple-drupal-with-a-client-side-framework). One of the key reasons is to improve the administrative user interface.

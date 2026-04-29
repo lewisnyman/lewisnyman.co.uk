@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Weight loss lessons
-tags: 100 words, fitness, note
+tags:
+  - 100 words
+  - fitness
+  - note
 ---
 
 Today I read an [inspiring blog post](http://www.loopinsight.com/2015/06/18/follow-up-to-how-i-lost-over-40-pounds-using-healthkit-and-apple-watch/) by Jim Dalrymple, of [The Loop.](http://www.loopinsight.com/)
