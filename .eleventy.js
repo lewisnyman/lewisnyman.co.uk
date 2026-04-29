@@ -17,6 +17,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.html");
   eleventyConfig.addLayoutAlias("page", "layouts/page.html");
   eleventyConfig.addLayoutAlias("default", "layouts/default.html");
+  eleventyConfig.addLayoutAlias("case-study", "layouts/case-study.html");
 
   // Static file passthough
   eleventyConfig.addPassthroughCopy("src/assets/js");

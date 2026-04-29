@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article>
+  <h1 class="title"><a href="/case-studies/">{{ title }}</a></h1>
+
+  <main class="main-content" role="main">
+  <p class="meta meta--full">
+    <span class="meta__item">{{ client }}</span>
+    {% if period %}<span class="meta__item">{{ period }}</span>{% endif %}
+  </p>
+    {% if summary %}<p class="intro">{{ summary }}</p>{% endif %}
+    <div class="e-content">{{ content }}</div>
+  </main>
+</article>
