@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Highlights from Hybrid Conf.
+title: Highlights from Hybrid Conf
 published: true
 tags:
-  - conference
+  - conferences
   - article
 ---
 

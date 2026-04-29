@@ -2,7 +2,7 @@
 layout: post
 title: Pre-ampersand Conf
 tags:
-  - conference
+  - conferences
   - note
 ---
 

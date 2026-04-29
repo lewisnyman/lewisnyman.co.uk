@@ -21,6 +21,11 @@ layout: default
       <span class="post__meta__item"
         >Read in {{ content | readingTime }} minutes</span
       >
+      {% if tags %}
+      <span class="post__meta__item">
+        {% for tag in tags %}<a href="/tags/{{ tag }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+      </span>
+      {% endif %}
     </p>
     <div class="e-content">{{ content }}</div>
   </main>

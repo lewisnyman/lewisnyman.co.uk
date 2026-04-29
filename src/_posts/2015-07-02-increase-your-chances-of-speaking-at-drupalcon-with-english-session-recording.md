@@ -3,8 +3,8 @@ layout: post
 title: Increase your chances of speaking at Drupalcon with an english session recording.
 tags:
   - 100 words
-  - Drupal
-  - Drupalcon
+  - drupal
+  - conferences
   - note
 ---
 

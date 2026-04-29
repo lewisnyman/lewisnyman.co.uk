@@ -2,7 +2,7 @@
 layout: post
 title: Stepping away from Drupal Core
 tags:
-  - Drupal
+  - drupal
   - tech
   - article
 ---

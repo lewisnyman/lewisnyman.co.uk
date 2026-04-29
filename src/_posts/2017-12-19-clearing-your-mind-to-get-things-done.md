@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Clearing your mind to get things done
-article: article, productivity
+tags:
+  - article
+  - productivity
 ---
 
 I've been working from home for roughly four years, recently as part of a distributed team at Convivio. Working from home gives a lot of flexibility and autonomy. No one else can immediately disrupt your focus as they could in a shared office. You're responsible for your own focus, and your environment. That's a big responsibility.

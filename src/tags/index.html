@@ -1,0 +1,35 @@
+---
+layout: page
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+permalink: blog/tags/{{ tag }}/
+eleventyComputed:
+  title: "Articles about {{ tag }}"
+---
+
+<ul class="posts">
+  {% assign articles = collections[tag] | where_exp: "post", "post.data.tags
+  contains 'article'" %}
+  {% for post in articles reversed %}
+  <li class="posts__post">
+    <article class="h-entry">
+      <a href="{{ post.url }}">
+        <h2 class="post__header p-name">{{ post.data.title }}</h2>
+        <p class="post__meta">
+          <span class="post__meta__item">
+            <time
+              class="dt-published"
+              datetime="{{ post.date | date_to_xmlschema }}"
+              >{{ post.date | prettyDate }}</time
+            >
+          </span>
+        </p>
+      </a>
+    </article>
+  </li>
+  {% endfor %}
+</ul>

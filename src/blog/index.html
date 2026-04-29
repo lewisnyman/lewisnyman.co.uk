@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Blog
-description: The index page for Lewis's blog posts
+title: Articles
+description: A list of all articles published on this site, sorted by date.
 ---
 
+<p>Here's a collection of longer-form writing on topics I care about. Browse by topic: <a href="/blog/tags/design/">design</a>, <a href="/blog/tags/tech/">tech</a>, <a href="/blog/tags/drupal/">drupal</a>, <a href="/blog/tags/conferences/">conferences</a>, <a href="/blog/tags/culture/">culture</a>.</p>
+
 <ul class="posts">
-  {% for post in collections.posts reversed %}
+  {% for post in collections.article reversed %}
   <li class="posts__post">
     <article class="h-entry">
       <a href="{{ post.url }}">

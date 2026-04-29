@@ -4,7 +4,7 @@ title: Drupalcon frontend track
 tags:
   - 100 words
   - drupal
-  - conference
+  - conferences
   - note
 ---
 
