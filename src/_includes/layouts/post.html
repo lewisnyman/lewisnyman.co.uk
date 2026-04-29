@@ -18,8 +18,9 @@ layout: default
       <span class="meta__item">
         {% capture permalink %}{{ site.url }}{{ page.url }}{% endcapture %}
       </span>
+      {% assign readMins = content | readingTime %}
       <span class="meta__item"
-        >Read in {{ content | readingTime }} minutes</span
+        >Read in {{ readMins }} {% if readMins == 1 %}minute{% else %}minutes{% endif %}</span
       >
     </p>
     <div class="e-content">{{ content }}</div>
