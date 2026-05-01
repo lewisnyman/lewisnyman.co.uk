@@ -6,6 +6,8 @@ date: 2021-02-01
 summary: "I developed a prototype framework for MHCLG to help Local Authorities assess and improve their cyber health by simplifying navigation and action against multiple existing cyber standards into a single, cohesive tool."
 ---
 
+![A screenshot of the overview page for a council's digital standards](https://res.cloudinary.com/dmnbr8vry/image/upload/v1777628500/case-studies/mhclg-prototype-1.png)
+
 ## The challenge
 
 Local Authorities faced complexity and frustration in assessing and improving their cyber health due to the need to navigate and apply multiple, often disparate, cyber health standards. A unified, clear, and actionable approach was needed to simplify this process.
