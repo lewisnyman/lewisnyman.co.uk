@@ -12,12 +12,14 @@ If you haven't read the Sin City books, then I encourage you to at least *look* 
 
 Here are some of my favourite panels.
 
-![Marv beats a hitman into the ground](/assets/images/sin-city-01.PNG)
-![Dwight leans over](/assets/images/sin-city-02.PNG)
-![Marc jumps past a palm tree](/assets/images/sin-city-03.PNG)
-![Gail takes aim](/assets/images/sin-city-04.PNG)
-![Marv lets his anger out](/assets/images/sin-city-05.PNG)
-![Marv stares into the rising sun from a alley](/assets/images/sin-city-06.PNG)
-![John readies himself](/assets/images/sin-city-07.PNG)
-![John passes out](/assets/images/sin-city-08.PNG)
-![John, locked up](/assets/images/sin-city-09.PNG)
+<div class="image-grid image-grid--3">
+{% include "image-grid__item.html", src:"/assets/images/sin-city-01.PNG", alt:"Marv beats a hitman into the ground" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-02.PNG", alt:"Dwight leans over" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-03.PNG", alt:"Marc jumps past a palm tree" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-04.PNG", alt:"Gail takes aim" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-05.PNG", alt:"Marv lets his anger out" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-06.PNG", alt:"Marv stares into the rising sun from a alley" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-07.PNG", alt:"John readies himself" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-08.PNG", alt:"John passes out" %}
+{% include "image-grid__item.html", src:"/assets/images/sin-city-09.PNG", alt:"John, locked up" %}
+</div>
