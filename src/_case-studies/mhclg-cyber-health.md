@@ -3,6 +3,7 @@ title: "Local Government Cyber Health Framework"
 client: "Ministry of Housing, Communities and Local Government"
 period: "Feb – Jul 2021"
 date: 2021-02-01
+tags: [user-research, prototyping, government]
 summary: "I developed a prototype framework for MHCLG to help Local Authorities assess and improve their cyber health by simplifying navigation and action against multiple existing cyber standards into a single, cohesive tool."
 ---
 

@@ -3,6 +3,7 @@ title: "Improving Physical Health Checks for people with Severe Mental Illness"
 client: "NHS England"
 period: "Nov 2021 – May 2022"
 date: 2021-11-01
+tags: [user-research, service-design, healthcare]
 summary: "I consulted with regional NHS teams to improve the pathway for Physical Health Checks for people with Severe Mental Illness. The approach was evidence-led and user-focused, aiming to enhance decision-making and service delivery across regions."
 ---
 

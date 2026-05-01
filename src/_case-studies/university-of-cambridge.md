@@ -3,6 +3,7 @@ title: "Core Web Platform"
 client: "University of Cambridge"
 period: "May – Oct 2024"
 date: 2024-05-01
+tags: [design-systems, service-design, higher-education]
 summary: "I helped the University of Cambridge undertake a web estate optimisation initiative: mapping and inventorying over 1,500 websites for rationalisation; developing a new, scalable design system for unified and accessible user experience; providing testing and feedback for a new centralised platform; and consulting on a consistent, component-based content authoring model."
 ---
 

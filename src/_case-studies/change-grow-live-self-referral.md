@@ -3,6 +3,7 @@ title: "Simplifying self-referral forms"
 client: "Change Grow Live"
 period: "Oct 2024 – Mar 2025"
 date: 2024-10-01
+tags: [user-research, service-design, prototyping, healthcare, charity]
 summary: "I collaborated with the Change Grow Live product team to simplify their complex self-referral forms. By reducing, rephrasing, and clarifying questions, and redesigning the layout and controls using prototyping, we achieved an 80% faster completion time and a 34% increase in successful referrals."
 ---
 

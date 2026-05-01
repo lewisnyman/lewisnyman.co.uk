@@ -2,6 +2,7 @@
 title: "Technical Documentation Template"
 client: "Government Digital Service"
 date: 2017-06-01
+tags: [user-research, design-systems, government]
 summary: "I collaborated with GDS to overhaul the technical documentation template — the standard across central government for creating GOV.UK style technical documents."
 ---
 

@@ -3,6 +3,7 @@ title: "Cross-Government Data Ecosystem"
 client: "Central Digital and Data Office"
 period: "Jan – Apr 2023"
 date: 2023-01-01
+tags: [user-research, prototyping, government]
 summary: "I led prototyping for the CDDO cross-government data catalogue. My dual-track approach — Figma for design, GOV.UK Prototyping Kit for function — used realistic metadata to validate that standardised metadata could convey data quality and lineage. This successful prototyping justified a full project, demonstrating the value of a centralised data ecosystem projected to save significant staff time and reduce public spending on manual data discovery."
 ---
 

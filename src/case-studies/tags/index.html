@@ -1,0 +1,34 @@
+---
+layout: page
+pagination:
+  data: casestudytags
+  size: 1
+  alias: tag
+permalink: case-studies/tags/{{ tag }}/
+eleventyComputed:
+  title: "Case studies: {{ tag | replace: '-', ' ' }}"
+---
+
+<p><a href="/case-studies/">View all case studies</a> or browse by topic: <a href="/case-studies/tags/user-research/">user
+    research</a>, <a href="/case-studies/tags/service-design/">service
+    design</a>, <a href="/case-studies/tags/prototyping/">prototyping</a>, <a
+    href="/case-studies/tags/design-systems/">design systems</a>, <a
+    href="/case-studies/tags/government/">government</a>, <a
+    href="/case-studies/tags/healthcare/">healthcare</a>, <a
+    href="/case-studies/tags/higher-education/">higher education</a>, <a
+    href="/case-studies/tags/charity/">charity</a>.</p>
+
+
+<ul class="listing">
+  {% assign casestudies = collections[tag] | where_exp: "item", "item.data.tags contains 'work'" %}
+  {% for item in casestudies reversed %}
+  <li class="listing__item">
+    <h2 class="listing__title"><a href="{{ item.url }}">{{ item.data.title }}</a></h2>
+    <p class="meta">
+      <span class="meta__item">{{ item.data.client }}</span>
+      {% if item.data.period %}<span class="meta__item">{{ item.data.period }}</span>{% endif %}
+    </p>
+    <p class="listing__detail">{{ item.data.summary }}</p>
+  </li>
+  {% endfor %}
+</ul>

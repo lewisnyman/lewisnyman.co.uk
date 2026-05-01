@@ -3,6 +3,7 @@ title: "Digital Recruitment Service"
 client: "Judicial Appointments Commission"
 period: "2014–2016"
 date: 2014-01-01
+tags: [user-research, service-design, prototyping, government]
 summary: "I led the design of the Judicial Appointments Commission's new digital recruitment service. My work included service mapping, user research, service design, prototyping, and creating a prioritisation framework. The project delivered a more efficient, reliable, and user-centred recruitment process, enabling the JAC to save over £500,000 and process over 2,500 applications in the first year."
 ---
 

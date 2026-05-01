@@ -3,6 +3,7 @@ title: "Re-designing case management"
 client: "Change Grow Live"
 period: "Oct 2025 – Mar 2026"
 date: 2025-10-01
+tags: [service-design, prototyping, healthcare, charity]
 summary: "I helped redesign Change Grow Live's 17-year-old, restrictive case management tool. Shifting the focus from data gathering to person-centered care, the project re-introduced paper conversational guides and used rapid prototyping. The new interface received CEO praise and over 90% positive staff feedback."
 ---
 

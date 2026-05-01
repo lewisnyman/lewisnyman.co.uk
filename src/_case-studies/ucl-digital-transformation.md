@@ -3,6 +3,7 @@ title: "Digital Transformation"
 client: "University College London"
 period: "Sep 2022 – Aug 2023"
 date: 2022-09-01
+tags: [user-research, service-design, higher-education]
 summary: "I led discovery and definition phases for UCL's digital transformation. I conducted extensive stakeholder interviews, qualitative user research, and quantitative testing (Top Tasks, Tree Tests) to gather requirements, define pain points, and validate information architecture. Key outputs included actionable design principles, user stories, and an evidence-based recommendations roadmap."
 ---
 

@@ -2,6 +2,7 @@
 title: "Website Discovery"
 client: "Crown Prosecution Service"
 date: 2018-01-01
+tags: [user-research]
 summary: "I conducted comprehensive user research for the Crown Prosecution Service website to understand user needs and how the site meets them, involving diverse user groups including victims, witnesses, and police. The project provided the CPS digital team with clarity and direction for future development."
 ---
 

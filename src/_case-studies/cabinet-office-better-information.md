@@ -2,6 +2,7 @@
 title: "Better Information for Better Government"
 client: "Cabinet Office"
 date: 2018-06-01
+tags: [user-research, government]
 summary: "I led user research for a discovery phase project at the Cabinet Office focused on improving the use of government-commissioned research and information management."
 ---
 
