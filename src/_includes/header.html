@@ -40,17 +40,39 @@
 
     <title>{{ site.name }} - {{ title }}</title>
 
-    {% capture js %}
-      {% include "./js/modernizr.js" %}
-      {% include "./js/loader.js" %}
-    {% endcapture %}
-    <script>
-      {{ js }}
-    </script>
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://use.typekit.net">
 
     <!-- build:css({src,.tmp}) /css/styling.css -->
     <link rel="stylesheet" href="/assets/scss/styling.css">
     <!-- endbuild -->
+
+    <script>
+      document.documentElement.className = document.documentElement.className.replace("no-js", "js cssanimations");
+    </script>
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'dfl4hkz',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h = d.documentElement, t = setTimeout(function() {
+          h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+        }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a;
+        h.className += " wf-loading";
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+          a = this.readyState;
+          if (f || a && a != "complete" && a != "loaded") return;
+          f = true;
+          clearTimeout(t);
+          try { Typekit.load(config); } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
 
   </head>
   <body>
