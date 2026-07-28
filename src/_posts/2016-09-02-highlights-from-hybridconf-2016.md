@@ -8,7 +8,7 @@ tags:
 ---
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/1-MHFE4XjPe7iNuKFUE_jk_Q.jpeg", alt:"HybridConf 2016 in Berlin" %}
+{% include "image-grid__item.html", src:"/assets/images/1-MHFE4XjPe7iNuKFUE_jk_Q.jpeg", alt:"HybridConf 2016 in Berlin", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
 
 Hybrid is a conference for creatives from all backgrounds and job roles. It doesn’t focus on a particular industry or job role. My favourite aspect of the conference is that it embraces inspiration from outside sources, asks you to connect the dots yourself, and encourages you to share your feelings with the other attendees.
@@ -73,7 +73,7 @@ Some of this pressure is internal, there’s a natural tendency to chase trends.
 I’ve been spending this year trying to figure out my own direction and how to move forward, it was great to see Joel’s process for dealing with this compared to my own. He first took a big step back; and listed and organised everything he could possibly learn. It feels a bit like standing on the edge of a tall building looking down!
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/1-smv9PpBHg-36PGNqiiQxdQ.jpeg", alt:"Joel Califa's slide listing everything a developer could possibly learn" %}
+{% include "image-grid__item.html", src:"/assets/images/1-smv9PpBHg-36PGNqiiQxdQ.jpeg", alt:"Joel Califa's slide listing everything a developer could possibly learn", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">Also these slides are my life /w <a href="https://twitter.com/notdetails">@notdetails</a> at <a href="https://twitter.com/hashtag/HybridConf?src=hash">#HybridConf</a> 😭😍 <a href="https://t.co/yGpv4tglxq">pic.twitter.com/yGpv4tglxq</a></p>&mdash; Malwine (@malweene) <a href="https://twitter.com/malweene/status/766276812800421888">August 18, 2016</a></blockquote>
@@ -89,7 +89,7 @@ The Hybrid after-party was a great example of how to cater for the needs of a di
 There was table football, a table for card games, and a dance for if/when it was required. It’s another example of how much thought Zach and Laura put into the Hybrid experience 😄
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/1-IUwZQM-e2gEHo6_-0XaDGw.jpeg", alt:"The HybridConf 2016 after-party with Lego, table football, and card games" %}
+{% include "image-grid__item.html", src:"/assets/images/1-IUwZQM-e2gEHo6_-0XaDGw.jpeg", alt:"The HybridConf 2016 after-party with Lego, table football, and card games", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
 
 
@@ -102,7 +102,7 @@ So we went before we flew back. Dear god it was amazing. I’ve been officially 
 Also, they had decent craft beer including a Berlin-based brewery called BRLO.
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/1-nQaTvzdwjpo-MFgxXA15WQ.jpeg", alt:"A burger and craft beer at The Bird restaurant in Berlin" %}
+{% include "image-grid__item.html", src:"/assets/images/1-nQaTvzdwjpo-MFgxXA15WQ.jpeg", alt:"A burger and craft beer at The Bird restaurant in Berlin", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
 
 

@@ -15,7 +15,7 @@ tags:
 We encourage working out loud. This includes simple things like saying ‘hi’ and ‘bye’ when starting or finishing work, or when taking a break. It also includes mentioning what you’re working on, and how you’re getting on, as you go through the day.
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/morning-slack.jpg", alt:"The team greeting each other on Slack in the morning" %}
+{% include "image-grid__item.html", src:"/assets/images/morning-slack.jpg", alt:"The team greeting each other on Slack in the morning", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
 
 For example, if I’m struggling to figure out a problem, I’ll mention it in the chat, and that I’m taking a 5 minute break away from the desk to mull it over. When you’re not sitting across from each other in an office, you completely miss the body language and other cues on colleagues mental state.

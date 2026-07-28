@@ -14,7 +14,7 @@ tags:
 Our very first step, before we even decided on a name or a brand, was to define our values. Values define what aim for and how you do. They inform your decisions at every level.
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/convivio-values.jpeg", alt:"The Convivio team's shared values written up on a wall" %}
+{% include "image-grid__item.html", src:"/assets/images/convivio-values.jpeg", alt:"The Convivio team's shared values written up on a wall", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
 
 We already knew each other pretty well, so it was no surprise to find that our motivations and principles were well aligned.
@@ -44,5 +44,5 @@ I’m proud that we took our time on the logo instead of rushing something out f
 I’m really excited to continue to build the visual identity from here, stay tuned to see our identity evolve.
 
 <div class="image-grid">
-{% include "image-grid__item.html", src:"/assets/images/convivio-logo.png", alt:"The Convivio logo — a picnic table design" %}
+{% include "image-grid__item.html", src:"/assets/images/convivio-logo.png", alt:"The Convivio logo — a picnic table design", sizes:"(min-width: 920px) 880px, 100vw" %}
 </div>
